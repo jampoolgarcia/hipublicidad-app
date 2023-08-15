@@ -2,12 +2,14 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 
+import { ProductSection } from "~/product/pages/productSection";
 import { CarouselImg } from "~/shared/components/carousel";
 
 export default component$(() => {
   return (
     <>
      <CarouselImg />
+     <ProductSection />
     </>
   );
 });
