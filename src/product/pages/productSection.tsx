@@ -6,7 +6,7 @@ import { ProductCard } from "./productCard";
 export const ProductSection =  component$(() => {
 
     return (<>
-            <section class="flex flex-col justify-center my-6 text-center w-4/5 mx-auto">
+            <section class="container flex flex-col justify-center my-6 text-center mx-auto">
                 <h1 class="text-3xl font-bold">Los mejores productos de publicidad en tendencia</h1>
                 <p class="mt-2 text-gray-600">
                  En <strong>Roll Screen</strong>, encuentra las mejores opciones de publicidad para tu negocio. Visita nuestra tienda virtual o contáctanos para asesoría y cotizaciones.

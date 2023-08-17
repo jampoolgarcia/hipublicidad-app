@@ -19,19 +19,19 @@ export const ProductCard = component$(({
 }: Props) => {
 
   return (
-    <Link
-      class="h-120 w-72 rounded shadow-lg mx-auto border border-palette-lighter"
-      href={`/products/${id}`}
-    >
-      <div class="h-72 border-b-2 border-palette-lighter relative">
+    <div class="h-110 w-64 rounded shadow-lg mx-auto border border-palette-lighter">
+      <Link
+        class=""
+       href={`/products/${id}`}>
+      <picture class="h-72 border-b-2 border-palette-lighter relative">
         <img
           width="320"
           height="250"
           src={image}
           alt={title}
-          class="transform  h-72 duration-500 ease-in-out hover:scale-105 hover:shadow-lg"
+          class="transform h-72 duration-500 ease-in-out hover:scale-105 hover:shadow-lg mx-auto"
         />
-      </div>
+      </picture>
       <div class="h-48 relative">
         <div class="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold truncate">
           {title}
@@ -51,5 +51,7 @@ export const ProductCard = component$(({
         </div>
       </div>
   </Link>
+    </div>
+    
   )
 });
