@@ -5,13 +5,15 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { ProductSection } from "~/product/pages/productSection";
 import { GalerySection } from "~/shared";
 import { CarouselImg } from "~/shared/components/carousel";
+import { OurServices } from "~/shared/components/ourServices";
 
 export default component$(() => {
   return (
     <>
      <CarouselImg />
      <ProductSection />
-     {/* <GalerySection /> */}
+     <GalerySection />
+     <OurServices />
     </>
   );
 });
