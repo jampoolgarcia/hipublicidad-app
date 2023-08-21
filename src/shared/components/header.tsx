@@ -4,9 +4,13 @@ import { ContactBar } from "./contactBar";
 
 export const Headers = component$(() => {
     return (<>
-      <header class="z-10 top-0 left-0 w-full flex flex-col justify-around transition duration-300 px-5">
-        <ContactBar />      
-        <Navbar />
+      <header class="header" id="home">
+        <div class="home-text">
+            <h1>Creatividad en <br /> Diseño</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> 
+            Necessitatibus dolorum nam ration</p>
+            <a href="#" class="home-btn">Cotizar</a>
+        </div>
       </header>
     </>)
 }) 

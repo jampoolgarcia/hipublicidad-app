@@ -1,8 +1,9 @@
 import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
-import { ContactBar } from "~/shared/components/contactBar";
 
-import { Headers }  from "~/shared/components/header";
+
+import { Navbar } from "~/shared";
+
 
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -19,7 +20,7 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 export default component$(() => {
   return (
     <>  
-      <Headers />
+      <Navbar />
       <main class="container flex justify-center flex-col">
         <Slot />
       </main>
