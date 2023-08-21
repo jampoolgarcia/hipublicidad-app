@@ -19,7 +19,7 @@ export const ProductCard = component$(({
 }: Props) => {
 
   return (
-    <div class="h-110 w-64 rounded shadow-lg mx-auto border border-palette-lighter">
+    <div class="h-110 w-64 lg:w-80 rounded shadow-lg mx-auto border border-palette-lighter">
       <Link
         class=""
        href={`/products/${id}`}>

@@ -16,10 +16,10 @@ export const Navbar = component$(() => {
         
         <div>
             <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#package">Package</a></li>
-                <li><a href="#destination">Destination</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#product">Productos</a></li>
+                <li><a href="#galery">Galeria</a></li>
+                <li><a href="#cantact">Contacto</a></li>
             </ul>
         </div>
     </nav>
