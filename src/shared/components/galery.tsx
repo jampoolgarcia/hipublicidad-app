@@ -3,15 +3,15 @@ import { component$ } from "@builder.io/qwik";
 export const GalerySection = component$(() => {
 
     const imgs = [
-        'https://images.unsplash.com/photo-1422190441165-ec2956dc9ecc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80',
-        'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjM0MTM2fQ&auto=format&fit=crop&w=1600&q=80',
-        'https://images.unsplash.com/photo-1519327232521-1ea2c736d34d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80'
+        '../public/img/01.jpg',
+        '../public/img/02.jpg',
+        '../public/img/03.jpg'
     ]
 
     return (<>
-        <section id="galery" class="bg-[#3d83ff] h-screen w-full flex flex-col lg:flex-col-reverse justify-around items-center gap-4 p-4 text-white">
+        <section id="galery" class="bg-[#3d83ff] h-screen w-full flex flex-col lg:flex-col-reverse justify-around items-center gap-4 text-white">
 
-            <section  class="flex w-full lg:w-2/3 h-full lg:h-2/3 bg-red-500">
+            <div  class="flex w-full lg:w-2/3 h-full lg:h-2/3 bg-red-500">
                 {
                     imgs.map(img => (
                         <img width={0} height={0} 
@@ -19,10 +19,10 @@ export const GalerySection = component$(() => {
                         src={img} alt="images" /> 
                     ))
                 }
-            </section>  
+            </div>  
 
             <div>
-                <h1 class="text-4xl text-center font-semibold sm:pr-8 xl:pr-12">Galery</h1>
+                <h2>Galery</h2>
                 <p class="text-sm xl:text-base text-center my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> 
                     Temporibus eligendi accusamus laboriosam vero voluptatibus,<br/> quos ut qui saepe delectus nam sed quaerat! 
                     Quidem et, <br/>quis rerum deserunt reprehenderit dignissimos fugit!

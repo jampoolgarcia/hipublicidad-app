@@ -2,7 +2,7 @@ import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
 
 
-import { Navbar } from "~/shared";
+import { Footer, Navbar } from "~/shared";
 
 
 
@@ -19,11 +19,16 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export default component$(() => {
   return (
-    <>  
+    <> 
+
+    <main>
       <Navbar />
-      <main class="container flex justify-center flex-col">
-        <Slot />
-      </main>
+        <div class="flex flex-col justify-center items-center">
+          <Slot />
+        </div>
+      <Footer />
+    </main> 
+      
     </>
   );
 });

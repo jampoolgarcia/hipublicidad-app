@@ -14,12 +14,12 @@ export const Navbar = component$(() => {
         <a href="#" class="logo">HiPublicidad</a>
         <button id="menu-icon"><i  class="fa-solid fa-bars"></i></button>
         
-        <div>
+        <div class="navbar-list-content">
             <ul class="navbar">
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#product">Productos</a></li>
                 <li><a href="#galery">Galeria</a></li>
-                <li><a href="#cantact">Contacto</a></li>
+                <li><a href="#quote">Contacto</a></li>
             </ul>
         </div>
     </nav>

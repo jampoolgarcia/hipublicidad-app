@@ -7,3 +7,5 @@ export * from './components/galery';
 export * from './components/ourServices';
 
 export * from './components/quote';
+
+export * from './components/footer';

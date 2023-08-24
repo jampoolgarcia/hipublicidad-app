@@ -10,11 +10,11 @@ export const OurServices = component$(() => {
     ]
 
     return (<>
-        <section class="container my-5 text-center p-4">
+        <section class="my-5 text-center w-full">
 
             {/* title and description section */}
             <div class="text">
-                <h1 class="text-4xl font-semibold sm:pr-8 xl:pr-12">Nuestros Servicios</h1>
+                <h2>Nuestros Servicios</h2>
                 <p class="text-sm xl:text-base my-4 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     <br/>Temporibus eligendi accusamus laboriosam vero voluptatibus,<br /> quos ut qui saepe delectus nam sed quaerat! 
                     Quidem et, <br />quis rerum deserunt reprehenderit dignissimos fugit!
@@ -22,7 +22,7 @@ export const OurServices = component$(() => {
             </div>
 
             {/* card sections */}
-            <div class="grid grid-cols-4 gap-2">
+            <div class="w-full flex flex-wrap content-start gap-2">
                 <div class="flex flex-col content-between h-140 w-64 rounded mx-auto my-4">
                     <div class="h-64 border-b-2 border-palette-lighter relative">
                         <img
@@ -86,7 +86,7 @@ export const OurServices = component$(() => {
                     </div>
                 </div>
 
-                <div class="flex flex-col content-between h-140 w-64 rounded mx-auto my-4">
+                {/* <div class="flex flex-col content-between h-140 w-64 rounded mx-auto my-4">
                     <div class="h-64 border-b-2 border-palette-lighter relative">
                         <img
                         width="320"
@@ -105,7 +105,7 @@ export const OurServices = component$(() => {
                         </p>
                         <Link class="">Ver mas</Link>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     </>)
