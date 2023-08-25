@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 
 interface Props {
     currency?: string,
-    num: string,
+    num: string | number,
     numSize: string
 }
 

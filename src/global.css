@@ -1,18 +1,9 @@
-/**
- * Tailwind CSS imports
- * View the full documentation at https://tailwindcss.com
- */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/**
- * WHAT IS THIS FILE?
- *
- * Globally applied styles. No matter which components are in the page or matching route,
- * the styles in here will be applied to the Document, without any sort of CSS scoping.
- *
- */
+
  *{
   padding: 0;
   margin: 0;
@@ -54,7 +45,8 @@ h2 {
 
 /* nav */
 .nav {
-  @apply fixed top-0 right-0 w-full z-[1000] flex items-center justify-between bg-transparent;
+  @apply fixed top-0 right-0 w-full z-[1000] flex items-center justify-between;
+  background: rgba(255, 255, 255, .3);
   padding: 30px 18%; 
   transition: ease .40s;
 }
@@ -78,7 +70,7 @@ h2 {
   font-size: 35px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: var(--bg-color);
+  color: var(--text-color);
 }
 
 /* ul */
@@ -87,7 +79,7 @@ h2 {
 }
 
 .navbar a {
-  color: var(--bg-color);
+  color: var(--text-color);
   font-size: var(--p-font);
   font-weight: 500;
   padding: 10px 22px;
@@ -300,6 +292,43 @@ footer{
 .footer-content li a:hover{
   transform: translateY(-3px) translateX(-5px);
   color: #fff;
+}
+
+
+.triangle {
+  font-style: normal;
+}
+
+.triangle::before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0; 
+  left: 0em;
+  border: 1em solid transparent;
+  border-left-color: #ffffff;
+}
+
+.truncate-text-3 {
+  /* Establece un alto máximo equivalente a tres líneas de texto */
+  max-height: calc(1.5em * 3); /* Ajusta 1.5em al tamaño de fuente del texto */
+  min-height: calc(1.5em * 3);
+  /* Propiedades para truncar el texto si excede el límite de líneas */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.truncate-text-2 {
+  /* Establece un alto máximo equivalente a dos líneas de texto */
+  max-height: calc(1.5em * 2); /* Ajusta 1.5em al tamaño de fuente del texto */
+  min-height: calc(1.5em * 2);
+  /* Propiedades para truncar el texto si excede el límite de líneas */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkitt-box-orient: vertical;
 }
 
 @media (max-width: 1570px){

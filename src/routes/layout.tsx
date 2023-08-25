@@ -3,6 +3,7 @@ import type { RequestHandler } from "@builder.io/qwik-city";
 
 
 import { Footer, Navbar } from "~/shared";
+import { ContextProvaider } from "./context.provaider";
 
 
 
@@ -20,15 +21,15 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 export default component$(() => {
   return (
     <> 
-
-    <main>
-      <Navbar />
-        <div class="flex flex-col justify-center items-center">
-          <Slot />
-        </div>
-      <Footer />
-    </main> 
-      
-    </>
+      <ContextProvaider>
+        <main>
+          <Navbar />
+            <div class="flex flex-col justify-center items-center">
+              <Slot />
+            </div>
+          <Footer />
+        </main>   
+      </ContextProvaider>
+    </> 
   );
 });
