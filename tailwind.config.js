@@ -16,7 +16,7 @@ module.exports = {
         palette: {
           lighter: '#F5F3FF',
           light: '#DDD6FE',
-          primary: '#5B21B6',
+          primary: '#3d83ff',
           dark: '#4C1D95',
         },
       }

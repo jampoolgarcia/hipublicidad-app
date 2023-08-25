@@ -11,3 +11,5 @@ export * from './components/quote';
 export * from './components/footer';
 
 export * from './components/pageTitle';
+
+export * from './components/ui/whasapp-btn';

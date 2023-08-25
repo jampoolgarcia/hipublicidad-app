@@ -15,8 +15,8 @@ export const ShoppingCart = component$(() => {
 
     return (
       <>
-       <div class="container mx-auto mb-20 min-h-screen">
-          <PageTitle text="Your Cart" />
+       <div class="container mx-auto my-20 min-h-screen">
+          <PageTitle text="Tú Carrito" />
           <CartTable products={cartItems.value}
           />
           <div class="max-w-sm mx-auto space-y-4 px-2">

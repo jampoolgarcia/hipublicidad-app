@@ -309,6 +309,12 @@ footer{
   border-left-color: #ffffff;
 }
 
+.custom-shadow {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
 .truncate-text-3 {
   /* Establece un alto máximo equivalente a tres líneas de texto */
   max-height: calc(1.5em * 3); /* Ajusta 1.5em al tamaño de fuente del texto */

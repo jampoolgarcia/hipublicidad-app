@@ -1,12 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
-import { BsTrash } from "@qwikest/icons/bootstrap";
 
 import { IProduct } from "~/product/interface";
-import { Price } from "~/components/shared/components/price";
 import { useShoppingCart } from "../hooks";
 import { ICartItems } from "../context";
+import { Price } from "~/shared";
 
 interface Props {
     products: ICartItems[],
@@ -22,15 +21,16 @@ export const CartTable = component$(({ products }: Props) =>{
       <table class="mx-auto">
         <thead>
           <tr class="uppercase text-xs sm:text-sm text-palette-primary border-b border-palette-light">
-            <th class="font-primary font-normal px-6 py-4">Product</th>
-            <th class="font-primary font-normal px-6 py-4">Quantity</th>
-            <th class="font-primary font-normal px-6 py-4 hidden sm:table-cell">Price</th>
-            <th class="font-primary font-normal px-6 py-4">Remove</th>
+            <th class="font-primary font-normal px-6 py-4">Producto</th>
+            <th class="font-primary font-normal px-6 py-4">Talla</th>
+            <th class="font-primary font-normal px-6 py-4">Cantidad</th>
+            <th class="font-primary font-normal px-6 py-4 hidden sm:table-cell">Precio</th>
+            <th class="font-primary font-normal px-6 py-4">Operaciones</th>
           </tr>
         </thead>
         <tbody class="divide-y divide-palette-lighter">
-          {products.map(({ id, title, image, price }) => (
-            <tr key={id} class="text-sm sm:text-base text-gray-600 text-center">
+          {products.map(({ productId, title, image, price }) => (
+            <tr key={productId} class="text-sm sm:text-base text-gray-600 text-center">
               <td class="font-primary font-medium px-4 sm:px-6 py-4 flex items-center">
                 <img
                   src={image}
@@ -70,7 +70,7 @@ export const CartTable = component$(({ products }: Props) =>{
                   class=""
                   //onClick={() => updateItem(item.variantId, 0)}
                 >
-                  <BsTrash class="w-8 h-8 text-palette-primary border border-palette-primary p-1 hover:bg-palette-lighter" />
+                  <i class="fa-solid fa-trash-can w-8 h-8 text-palette-primary border border-palette-primary p-1 hover:bg-palette-lighter"></i>
                 </button>
               </td>
             </tr>

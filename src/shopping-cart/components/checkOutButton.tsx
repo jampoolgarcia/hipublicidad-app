@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
-import { BsCash } from "@qwikest/icons/bootstrap";
+
+
 
 export const CheckOutButton = component$(() =>{
     return (<>
@@ -10,7 +11,7 @@ export const CheckOutButton = component$(() =>{
         justify-center items-center focus:ring-1 focus:ring-palette-light focus:outline-none w-full hover:bg-palette-dark rounded-sm"
         >
             Pagar
-            <BsCash class="w-4 ml-2 inline-flex" />
+            <i class="fa-solid fa-money-bill-wave w-4 ml-2 inline-flex"></i>
         </a>
     </>)
 })
