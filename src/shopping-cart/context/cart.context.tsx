@@ -1,5 +1,4 @@
 import { createContextId } from "@builder.io/qwik";
-import { IProduct } from "~/product/interface";
 
 export interface ICartItems {
     productId: number;

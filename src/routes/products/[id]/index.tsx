@@ -1,11 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
 import { getProductId } from "~/helpers/get-products";
-import { IProduct } from "~/product/interface";
+import type { IProduct } from "~/product/interface";
 import { ProductImages } from "~/product/components";
 import { ProductDatails } from "~/product/components/productDetails";
 
-export const useProduct = routeLoader$<IProduct>(async ({params, redirect}) => {
+export const useProduct = routeLoader$<IProduct>(async ({params}) => {
     const id = Number(params.id);
     const product = await getProductId(id);
     return product;

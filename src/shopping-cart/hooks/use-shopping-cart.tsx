@@ -1,5 +1,5 @@
-import { $, useComputed$, useContext, useSignal } from "@builder.io/qwik";
-import { CartContext, ICartItems } from "../context";
+import { $, useComputed$, useContext } from "@builder.io/qwik";
+import { CartContext, type ICartItems } from "../context";
 
 
 

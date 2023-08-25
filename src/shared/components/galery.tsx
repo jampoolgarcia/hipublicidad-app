@@ -14,7 +14,7 @@ export const GalerySection = component$(() => {
             <div  class="flex w-full lg:w-2/3 h-full lg:h-2/3 bg-red-500">
                 {
                     imgs.map(img => (
-                        <img width={0} height={0} 
+                        <img key={img} width={0} height={0} 
                         class="flex-grow object-cover opacity-80 transition-all ease-in-out duration-500 hover:cursor-crosshair hover:w-2/3 hover:opacity-100" 
                         src={img} alt="images" /> 
                     ))

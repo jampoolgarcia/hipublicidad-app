@@ -3,12 +3,6 @@ import { Link } from "@builder.io/qwik-city";
 
 export const OurServices = component$(() => {
 
-    const services = [
-        {
-
-        }
-    ]
-
     return (<>
         <section class="my-5 text-center w-full">
 

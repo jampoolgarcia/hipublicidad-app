@@ -1,5 +1,5 @@
 import { createContextId } from "@builder.io/qwik";
-import { IProduct } from "../interface";
+import type{ IProduct } from "../interface";
 
 export interface IProductsState {
     products: IProduct[]

@@ -1,6 +1,6 @@
 import { $, component$, useSignal } from "@builder.io/qwik";
-import { IProduct } from "~/product/interface";
-import { ICartItems } from "~/shopping-cart/context";
+import type { IProduct } from "~/product/interface";
+import type { ICartItems } from "~/shopping-cart/context";
 import { useShoppingCart } from "~/shopping-cart/hooks";
 
 

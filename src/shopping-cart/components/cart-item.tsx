@@ -1,6 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import { BsTrash } from '@qwikest/icons/bootstrap';
-import { IProduct } from '~/product/interface';
+import type { IProduct } from '~/product/interface';
 
 export interface Props {
     product: IProduct,
@@ -31,7 +30,7 @@ export const CartItem = component$(({
             <span class="font-bold text-xl">{ price }$</span> 
 
             <button class="text-red-400 underline ml-3">
-                <span class="text-2xl"><BsTrash /></span>
+                <i class="fa-solid fa-trash-xmark text-2xl"></i>
             </button>
             
         </div>

@@ -1,4 +1,4 @@
-import { IProduct } from "~/product/interface";
+import type { IProduct } from "~/product/interface";
 
 export const getProducts = (async(): Promise<IProduct[]> => {
     const resp = await fetch(`https://fakestoreapi.com/products?limit=4`);

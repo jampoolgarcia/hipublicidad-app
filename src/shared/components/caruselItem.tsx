@@ -10,7 +10,7 @@ export interface Slide {
     url: string
 }
 
-export const CarouselItem = component$(({ number, check, img, description, url }: Slide) => {
+export const CarouselItem = component$(({ number, check, img, description }: Slide) => {
     return (<>
         {/* <!--Slide --> */}
         <input class="carousel-open" type="radio" id={`carousel-${number}`} name="carousel" aria-hidden="true" checked={check} hidden />

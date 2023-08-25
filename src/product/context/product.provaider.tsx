@@ -1,6 +1,6 @@
-import { $, useContextProvider, useStore, useTask$, useVisibleTask$ } from "@builder.io/qwik";
-import { IProduct } from "../interface";
-import { IProductsState, productsContext } from "./product.context";
+import { useContextProvider, useStore } from "@builder.io/qwik";
+import { productsContext } from "./product.context";
+import type {  IProductsState } from "./product.context";
 
 
 export const productProvaider = () => {

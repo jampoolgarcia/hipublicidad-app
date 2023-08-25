@@ -1,5 +1,6 @@
-import { $, useContextProvider, useStore } from "@builder.io/qwik";
-import { CartContext, ICartState } from "./cart.context";
+import { useContextProvider, useStore } from "@builder.io/qwik";
+import { CartContext } from "./cart.context";
+import type { ICartState } from "./cart.context";
 
 export const cartProvaider = () => {
 

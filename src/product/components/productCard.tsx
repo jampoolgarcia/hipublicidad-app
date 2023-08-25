@@ -1,8 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { Link } from '@builder.io/qwik-city';
-
-
-import { IProduct } from '~/product/interface';
+import type { IProduct } from '~/product/interface';
 import { Price } from '~/shared';
 
 interface Props {

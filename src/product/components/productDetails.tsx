@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 
 import { BackToProductButton } from "./backToProductButton";
-import { IProduct } from "~/product/interface";
+import type { IProduct } from "~/product/interface";
 import { ProductInfo } from "./productInfo";
 import { ProductForm } from "./productForm";
 

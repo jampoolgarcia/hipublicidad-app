@@ -1,10 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
-
-import { IProduct } from "~/product/interface";
 import { useShoppingCart } from "../hooks";
-import { ICartItems } from "../context";
+import type { ICartItems } from "../context";
 import { Price } from "~/shared";
 
 interface Props {
@@ -29,19 +27,19 @@ export const CartTable = component$(({ products }: Props) =>{
           </tr>
         </thead>
         <tbody class="divide-y divide-palette-lighter">
-          {products.map(({ productId, title, image, price }) => (
+          {products.map(({ productId, quantity, size, price }) => (
             <tr key={productId} class="text-sm sm:text-base text-gray-600 text-center">
               <td class="font-primary font-medium px-4 sm:px-6 py-4 flex items-center">
                 <img
-                  src={image}
-                  alt={title}
+                  src=''
+                  alt={size}
                   height={64}
                   width={64}
                   class={`hidden sm:inline-flex`}
                 />
                 <Link href={`/`}>
                   <a class="pt-1 hover:text-palette-dark">
-                    {title}
+                    {quantity}
                   </a>
                 </Link>
               </td>

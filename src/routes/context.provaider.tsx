@@ -1,4 +1,4 @@
-import { Slot, component$, useContextProvider, useStore } from "@builder.io/qwik";
+import { Slot, component$ } from "@builder.io/qwik";
 import { productProvaider } from "~/product/context/product.provaider";
 import { cartProvaider } from "~/shopping-cart/context";
 

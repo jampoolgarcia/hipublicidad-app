@@ -1,6 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { Navbar } from "./navbar";
-import { ContactBar } from "./contactBar";
 
 export const Headers = component$(() => {
     return (<>
