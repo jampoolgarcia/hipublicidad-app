@@ -5,8 +5,10 @@ export const Headers = component$(() => {
       <header class="header" id="home">
         <div class="home-text">
             <h1>Creatividad en <br /> Diseño</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> 
-            Necessitatibus dolorum nam ration</p>
+            <p> Descubre un mundo de posibilidades con nuestro servicios, 
+               <br/> 
+               donde cada idea es una semilla que cultivamos con innovación.
+            </p>
             <a href="#quote" class="home-btn">Cotizar</a>
         </div>
       </header>

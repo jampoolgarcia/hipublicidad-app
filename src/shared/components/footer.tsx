@@ -5,7 +5,7 @@ export const Footer = component$(() => {
     return (<>
         <footer class="bg-[#1a242f] grid gap-14">
             <div class="footer-content">
-                <img width={100} height={100} src="../img/contact.svg" alt="logo" />
+                <img width={150} height={150} src="/img/logo.png" alt="logo" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                 <div class="icons flex">

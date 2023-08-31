@@ -2,7 +2,7 @@ import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
 
 
-import { Footer, Navbar, WhatsApp } from "~/shared";
+import { Footer, Navbar, WhatsApp, SocialIcons } from "~/shared";
 import { ContextProvaider } from "./context.provaider";
 
 
@@ -25,6 +25,7 @@ export default component$(() => {
         <main>
           <Navbar />
           <WhatsApp />
+          <SocialIcons />
             <div class="flex flex-col justify-center items-center">
               <Slot />
             </div>

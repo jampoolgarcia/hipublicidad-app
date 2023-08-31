@@ -15,8 +15,15 @@ export const Navbar = component$(() => {
 
   return (<>
      <nav class="nav">
-        <a href="#" class="logo">HiPublicidad</a>
-        <button id="menu-icon"><i  class="fa-solid fa-bars"></i></button>
+
+        <div class="flex justify-center items-center">
+          <i class="fa fa-bars mr-2 "  id="menu-icon" aria-hidden="true"></i>
+
+          <a href="#" class="logo">
+            <img width={100} height={100} src="/img/logo.png" alt="" />
+          </a>
+        </div>
+       
         
         <div class="navbar-list-content">
             <ul class="navbar">
@@ -29,7 +36,7 @@ export const Navbar = component$(() => {
 
         <Link
             href="/cart"
-            class="relative"
+            class="relative cart-icon"
             aria-label="cart">
               <i class="fa-solid fa-cart-shopping text-black w-6 m-auto text-2xl"></i>
               {

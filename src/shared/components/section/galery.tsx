@@ -1,11 +1,12 @@
 import { component$ } from "@builder.io/qwik";
+import { PageTitle } from "~/shared";
 
 export const GalerySection = component$(() => {
 
     const imgs = [
-        '../public/img/01.jpg',
-        '../public/img/02.jpg',
-        '../public/img/03.jpg'
+        '/img/01.jpg',
+        '/img/02.jpg',
+        '/img/03.jpg'
     ]
 
     return (<>
@@ -22,10 +23,10 @@ export const GalerySection = component$(() => {
             </div>  
 
             <div>
-                <h2>Galery</h2>
-                <p class="text-sm xl:text-base text-center my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> 
-                    Temporibus eligendi accusamus laboriosam vero voluptatibus,<br/> quos ut qui saepe delectus nam sed quaerat! 
-                    Quidem et, <br/>quis rerum deserunt reprehenderit dignissimos fugit!
+                <PageTitle title="Galeria" color="text-white"></PageTitle>
+                <p class="text-sm xl:text-base text-center my-4">
+                    Sumérgete en un mar de creatividad y pasión plasmados en cada diseño. 
+                    <br/>Te invitamos a disfrutar de nuestra galería de trabajos.
                 </p>
             </div>
 

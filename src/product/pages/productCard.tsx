@@ -1,6 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { Link } from '@builder.io/qwik-city';
-import { Price } from '~/shared/components/price';
+import { Price } from '~/shared/components/ui/price';
 
 import type { IProduct } from '~/product/interface';
 
@@ -45,7 +45,7 @@ export const ProductCard = component$(({
         >
           <Price
             currency="$"
-            num={`${price}`}
+            num={`${price} - $${price+20}`}
             numSize="text-lg"
           />
         </div>

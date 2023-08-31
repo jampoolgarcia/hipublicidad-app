@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import { PageTitle } from "~/shared";
 
 export const OurServices = component$(() => {
 
@@ -8,10 +9,12 @@ export const OurServices = component$(() => {
 
             {/* title and description section */}
             <div class="text">
-                <h2>Nuestros Servicios</h2>
-                <p class="text-sm xl:text-base my-4 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    <br/>Temporibus eligendi accusamus laboriosam vero voluptatibus,<br /> quos ut qui saepe delectus nam sed quaerat! 
-                    Quidem et, <br />quis rerum deserunt reprehenderit dignissimos fugit!
+                <PageTitle title="Nuestros Servicios"></PageTitle>
+                <h2></h2>
+                <p class="text-sm xl:text-base my-4 text-gray-600">
+                    Échale un vistazo a estos ejemplos seleccionados que
+                    <br />reflejan la esencia y la calidad de nuestro trabajo. 
+                    <br/>Tu visión se convertirá en realidad con nosotros."
                 </p>
             </div>
 
@@ -29,12 +32,12 @@ export const OurServices = component$(() => {
                     </div>
                     <div class="h-full relative">
                         <h3 class="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold">
-                            Banners de edificio y proyectos inmoviliarios
+                            Ejemplo 1
                         </h3>
                         <p class="text-lg text-gray-600 p-4 font-primary font-light truncate">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea ipsam eaque possimus nemo ab cum dolorum ex repellat.
                         </p>
-                        <Link class="">Ver mas</Link>
+                        <Link href="/" class="transition-transform duration-500 hover:scale-110">Ver mas</Link>
                     </div>
                 </div>
 
@@ -50,12 +53,12 @@ export const OurServices = component$(() => {
                     </div>
                     <div class="h-full relative">
                         <h3 class="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold">
-                            Banners de edificio y proyectos inmoviliarios
+                        Ejemplo 2
                         </h3>
                         <p class="text-lg text-gray-600 p-4 font-primary font-light truncate">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea ipsam eaque possimus nemo ab cum dolorum ex repellat.
                         </p>
-                        <Link class="">Ver mas</Link>
+                        <Link href="/" class="">Ver mas</Link>
                     </div>
                 </div>
 
@@ -71,12 +74,12 @@ export const OurServices = component$(() => {
                     </div>
                     <div class="h-full relative">
                         <h3 class="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold">
-                            Banners de edificio y proyectos inmoviliarios
+                            ejemplo 3
                         </h3>
                         <p class="text-lg text-gray-600 p-4 font-primary font-light truncate">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ea ipsam eaque possimus nemo ab cum dolorum ex repellat.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
-                        <Link class="">Ver mas</Link>
+                        <Link href="/" class="">Ver mas</Link>
                     </div>
                 </div>
 

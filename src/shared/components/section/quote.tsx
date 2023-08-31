@@ -1,11 +1,15 @@
 import { component$ } from "@builder.io/qwik";
+import { PageTitle } from "~/shared";
 
 export const Quote = component$(() => {
     return (<>
         <section id="quote" class="contact-section bg-[#26DBBC] h-screen w-full grid grid-cols-2 gap-24 items-center">
             <div class="max-w-[100%] w-full contact-form">
-                <h2 class=" text-white">Cotizar</h2>
-                <p class="text-white tracking-wide leading-6 text-sm mb-14 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <PageTitle title="Cotiza" color="text-white"></PageTitle>
+                <p class="text-white tracking-wide leading-6 text-sm mb-14 text-center">
+                    ¿Listo para llevar tus proyectos al siguiente nivel? 
+                    <br /> Solicita ahora tu cotización y déjanos convertir tus ideas en resultados excepcionales
+                </p>
                 
                 <form class="relative" action="">
                     <input class="input-contact" type="text" placeholder="Nombre" required/>

@@ -5,6 +5,7 @@ export interface IProduct {
     category: string,
     description: string,
     image: string,
+    images?: string[],
     rating: IRating
 }
 

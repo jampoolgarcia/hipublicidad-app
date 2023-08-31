@@ -1,15 +1,17 @@
-export * from './components/header';
+
 export * from './components/navbar';
 export * from './components/navItem';
 
-export * from './components/price';
-export * from './components/galery';
-export * from './components/ourServices';
 
-export * from './components/quote';
+
+export * from './components/section/header';
+export * from './components/section/galery';
+export * from './components/section/ourServices';
+export * from './components/section/quote';
 
 export * from './components/footer';
 
-export * from './components/pageTitle';
-
+export * from './components/ui/pageTitle';
 export * from './components/ui/whasapp-btn';
+export * from './components/ui/price';
+export * from './components/ui/social-icons';
