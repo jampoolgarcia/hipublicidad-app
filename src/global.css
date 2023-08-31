@@ -207,7 +207,7 @@ header {
 }
 
 .input-box {
-  width: calc(100% / 2 -15px);
+  width: calc((100% / 2)(-15px));
   margin: 15px 0;
 }
 

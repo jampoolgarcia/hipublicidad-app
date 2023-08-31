@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
-import { getProductId } from "~/helpers/get-products";
 import type { IProduct } from "~/product/interface";
 import { ProductImages } from "~/product/components";
 import { ProductDatails } from "~/product/components/productDetails";

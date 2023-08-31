@@ -1,5 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { PageTitle } from "~/shared";
+import { Image } from '@unpic/qwik';
 
 export const Quote = component$(() => {
     return (<>
@@ -23,7 +24,7 @@ export const Quote = component$(() => {
             </div>
 
             <div class="max-w-[100%] w-full h-auto rounded-lg">
-                <img width='10' height='10' class="contact-img" src="../public/img/contact.svg" alt="" />
+                <Image width='10' height='10' class="contact-img" src="/img/contact.svg" alt="" />
             </div>
         </section>
     </>)

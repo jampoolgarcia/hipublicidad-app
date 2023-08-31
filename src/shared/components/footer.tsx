@@ -1,11 +1,12 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import { Image } from '@unpic/qwik';
 
 export const Footer = component$(() => {
     return (<>
         <footer class="bg-[#1a242f] grid gap-14">
             <div class="footer-content">
-                <img width={150} height={150} src="/img/logo.png" alt="logo" />
+                <Image width={150} height={150} src="/img/logo.png" alt="logo" />
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
                 <div class="icons flex">
@@ -40,13 +41,13 @@ export const Footer = component$(() => {
                 <li><Link href="/">Apparments</Link></li>
             </div>
 
-            <div class="footer-content">
+            {/* <div class="footer-content">
                 <h4>Help</h4>
                 <li><Link href="/">House</Link></li>
                 <li><Link href="/">Rooms</Link></li>
                 <li><Link href="/">Flats</Link></li>
                 <li><Link href="/">Apparments</Link></li>
-            </div>
+            </div> */}
         </footer>
     </>)
 });
