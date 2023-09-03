@@ -6,5 +6,6 @@ export const SocialIcons = component$(() => {
         <Link href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></Link>
         <Link href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></Link>
         <Link href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></Link>
+        <Link href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></Link>
     </div>)
 })

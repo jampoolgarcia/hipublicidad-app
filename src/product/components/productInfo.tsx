@@ -13,7 +13,7 @@ export const ProductInfo = component$(({ title, description, price }: Props) =>{
         <h1 class="leading-relaxed font-extrabold text-3xl text-palette-primary py-2 sm:py-4">
           {title}
         </h1>
-        <p class="font-medium text-lg truncate-text-3">
+        <p class="text-sm xl:text-base mt-2 mb-4 text-gray-600">
           {description}
         </p>
         <div class="text-xl text-palette-primary font-medium py-4 px-1">

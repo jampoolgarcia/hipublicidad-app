@@ -1,15 +1,10 @@
 export interface IProduct {
     id: number,
     title: string,
-    price: number,
-    category: string,
+    images: string[],
     description: string,
-    image: string,
-    images?: string[],
-    rating: IRating
+    prices: number[],
+    sizes: string[],
+    category: string,
 }
 
-export interface IRating {
-    rate: number,
-    count: number
-}

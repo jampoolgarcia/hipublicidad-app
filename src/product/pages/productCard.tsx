@@ -11,10 +11,10 @@ interface Props {
 export const ProductCard = component$(({ 
     product: {
         id,
-        image,
+        images,
         title,
         description,
-        price
+        prices
     }
 }: Props) => {
 
@@ -27,7 +27,7 @@ export const ProductCard = component$(({
         <img
           width="320"
           height="250"
-          src={image}
+          src={images[0]}
           alt={title}
           class="transform h-72 duration-500 ease-in-out hover:scale-105 hover:shadow-lg mx-auto"
         />
@@ -45,7 +45,7 @@ export const ProductCard = component$(({
         >
           <Price
             currency="$"
-            num={`${price} - $${price+20}`}
+            num={`${prices[0]} - $${prices[prices.length-1]}`}
             numSize="text-lg"
           />
         </div>

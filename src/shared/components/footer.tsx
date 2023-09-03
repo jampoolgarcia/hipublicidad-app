@@ -7,7 +7,7 @@ export const Footer = component$(() => {
         <footer class="bg-[#1a242f] grid gap-14">
             <div class="footer-content">
                 <Image width={150} height={150} src="/img/logo.png" alt="logo" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Innova tus diseños con nuestros servicios <br />y transforma tus ideas</p>
 
                 <div class="icons flex">
                     <Link href="/"><i class="fa-brands fa-facebook"></i></Link>
@@ -25,20 +25,20 @@ export const Footer = component$(() => {
                 <li><Link href="/">Apparments</Link></li>
             </div>
 
-            <div class="footer-content">
+            {/* <div class="footer-content">
                 <h4>Company</h4>
                 <li><Link href="/">House</Link></li>
                 <li><Link href="/">Rooms</Link></li>
                 <li><Link href="/">Flats</Link></li>
                 <li><Link href="/">Apparments</Link></li>
-            </div>
+            </div> */}
 
             <div class="footer-content">
-                <h4>Movement</h4>
-                <li><Link href="/">House</Link></li>
-                <li><Link href="/">Rooms</Link></li>
-                <li><Link href="/">Flats</Link></li>
-                <li><Link href="/">Apparments</Link></li>
+                <h4>Sobre Nosotros</h4>
+                <li><Link href="/">¿Quiénes somos?</Link></li>
+                <li><Link href="/">Misión</Link></li>
+                <li><Link href="/">Visión</Link></li>
+                <li><Link href="/">Contacto</Link></li>
             </div>
 
             {/* <div class="footer-content">
