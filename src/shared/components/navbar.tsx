@@ -19,18 +19,18 @@ export const Navbar = component$(() => {
         <div class="flex justify-center items-center">
           <i class="fa fa-bars mr-2 "  id="menu-icon" aria-hidden="true"></i>
 
-          <a href="#" class="logo">
+          <Link href="/" class="logo">
             <img width={100} height={100} src="/img/logo.png" alt="" />
-          </a>
+          </Link>
         </div>
        
         
         <div class="navbar-list-content">
             <ul class="navbar">
-                <li><a href="/#home">Inicio</a></li>
-                <li><a href="/#product">Productos</a></li>
-                <li><a href="/#galery">Galeria</a></li>
-                <li><a href="/#quote">Contacto</a></li>
+                <li><Link href="/#home">Inicio</Link></li>
+                <li><Link href="/#product">Productos</Link></li>
+                <li><Link href="/#galery">Galeria</Link></li>
+                <li><Link href="/#quote">Contacto</Link></li>
             </ul>
         </div>
 

@@ -2,11 +2,11 @@ import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 
 import { useShoppingCart } from "../hooks";
-import type { ICartItems } from "../context";
+import type { ICartItem } from "../context";
 import { Price } from "~/shared";
 
 interface Props {
-    products: ICartItems[],
+    products: ICartItem[],
 }
 
 
@@ -27,11 +27,11 @@ export const CartTable = component$(({ products }: Props) =>{
           </tr>
         </thead>
         <tbody class="divide-y divide-palette-lighter">
-          {products.map(({ productId, quantity, size, price }) => (
+          {products.map(({ productId, title, image, quantity, size, price }) => (
             <tr key={productId} class="text-sm sm:text-base text-gray-600 text-center">
               <td class="font-primary font-medium px-4 sm:px-6 py-4 flex items-center">
                 <img
-                  src=''
+                  src={image}
                   alt={size}
                   height={64}
                   width={64}
@@ -39,9 +39,12 @@ export const CartTable = component$(({ products }: Props) =>{
                 />
                 <Link href={`/`}>
                   <a class="pt-1 hover:text-palette-dark">
-                    {quantity}
+                    {title}
                   </a>
                 </Link>
+              </td>
+              <td class="font-primary font-medium px-4 sm:px-6 py-4">
+                {size}
               </td>
               <td class="font-primary font-medium px-4 sm:px-6 py-4">
                 <input
@@ -51,7 +54,7 @@ export const CartTable = component$(({ products }: Props) =>{
                   name="variant-quantity"
                   min="1"
                   step="1"
-                  value={0}
+                  value={quantity}
                   //onChange={(e) => updateItem(item.variantId, e.target.value)}
                   class="text-gray-900 form-input border border-gray-300 w-16 rounded-sm focus:border-palette-light focus:ring-palette-light"
                 />

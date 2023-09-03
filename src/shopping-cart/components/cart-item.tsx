@@ -1,15 +1,16 @@
 import { component$ } from '@builder.io/qwik';
-import type { IProduct } from '~/product/interface';
+
+import type { ICartItem } from '../context';
 
 export interface Props {
-    product: IProduct,
+    cartItem: ICartItem,
 }
 
 export const CartItem = component$(({ 
-    product: { 
+    cartItem: { 
         image, 
         title, 
-        description,
+        size,
         price
     }}: Props) => {
   return (
@@ -24,7 +25,7 @@ export const CartItem = component$(({
             />
             <div class="mx-3">
                 <h4 class="font-bold text-xl mb-2 truncate-text-2">{ title }</h4>
-                <p class="text-gray-700 text-base break-words truncate-text-2">{ description }</p>
+                <p class="text-gray-700 text-base break-words truncate-text-2">{ size }</p>
             </div>
 
             <span class="font-bold text-xl">{ price }$</span> 

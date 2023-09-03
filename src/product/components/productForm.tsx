@@ -1,74 +1,70 @@
-import { $, component$, useSignal } from "@builder.io/qwik";
-import type { IProduct } from "~/product/interface";
-import type { ICartItems } from "~/shopping-cart/context";
+import { $, Signal, component$, useSignal } from "@builder.io/qwik";
+
 import { useShoppingCart } from "~/shopping-cart/hooks";
+import { IProduct } from "../interface";
+import { ICartItem } from "~/shopping-cart/context";
 
 
-export const ProductForm = component$((props: { product: IProduct }) => {
+export const ProductForm = component$((props: { quatity: Signal<number>, selectedSize: Signal<number>, product: IProduct }) => {
 
     const { addProduct } = useShoppingCart();
 
-    const itemCart = useSignal<ICartItems>({
-        productId: props.product.id,
-        quantity: 0,
-        size: '',
-        price: Number(props.product.price)
+    const { quatity, selectedSize, product }  = props;
+
+    const itemCart = useSignal<ICartItem>({
+         productId: product.id,
+         title: product.title,
+         image: product.images[0],
+         quantity: quatity.value,
+         size: product.sizes[selectedSize.value],
+         price: product.prices[selectedSize.value]
     });
 
-    const updateQuantity = $((e: string) => {
-        itemCart.value.quantity = Number(e);
-    })
+    const updateQuantity = $((e: string) => quatity.value = Number(e));
+    const upsateSize = $((e:string) => selectedSize.value = Number(e));
 
     return (
-        <div class="w-full">
-      <div class="flex justify-start space-x-2 w-full">
-        <div class="flex flex-col items-start space-y-1 flex-grow-0">
-          <label class="text-gray-500 text-base">Cant.</label>
-          <input
-            type="number"
-            inputMode="numeric"
-            id="quantity"
-            name="quantity"
-            min="1"
-            step="1"
-            value={itemCart.value.quantity}
-            onChange$={(e) => updateQuantity(e.target.value)}
-            class="text-gray-900 form-input border border-gray-300 w-16 rounded-sm focus:border-palette-light focus:ring-palette-light"
-          />
-        </div>
+      <div class="w-full">
+        <div class="flex justify-start space-x-2 w-full">
+          <div class="flex flex-col items-start space-y-1 flex-grow-0">
+            <label class="text-gray-500 text-base">Cant.</label>
+            <input
+              type="number"
+              inputMode="numeric"
+              id="quantity"
+              name="quantity"
+              min="1"
+              step="1"
+              value='1'
+              onChange$={(e) => updateQuantity(e.target.value)}
+              class="text-gray-900 form-input border border-gray-300 w-16 rounded-sm focus:border-palette-light focus:ring-palette-light"
+            />
+          </div>
     
         <div class="flex flex-col items-start space-y-1 flex-grow">
           <label class="text-gray-500 text-base">Talla</label>
           <select
             id="size-selector"
             name="size-selector"
-            value="0"
+            onChange$={(e) => upsateSize(e.target.value)}
             class="form-select border border-gray-300 rounded-sm w-full text-gray-900 focus:border-palette-light focus:ring-palette-light"
           >
+            {
+              product.sizes.map((size, index) => (
                 <option
-                  id="0"
-                  value="0"
-                >
-                   2 x 2
+                key={index}
+                value={index}>
+                  {size}
                 </option>
-                <option
-                  id="1"
-                  value="1"
-                >
-                   3 x 3
-                </option>
-                <option
-                  id="1"
-                  value="1"
-                >
-                   4 x 4
-                </option>
+              ))
+            }
           </select>
         </div>
       </div>
+     
       <button
         class="pt-3 pb-2 bg-palette-primary text-white w-full mt-2 rounded-sm font-primary font-semibold text-xl flex 
-        justify-center items-baseline  hover:bg-palette-dark"
+        justify-center items-baseline  hover:bg-blue-700 transition-transform duration-500 active:scale-110"
         aria-label="cart-button"
         onClick$={() => addProduct(itemCart.value)}
       >
