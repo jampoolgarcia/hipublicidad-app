@@ -1,10 +1,11 @@
 import { component$ } from "@builder.io/qwik";
+import { Link } from "@builder.io/qwik-city";
 
 
 
 export const CheckOutButton = component$(() =>{
     return (<>
-        <a 
+        <Link 
         href="/" 
         aria-label="checkoutproducts"
         class="bg-palette-primary text-white text-lg font-primary font-semibold pt-2 pb-1 leading-relaxed flex 
@@ -12,6 +13,6 @@ export const CheckOutButton = component$(() =>{
         >
             Pagar
             <i class="fa-solid fa-money-bill-wave w-4 ml-2 inline-flex"></i>
-        </a>
+        </Link>
     </>)
 })

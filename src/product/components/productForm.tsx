@@ -1,24 +1,29 @@
-import { $, Signal, component$, useSignal } from "@builder.io/qwik";
+import { $, type Signal, component$ } from "@builder.io/qwik";
 
 import { useShoppingCart } from "~/shopping-cart/hooks";
-import { IProduct } from "../interface";
-import { ICartItem } from "~/shopping-cart/context";
+import type { IProduct } from "../interface";
+import type { ICartItem } from "~/shopping-cart/context";
 
 
 export const ProductForm = component$((props: { quatity: Signal<number>, selectedSize: Signal<number>, product: IProduct }) => {
 
-    const { addProduct } = useShoppingCart();
+    const { addCartItem } = useShoppingCart();
 
     const { quatity, selectedSize, product }  = props;
 
-    const itemCart = useSignal<ICartItem>({
-         productId: product.id,
-         title: product.title,
-         image: product.images[0],
-         quantity: quatity.value,
-         size: product.sizes[selectedSize.value],
-         price: product.prices[selectedSize.value]
-    });
+
+    const addProductShoppingCart = $(() =>{
+      const itemCart: ICartItem = {
+        productId: product.id,
+        title: product.title,
+        image: product.images[0],
+        quantity: quatity.value,
+        size: product.sizes[selectedSize.value],
+        price: product.prices[selectedSize.value]
+      }
+
+      addCartItem(itemCart);
+    })
 
     const updateQuantity = $((e: string) => quatity.value = Number(e));
     const upsateSize = $((e:string) => selectedSize.value = Number(e));
@@ -66,7 +71,7 @@ export const ProductForm = component$((props: { quatity: Signal<number>, selecte
         class="pt-3 pb-2 bg-palette-primary text-white w-full mt-2 rounded-sm font-primary font-semibold text-xl flex 
         justify-center items-baseline  hover:bg-blue-700 transition-transform duration-500 active:scale-110"
         aria-label="cart-button"
-        onClick$={() => addProduct(itemCart.value)}
+        onClick$={() => addProductShoppingCart()}
       >
         Agregar al carrito
         <i class="fa-solid fa-cart-plus w-5 ml-2"></i>

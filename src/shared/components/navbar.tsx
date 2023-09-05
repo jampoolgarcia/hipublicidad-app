@@ -1,12 +1,13 @@
 import { $, component$, useOnDocument } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import { Image } from '@unpic/qwik';
 
 import { useShoppingCart } from "~/shopping-cart/hooks";
 
 
 export const Navbar = component$(() => {
 
-   const { totalItems } = useShoppingCart();
+   const { cartTotalItems: totalItems } = useShoppingCart();
 
   useOnDocument('scroll', $(()=>{
     const navbar = document.querySelector("nav");
@@ -20,7 +21,7 @@ export const Navbar = component$(() => {
           <i class="fa fa-bars mr-2 "  id="menu-icon" aria-hidden="true"></i>
 
           <Link href="/" class="logo">
-            <img width={100} height={100} src="/img/logo.png" alt="" />
+            <Image width={100} height={100} src="/img/logo.png" alt="" />
           </Link>
         </div>
        
@@ -46,7 +47,7 @@ export const Navbar = component$(() => {
                   <div
                     class="absolute top-0 right-0 text-xs bg-yellow-300 text-gray-900 font-semibold rounded-full py-1 px-2 transform translate-x-10 -translate-y-3"
                   >
-                    {totalItems}
+                    {totalItems.value}
                   </div>
               }
         </Link>
