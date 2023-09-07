@@ -1,9 +1,19 @@
-import { Slot, component$, useContextProvider, useStore } from "@builder.io/qwik";
+import { Slot, component$, useContextProvider, useStore, useVisibleTask$ } from "@builder.io/qwik";
 import { type IProductsState, productsContext } from "~/product/context/product.context";
 import { CartContext, type ICartState } from "~/shopping-cart/context";
 
 
 export const ContextProvaider = component$(() => {
+
+     // creamos el estado por defecto
+     const productsState = useStore<IProductsState>({
+        products: []
+    })
+
+    // proveemos el contexto en la app
+    useContextProvider(productsContext, productsState);
+
+
 
      // creamos el estado por defecto
      const cart = useStore<ICartState>({
@@ -16,13 +26,34 @@ export const ContextProvaider = component$(() => {
     // proveemos el contexto en la app
     useContextProvider(CartContext, cart);
 
-    // creamos el estado por defecto
-    const productsState = useStore<IProductsState>({
-        products: []
+     // leer datos del localstorage y guardar en el context
+    // nota: al no especificar el track solo se ejecuta una vez la tarea.
+    useVisibleTask$(() => {
+        if(localStorage.getItem('shopping-cart')){
+
+            const {
+                id,
+                userId,
+                date,
+                products
+            } = JSON.parse(localStorage.getItem('shopping-cart')!) as ICartState;
+            
+            cart.id = id;
+            cart.userId = userId;
+            cart.date = date;
+            cart.products = products;
+        }
     })
 
-    // proveemos el contexto en la app
-    useContextProvider(productsContext, productsState);
+
+    // guardar los datos del contexto en el local storage
+    useVisibleTask$(({track}) => {
+        // ejecutar la tarea cada que cambie uno de los valores...
+        track (()=> [cart.products.length, cart.date]);
+        // guarda en el local stora el nuevo estado 
+        localStorage.setItem('shopping-cart', JSON.stringify(cart));
+    })
+
 
     return (<Slot />)
 })
