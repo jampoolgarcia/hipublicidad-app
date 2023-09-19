@@ -468,6 +468,41 @@ footer{
 	#menu-icon{
 		display: inline-block;
 	}
+
+  .navbar-list-content{
+		position: absolute;
+		top:-800px;
+		left: 0;
+		right: 0;
+    display: flex;
+		flex-direction: column;
+		background: #3d83ff;
+		transition: all .5s ease; 
+		text-align: left;
+	}
+
+  .navbar {
+    display: flex;
+		flex-direction: column;
+  }
+
+	.navbar a{
+		color: #fff;
+		padding: 1rem;
+		border-left: 2px solid #fff;
+		margin: 1rem;
+		display: block;
+	}
+
+	.navbar a:hover {
+		background: #fff;
+		color: #00c9e0;
+	}
+
+
+	.navbar-list-content.open{
+		top:100%;
+	}
 }
 
 @media (max-width: 500px){

@@ -7,18 +7,27 @@ import { useShoppingCart } from "~/shopping-cart/hooks";
 
 export const Navbar = component$(() => {
 
-   const { cartTotalItems: totalItems } = useShoppingCart();
+  const { cartTotalItems: totalItems } = useShoppingCart();
+  
 
   useOnDocument('scroll', $(()=>{
     const navbar = document.querySelector("nav");
     navbar!.classList.toggle("sticky", window.scrollY > 0);
   }))
 
+  const openMenu = $(() =>{
+    const menu = document.querySelector('#menu-icon')!;
+    const navlist = document.querySelector('.navbar-list-content')!;
+
+    menu.classList.toggle('fa-close');
+	  navlist.classList.toggle('open');
+  })
+
   return (<>
      <nav class="nav">
 
         <div class="flex justify-center items-center">
-          <i class="fa fa-bars mr-2 "  id="menu-icon" aria-hidden="true"></i>
+          <i class="fa fa-bars mr-2 " onClick$={() => openMenu()}  id="menu-icon" aria-hidden="true"></i>
 
           <Link href="/" class="logo">
             <Image width={100} height={100} src="/img/logo.png" alt="" />
@@ -45,7 +54,7 @@ export const Navbar = component$(() => {
                   null
                   :
                   <div
-                    class="absolute top-0 right-0 text-xs bg-yellow-300 text-gray-900 font-semibold rounded-full py-1 px-2 transform translate-x-10 -translate-y-3"
+                    class="absolute top-0 right-0 text-xs bg-yellow-300 text-gray-900 font-semibold rounded-full py-1 px-2 transform -translate-x-4 -translate-y-3"
                   >
                     {totalItems.value}
                   </div>
