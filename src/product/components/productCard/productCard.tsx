@@ -1,8 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { Link } from '@builder.io/qwik-city';
-import { Price } from '~/shared/components/ui/price';
-
 import type { IProduct } from '~/product/interface';
+import { Price } from '~/shared';
 
 interface Props {
     product: IProduct
@@ -19,19 +18,19 @@ export const ProductCard = component$(({
 }: Props) => {
 
   return (
-    <div class="h-110 w-64 lg:w-72 rounded shadow-lg mx-auto border border-palette-lighter">
-      <Link
-        class=""
-       href={`/products/${id}`}>
-      <picture class="h-72 border-b-2 border-palette-lighter relative">
+    <Link
+      class="h-120 w-72 rounded shadow-lg mx-auto border border-palette-lighter"
+      href={`/products/${id}`}
+     >
+      <div class="h-72 border-b-2 border-palette-lighter relative">
         <img
           width="320"
-          height="250"
+          height="288"
           src={images[0]}
           alt={title}
-          class="transform h-72 duration-500 ease-in-out hover:scale-105 hover:shadow-lg mx-auto"
+          class="transform object-cover h-72 duration-500 ease-in-out hover:scale-105 hover:shadow-lg"
         />
-      </picture>
+      </div>
       <div class="h-48 relative">
         <div class="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold truncate">
           {title}
@@ -43,15 +42,12 @@ export const ProductCard = component$(({
           class="text-palette-dark font-primary font-medium text-base absolute bottom-0 right-0 mb-4 pl-8 pr-4 pb-1 pt-2 bg-palette-lighter 
           rounded-tl-sm triangle"
         >
-          <Price
-            currency="$"
-            num={`${prices[0]} - $${prices[prices.length-1]}`}
-            numSize="text-lg"
-          />
+        <Price 
+          currency="$"
+          num={prices[0] - prices[prices.length-1]}
+          numSize="text-lg"/>
         </div>
       </div>
   </Link>
-    </div>
-    
   )
 });

@@ -6,7 +6,7 @@ interface Props {
     numSize: string
 }
 
-export const Price = component$(({currency = '$', num, numSize}: Props) => {
+export const Price = component$(({currency = 'S/', num, numSize}: Props) => {
 
     return (
         <>
