@@ -1,5 +1,6 @@
 import { component$ } from '@builder.io/qwik';
 import { Link } from '@builder.io/qwik-city';
+import { imgUrl } from '~/helpers/config';
 import type { IProduct } from '~/product/interface';
 import { Price } from '~/shared';
 
@@ -26,7 +27,7 @@ export const ProductCard = component$(({
         <img
           width="320"
           height="288"
-          src={images[0]}
+          src={`${imgUrl}${images[0]}`}
           alt={title}
           class="transform object-cover h-72 duration-500 ease-in-out hover:scale-105 hover:shadow-lg"
         />
@@ -40,12 +41,11 @@ export const ProductCard = component$(({
         </div>
         <div
           class="text-palette-dark font-primary font-medium text-base absolute bottom-0 right-0 mb-4 pl-8 pr-4 pb-1 pt-2 bg-palette-lighter 
-          rounded-tl-sm triangle"
-        >
-        <Price 
-          currency="$"
-          num={prices[0] - prices[prices.length-1]}
-          numSize="text-lg"/>
+          rounded-tl-sm triangle">
+          <Price 
+            currency="S/"
+            num={prices[0]}
+            numSize="text-lg"/>
         </div>
       </div>
   </Link>

@@ -1,4 +1,5 @@
 import { $, component$, useSignal } from "@builder.io/qwik";
+import { imgUrl } from "~/helpers/config";
 
 
 interface Props {
@@ -18,7 +19,7 @@ export const ProductImages = component$(({ images }: Props ) =>{
         <div class="w-full md:w-1/2 max-w-md border border-palette-lighter bg-white rounded shadow-lg">
         <div class="relative h-96">
           <img
-            src={img.value}
+            src={`${imgUrl}${images[0]}`}
             width="410"
             height="384"
             // alt={mainImg.altText}
@@ -50,7 +51,7 @@ export const ProductImages = component$(({ images }: Props ) =>{
                   width="160"
                   height="128"
                   class="h-32"
-                    src={imgItem}
+                    src={`${imgUrl}${imgItem}`}
                     alt="images not found"
                   />
                 </button>

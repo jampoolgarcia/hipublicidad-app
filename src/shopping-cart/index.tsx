@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { DocumentHead } from "@builder.io/qwik-city";
-
+import type { DocumentHead } from "@builder.io/qwik-city";
 
 import { useShoppingCart } from "./hooks";
 import { CartTable } from "./components/cartTable";
@@ -11,31 +10,31 @@ import { PageTitle } from "~/shared";
 
 export const ShoppingCart = component$(() => {
 
-    const { cartItems } = useShoppingCart(); 
+  const { cartItems } = useShoppingCart();
 
-    return (
-      <>
-       <div class="container mx-auto mt-24 mb-16 min-h-screen">
-          <PageTitle title="Tú Carrito" />
-          <CartTable products={cartItems}
-          />
-          <div class="max-w-sm mx-auto space-y-4 px-2">
-            <CheckOutButton />
-            <BackToProductButton />
-          </div>
-
+  return (
+    <>
+      <div class="container mx-auto mt-24 mb-16 min-h-screen">
+        <PageTitle title="Tú Carrito" />
+        <CartTable products={cartItems}
+        />
+        <div class="max-w-sm mx-auto space-y-4 px-2">
+          <CheckOutButton />
+          <BackToProductButton />
         </div>
-          
-      </>
-    )
-  });
-  
-  export const head: DocumentHead = {
-      title: "Shopping Cart",
-      meta: [
-        {
-          name: "description",
-          content: "Qwik shopping cart example",
-        },
-      ],
-    };
+
+      </div>
+
+    </>
+  )
+});
+
+export const head: DocumentHead = {
+  title: "Shopping Cart",
+  meta: [
+    {
+      name: "description",
+      content: "Qwik shopping cart example",
+    },
+  ],
+};
