@@ -1,0 +1,141 @@
+
+/* nav */
+.nav {
+    @apply fixed top-0 right-0 w-full z-[1000] flex items-center justify-between;
+    background: rgba(255, 255, 255, .3);
+    padding: 30px 12%; 
+    transition: ease .40s;
+  }
+  
+  .sticky {
+    background: var(--bg-color);
+    padding: 10px 12%;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
+  
+  .logo img{
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .sticky .logo {
+    color: var(--text-color);
+  }
+  
+  .sticky .navbar a {
+    color: var(--text-color);
+  }
+
+  /* logo */
+.logo {
+    display: inline-block;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    transition: ease .4s;
+  }
+  
+  .logo:hover{
+    transform: scale(1.1);
+  }
+  
+  /* ul */
+  .navbar {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    padding: 10px 22px;
+    border-radius: 4px;
+    transition: ease .4s;
+  }
+  
+  
+  .navbar a:hover{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    border-radius: 4px;
+  }
+  
+  .cart-icon {
+    transition: ease .4s;
+  
+  }
+  
+  .cart-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* menu */
+  #menu-icon {
+    display: none;
+    color: var(--text-color);
+    font-size: 35px;
+    z-index: 10001;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+@media (max-width: 1000px){
+    .nav {
+      padding: 15px 3%; 
+    }
+
+    .navbar-list-content {
+        display: none;
+    }
+
+}
+
+@media (max-width: 860px){
+	#menu-icon{
+		display: inline-block;
+	}
+
+  .navbar-list-content{
+		position: absolute;
+		top:-800px;
+		left: 0;
+		right: 0;
+    display: flex;
+    color:white;
+		flex-direction: column;
+		background: #3d83ff;
+		transition: all .5s ease; 
+		text-align: left;
+	}
+
+  .navbar {
+    display: flex;
+		flex-direction: column;
+  }
+
+	.navbar a{
+		color: #fff;
+		padding: 1rem;
+		border-left: 2px solid #fff;
+		margin: 1rem;
+		display: block;
+	}
+
+	.navbar a:hover {
+		background: #fff;
+		color: #00c9e0;
+	}
+
+
+	.navbar-list-content.open{
+		top:100%;
+	}
+}
+      

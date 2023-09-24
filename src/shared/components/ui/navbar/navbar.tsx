@@ -1,11 +1,15 @@
-import { $, component$, useOnDocument } from "@builder.io/qwik";
+import { $, component$, useOnDocument, useStyles$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import { Image } from '@unpic/qwik';
+
+import styles from './navbar.css?inline'; 
 
 import { useShoppingCart } from "~/shopping-cart/hooks";
 
 
 export const Navbar = component$(() => {
+
+  useStyles$(styles);
 
   const { cartTotalItems: totalItems } = useShoppingCart();
   
@@ -29,7 +33,7 @@ export const Navbar = component$(() => {
         <div class="flex justify-center items-center">
           <i class="fa fa-bars mr-2 " onClick$={() => openMenu()}  id="menu-icon" aria-hidden="true"></i>
 
-          <Link href="/" class="logo">
+          <Link href="/" class="logo hidden sm:block">
             <Image width={100} height={100} src="/img/logo.png" alt="" />
           </Link>
         </div>

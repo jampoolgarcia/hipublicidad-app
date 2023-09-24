@@ -37,6 +37,6 @@ export const categories: ICategory[] =  [
     id: 6,
     title: "CORPÓREOS",
     description: 'Corporeo, ruleta, modulo de pvc, backing wall display, display porta brochure de acrílico.',
-    image: "/img/product/BACKINGWALLDISPLAY.jpg",
+    image: "/img/product/corporeoDoble.jpg",
   }
 ];

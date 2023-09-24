@@ -17,13 +17,7 @@ export const Footer = component$(() => {
                 </div>
             </div>
 
-            <div class="footer-content text-white">
-                <h4>Contacto</h4>
-                <li><i class="fa-brands fa-whatsapp"></i> Whatsapp: +51 986771821</li>
-                <li><i class="fa-solid fa-phone"></i> Telefono: +51 986771821</li>
-                <li><i class="fa-solid fa-envelope"></i> Correo: gerentedeventas@hipublicidad.com</li>
-                <li><i class="fa-solid fa-location-dot"></i> Av Bolivia 148, 3er Piso Local 3398 C.C. Centro de Lima.</li>
-            </div>
+            
 
             <div class="footer-content">
                 <h4>Sobre Nosotros</h4>
@@ -31,6 +25,14 @@ export const Footer = component$(() => {
                 <li><Link href="/mission">Misión</Link></li>
                 <li><Link href="/vision">Visión</Link></li>
                 <li><Link href="/contact">Contacto</Link></li>
+            </div>
+
+            <div class="footer-content text-white">
+                <h4>Contacto</h4>
+                <li><i class="fa-brands fa-whatsapp"></i> Whatsapp: +51 986771821</li>
+                <li><i class="fa-solid fa-phone"></i> Telefono: +51 986771821</li>
+                <li><i class="fa-solid fa-envelope"></i> Correo: gerentedeventas@hipublicidad.com</li>
+                <li><i class="fa-solid fa-location-dot"></i> Av Bolivia 148, 3er Piso Local 3398 C.C. Centro de Lima.</li>
             </div>
 
         </footer>

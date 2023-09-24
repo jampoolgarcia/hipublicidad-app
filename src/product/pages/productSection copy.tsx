@@ -1,8 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 
 import { products } from '../json/products';
-
-
 import { PageTitle } from "~/shared";
 
 import { ProductCard } from "../components";
