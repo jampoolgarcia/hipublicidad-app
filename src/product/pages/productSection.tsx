@@ -8,6 +8,8 @@ import { ProductCategory } from "../components";
 import { categories } from "../json";
 
 
+
+
 export const ProductSection =  component$(() => {
 
     return (<>
