@@ -1,29 +1,19 @@
 import { $, type Signal, component$ } from "@builder.io/qwik";
-
-import { useShoppingCart } from "~/shopping-cart/hooks";
 import type { IProduct } from "../interface";
-import type { ICartItem } from "~/shopping-cart/context";
+import { phoneNumber } from "~/helpers/config";
 
 
-export const ProductForm = component$((props: { quatity: Signal<number>, selectedSize: Signal<number>, product: IProduct }) => {
 
-    const { addCartItem } = useShoppingCart();
-
-    const { quatity, selectedSize, product }  = props;
+export const ProductForm = component$((props: { quatity: Signal<number>, selectedSize: Signal<number>, product: IProduct, price: Signal<string> }) => {
 
 
-    const addProductShoppingCart = $(() =>{
-      const itemCart: ICartItem = {
-        productId: product.id,
-        title: product.title,
-        image: product.images[0],
-        quantity: quatity.value,
-        size: product.sizes[selectedSize.value],
-        price: product.prices[selectedSize.value]
-      }
+    const { quatity, selectedSize, product, price}  = props;
 
-      addCartItem(itemCart);
-    })
+
+    const getText = () =>{
+      let text = `Hola, buen dia. Estoy interesado en la compra del producto: Porta Folletos, Por la cantidad de ${quatity.value}, con las medidas de ${product.sizes[selectedSize.value]}, el cual tendría un valor de ${price.value} Soles.`
+      return text;
+    }
 
     const updateQuantity = $((e: string) => quatity.value = Number(e));
     const upsateSize = $((e:string) => selectedSize.value = Number(e));
@@ -67,15 +57,17 @@ export const ProductForm = component$((props: { quatity: Signal<number>, selecte
         </div>
       </div>
      
-      <button
+      <a
         class="pt-3 pb-2 bg-palette-primary text-white w-full mt-2 rounded-sm font-primary font-semibold text-xl flex 
         justify-center items-baseline  hover:bg-blue-700 transition-transform duration-500 active:scale-110"
         aria-label="cart-button"
-        onClick$={() => addProductShoppingCart()}
-      >
-        Agregar al carrito
-        <i class="fa-solid fa-cart-plus w-5 ml-2"></i>
-      </button>
+        href={`https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${getText()}&type=phone_number&app_absent=0`}
+        target="_blank"
+      > 
+        
+        <i class="fa-brands fa-whatsapp mr-2"></i>
+        Enviar Mensaje
+      </a>
     </div>
     )
 })

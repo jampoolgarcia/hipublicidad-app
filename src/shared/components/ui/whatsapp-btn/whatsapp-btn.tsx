@@ -1,10 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
+import { phoneNumber } from "~/helpers/config";
 
 
 export const WhatsApp = component$(() => {
 
-    const whatsapp = 'https://api.whatsapp.com/send/?phone=56971989688&text=Hola%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre&type=phone_number&app_absent=0'
+    const whatsapp = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=Hola%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre&type=phone_number&app_absent=0`;
 
     return (<Link 
                 href={whatsapp} 

@@ -19,7 +19,7 @@ export const ProductDatails = component$((props: { product: IProduct }) =>{
         title={props.product.title}
         description={props.product.description}
         price={price.value} />
-      <ProductForm quatity={quatity} selectedSize={selectedSize} product={props.product} /> 
+      <ProductForm quatity={quatity} selectedSize={selectedSize} product={props.product} price={price} /> 
     </div>
     )
 }) 
