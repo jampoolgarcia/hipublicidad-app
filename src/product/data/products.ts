@@ -198,7 +198,7 @@ export const products: IProduct[] =  [
           prices: [270],
           sizes: ['120'],
           description: "CORPOREO DE MDF 5 MM CON VINIL IMPRESO FULL COLOR LAMINADO BRILLO O MATE, CON PARANTE DE FIERRO REFORZADO, CON MEDIDA DE 120 CM DE ALTURA.   ",
-          category: "CORPÓREOS",
+          category: "CORPOREOS",
           images: ["corporeoSimple.jpg"]
       },
       {
@@ -207,7 +207,7 @@ export const products: IProduct[] =  [
           prices: [430],
           sizes: ['120'],
           description: "ORPOREO DOBLE CARA DE MDF 5 MM CON VINIL IMPRESO FULL COLOR LAMINADO BRILLO O MATE, CON PARANTE DE FIERRO REFORZADO, CON MEDIDA DE 120 CM DE ALTURA.",
-          category: "CORPÓREOS",
+          category: "CORPOREOS",
           images: ["coporeoFlechas.jpg"]
       },
       {
@@ -216,7 +216,7 @@ export const products: IProduct[] =  [
           prices: [410],
           sizes: ['70x185'],
           description: "RULETA DE PISO 5 MM DE MDF O CELTEX LAMINADA CON VINIL FULL COLOR CON MEDIDA DE 70 CM X 185 CM.",
-          category: "CORPÓREOS",
+          category: "CORPOREOS",
           images: ["ruleta.jpg"]
       },
       {
@@ -225,7 +225,7 @@ export const products: IProduct[] =  [
           prices: [180],
           sizes: ['43x35'],
           description: "RULETA DE MESA 5 MM DE MDF O CELTEXLAMINADA CON VINIL FULL COLOR 43 CM X 35 CM",
-          category: "CORPÓREOS",
+          category: "CORPOREOS",
           images: ["ruletaChica.png"]
       },
       {
@@ -234,7 +234,7 @@ export const products: IProduct[] =  [
           prices: [480],
           sizes: ['200x80'],
           description: "MODULO DE PVC CON MDEDIDA DE 200 CM X 80 CM CON IMPRESIÓN FULL COLOR LAMINADO MATE O BRILLANTE, INCLUYE MALETIN",
-          category: "CORPÓREOS",
+          category: "CORPOREOS",
           images: ["moduloPvc.jpg"]
       },
       {
@@ -243,7 +243,7 @@ export const products: IProduct[] =  [
           prices: [850],
           sizes: ['230x230'],
           description: "BACKING WALL DISPLAY PLANCO VELCRON PARA BANNER CON MEDIDA 230 CM X 230 CM ",
-          category: "CORPÓREOS",
+          category: "CORPOREOS",
           images: ["backingwall01.jpg", "backingWallDisplay.jpg"]
       },
       {
@@ -252,7 +252,7 @@ export const products: IProduct[] =  [
           prices: [650],
           sizes: ['152x30'],
           description: "DISPLAY PORTA BROCHURE DE ACRÍLICO, ES UN EXHIBIDOR CON SOPORTE PLEGABLE PRACTICO PARA MOSTRAR RESVISTAS Y CATALOGOS, INCLUYE MALETIN DE MEDIDA 152 CM X 30 CM",
-          category: "CORPÓREOS",
+          category: "CORPOREOS",
           images: ["portaBrochure.png"]
       },
       {
@@ -260,8 +260,8 @@ export const products: IProduct[] =  [
           title: "Porta Folletos",
           prices: [25, 18],
           sizes: ['21,3x29,3'],
-          description: "PORTA FOLLETOS DE ACRÍLICOS CRISTAL DE 2.5 MM TAMAÑO A4 DE MEDIDA DE 21.3 CM X 29.3 CM. TENEMOS MEDIDAS DE A6, A5, PRECIO A PARTIR DE 12 UNIDADES",
-          category: "ACRÍLICOS",
+          description: "PORTA FOLLETOS DE ACRILICOS CRISTAL DE 2.5 MM TAMAÑO A4 DE MEDIDA DE 21.3 CM X 29.3 CM. TENEMOS MEDIDAS DE A6, A5, PRECIO A PARTIR DE 12 UNIDADES",
+          category: "ACRILICOS",
           images: ["portafolletos01.jpg", "portafolletos02.jpg", "portafolletos03.jpg", "portafolletos04.jpg"]
       },
       {
@@ -269,8 +269,8 @@ export const products: IProduct[] =  [
           title: "Reconocimiento Base Madera",
           prices: [65],
           sizes: ['A5'],
-          description: "TROFEO O RECONOCIMIENTO DE ACRÍLICOS CRISTAL GRABADO A LASER DE 3 MM DE TAMAÑO A5 CON UNA BASE DE MADERA PINO ILUSTRADA AL COLOR DE PREFERENCIA TENEMOS MEDIDAS DE A6, A4. PRECIO APARTIR DE 12 UNIDADES.",
-          category: "ACRÍLICOS",
+          description: "TROFEO O RECONOCIMIENTO DE ACRILICOS CRISTAL GRABADO A LASER DE 3 MM DE TAMAÑO A5 CON UNA BASE DE MADERA PINO ILUSTRADA AL COLOR DE PREFERENCIA TENEMOS MEDIDAS DE A6, A4. PRECIO APARTIR DE 12 UNIDADES.",
+          category: "ACRILICOS",
           images: ["reconocimientoMadera.jpg"]
       },
       {
@@ -278,8 +278,8 @@ export const products: IProduct[] =  [
           title: "Reconocimiento",
           prices: [40],
           sizes: ['A5'],
-          description: "TROFEO O RECONOCIMIENTO DE ACRÍLICOS CRISTAL GRABADO A LASER DE 3 MM DE TAMAÑO A5 CON BASE DE ACRÍLICO, TENEMOS MEDIDAS DE A6, A4 PRECIO APARTIR DE 12 UNIDADES. ",
-          category: "ACRÍLICOS",
+          description: "TROFEO O RECONOCIMIENTO DE ACRILICOS CRISTAL GRABADO A LASER DE 3 MM DE TAMAÑO A5 CON BASE DE ACRÍLICO, TENEMOS MEDIDAS DE A6, A4 PRECIO APARTIR DE 12 UNIDADES. ",
+          category: "ACRILICOS",
           images: ["reconocimiento.jpg"]
       },
       {
@@ -288,7 +288,7 @@ export const products: IProduct[] =  [
           prices: [85],
           sizes: ['21,3x29,3'],
           description: "ACRÍLICO PERSONALIZADO PARA PRESENTACIÓN O EVENTOS DE 2.5 MM DE ESPESOR DE COLOR BLANCO O COLOR DE PREFERENCIA, CON TAMAÑO A4 DE MEDIDA DE 21.3 CM X 29.3 CM. PRECIO APARTIR DE 6 UNIDADES.",
-          category: "ACRÍLICOS",
+          category: "ACRILICOS",
           images: ["exhibidor.jpg"]
       },
       {
@@ -297,7 +297,7 @@ export const products: IProduct[] =  [
           prices: [120],
           sizes: ['35x40'],
           description: "ACRÍLICO EXHIBIDOR PARA YAPE, PLIN U OTRA INFORMACIÓN PARA LOCAL O EMPRESA, DE 2.5 MM DE ESPESOR Y DECORACIÓN Y BASE DORADA. CON MEDIDA 35 CM X 40 CM. ",
-          category: "ACRÍLICOS",
+          category: "ACRILICOS",
           images: ["exhibidorQR.png"]
       },
       {

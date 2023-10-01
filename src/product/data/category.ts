@@ -9,13 +9,13 @@ export const categories: ICategory[] =  [
   },
   {
     id: 2,
-    title: "CORPÓREOS",
+    title: "CORPOREOS",
     description: 'Corporeo, ruleta, modulo de pvc, backing wall display, display porta brochure de acrílico.',
     image: "coporeoFlechas.jpg",
   },
   {
     id: 3,
-    title: "ACRÍLICOS",
+    title: "ACRILICOS",
     description: 'Porta folletos, reconocimientos, exhibidor. De acrílico cristal y grabado a láser, color blanco o color de preferencia.',
     image: "portaFilletosA4.jpg",
   },
