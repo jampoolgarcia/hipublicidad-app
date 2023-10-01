@@ -1,1 +1,1 @@
-export * from  "./json/products";
+export * from  "./data/products";

@@ -1,16 +1,53 @@
 import { component$ } from "@builder.io/qwik";
+import { routeLoader$ } from "@builder.io/qwik-city";
 
 import { products } from "~/product";
 import { ProductCard } from "~/product/components";
+import { categories } from "~/product/data";
+import { IProduct } from "~/product/interface";
+import { PageTitle } from "~/shared";
+
+interface IData {
+    category: string;
+    productList: IProduct[]
+}
+
+export const useData =  routeLoader$(async () => {
+    let data: IData[] = [];
+
+    categories.map((category) => {
+        let productList = products.filter(product => product.category === category.title);
+        data.push({
+            category: category.title,
+            productList
+        })
+    })
+
+    return data;
+});
+
+
 
 export default component$( () => {
+
+    const data = useData();
+
+    
     return (<>
-          <section class="flex flex-wrap content-start gap-2 mt-14 mb-6 w-full">
-                    {
-                        products.map((product) => (
+        {
+            data.value.map(({ category, productList }) => (
+                <section id={category} class="flex flex-col justify-center my-3 w-full">
+                    <PageTitle title={category} align="text-left"></PageTitle>            
+                    
+                    <div class="flex flex-wrap content-start gap-2 my-5 w-full">
+                        {
+                        productList.map((product) => (
                             <ProductCard key={product.id} product={product} />
                         ))
-                    }
-         </section>
+                        }
+                    </div>
+                </section>
+            ))
+        }
     </>)
 })
