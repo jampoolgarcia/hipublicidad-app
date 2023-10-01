@@ -9,6 +9,7 @@
   
   .sticky {
     background: var(--bg-color);
+    color: black;
     padding: 10px 12%;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   }
@@ -49,7 +50,7 @@
   }
   
   .navbar a {
-    color: var(--text-color);
+    color: var(--bg-color);
     font-size: var(--p-font);
     font-weight: 500;
     padding: 10px 22px;

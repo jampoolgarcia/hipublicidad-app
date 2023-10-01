@@ -44,11 +44,12 @@ export const Navbar = component$(() => {
                 <li><Link href="/#home">Inicio</Link></li>
                 <li><Link href="/#product">Productos</Link></li>
                 <li><Link href="/#galery">Galeria</Link></li>
+                <li><Link href="/#services">Servicios</Link></li>
                 <li><Link href="/#quote">Contacto</Link></li>
             </ul>
         </div>
 
-        <Link
+        {/* <Link
             href="/cart"
             class="relative cart-icon"
             aria-label="cart">
@@ -63,7 +64,7 @@ export const Navbar = component$(() => {
                     {totalItems.value}
                   </div>
               }
-        </Link>
+        </Link> */}
     </nav>
   </>)
 }) 
