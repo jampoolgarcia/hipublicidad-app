@@ -28,6 +28,7 @@ export const OurServices = component$(() => {
                 services.map((service) => (
                     
                     <Link 
+                    key={service.img}
                     href={service.url}
                     class="flex flex-col content-between h-140 w-140 rounded mx-auto my-4">
                         <div class="border-b-2 border-palette-lighter relative">

@@ -4,14 +4,12 @@ import { Image } from '@unpic/qwik';
 
 import styles from './navbar.css?inline'; 
 
-import { useShoppingCart } from "~/shopping-cart/hooks";
-
 
 export const Navbar = component$(() => {
 
   useStyles$(styles);
 
-  const { cartTotalItems: totalItems } = useShoppingCart();
+  // const { cartTotalItems: totalItems } = useShoppingCart();
   
 
   useOnDocument('scroll', $(()=>{
