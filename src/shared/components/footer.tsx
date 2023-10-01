@@ -21,7 +21,7 @@ export const Footer = component$(() => {
 
             <div class="footer-content">
                 <h4>Sobre Nosotros</h4>
-                <li><Link href="/aboutUs">¿Quiénes somos?</Link></li>
+                <li><Link href="/about">¿Quiénes somos?</Link></li>
                 <li><Link href="/mission">Misión</Link></li>
                 <li><Link href="/vision">Visión</Link></li>
                 <li><Link href="/contact">Contacto</Link></li>

@@ -11,7 +11,7 @@ export const ProductForm = component$((props: { quatity: Signal<number>, selecte
 
 
     const getText = () =>{
-      let text = `Hola, buen dia. Estoy interesado en la compra del producto: Porta Folletos, Por la cantidad de ${quatity.value}, con las medidas de ${product.sizes[selectedSize.value]}, el cual tendría un valor de ${price.value} Soles.`
+      let text = `Hola, buen día. Estoy interesado en la compra del producto: Porta Folletos, Por la cantidad de ${quatity.value}, con las medidas de ${product.sizes[selectedSize.value]}, el cual tendría un valor de ${price.value} Soles.`
       return text;
     }
 
