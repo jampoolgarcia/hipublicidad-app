@@ -5,7 +5,8 @@ import { phoneNumber } from "~/helpers/config";
 
 export const WhatsApp = component$(() => {
 
-    const whatsapp = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=Hola%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre&type=phone_number&app_absent=0`;
+    const text = 'Agenda una cita para que nuestros especialistas vayan a tu negocio y empecemos a mostrarte al mundo.';
+    const whatsapp = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${text}&type=phone_number&app_absent=0`;
 
     return (<Link 
                 href={whatsapp} 

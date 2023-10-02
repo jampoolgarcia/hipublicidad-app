@@ -18,7 +18,6 @@ export const ProductInfo = component$(({ title, description, price }: Props) =>{
         </p>
         <div class="text-xl text-palette-primary font-medium py-4 px-1">
           <Price
-            currency="$"
             num={price}
             numSize="text-2xl"
           />
