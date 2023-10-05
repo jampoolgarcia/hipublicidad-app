@@ -199,7 +199,7 @@ export const products: IProduct[] = [
         sizes: ['120'],
         description: "CORPOREO DE MDF 5 MM CON VINIL IMPRESO FULL COLOR LAMINADO BRILLO O MATE, CON PARANTE DE FIERRO REFORZADO, CON MEDIDA DE 120 CM DE ALTURA.   ",
         category: "corporeos",
-        images: ["corporeosimple.jpg"]
+        images: ["corporeoSimple.jpg"]
     },
     {
         id: 23,
