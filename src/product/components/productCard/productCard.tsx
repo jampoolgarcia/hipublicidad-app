@@ -20,31 +20,23 @@ export const ProductCard = component$(({
 
   return (
     <Link
-      class="h-120 w-72 rounded shadow-lg mx-auto border border-palette-lighter"
+      class="w-72 mx-auto border transform duration-500 ease-in-out border-palette-lighter hover:scale-105"
       href={`/products/${id}`}>
-      <div class="h-72 border-b-2 border-palette-lighter relative">
+      <div class="border-b-2 border-palette-lighter relative">
         <img
           width="320"
           height="288"
           src={`${imgUrl}${images[0]}`}
           alt={title}
-          class="transform h-72 duration-500 ease-in-out hover:scale-105 hover:shadow-lg"
+          class="rounded h-72"
         />
       </div>
-      <div class="h-48 relative">
-        <div class="font-primary text-palette-primary text-2xl pt-4 px-4 font-semibold truncate">
+      <div class="relative">
+        <div class="font-primar text-2xl pt-4 px-4 font-semibold truncate">
           {title}
         </div>
-        <div class="text-lg text-gray-600 p-4 font-primary font-light truncate">
+        <div class="text-lg text-gray-600 px-4 font-primary font-light truncate-text-2">
           {description}
-        </div>
-        <div
-          class="text-palette-dark font-primary font-medium text-base absolute bottom-0 right-0 mb-4 pl-8 pr-4 pb-1 pt-2 bg-palette-lighter 
-          rounded-tl-sm triangle">
-          <Price 
-            currency="S/"
-            num={prices[0]}
-            numSize="text-lg"/>
         </div>
       </div>
   </Link>
