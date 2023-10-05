@@ -2,7 +2,7 @@ import { component$ } from '@builder.io/qwik';
 import { Link } from '@builder.io/qwik-city';
 import { imgUrl } from '~/helpers/config';
 import type { IProduct } from '~/product/interface';
-import { Price } from '~/shared';
+import { Image } from '@unpic/qwik';
 
 interface Props {
     product: IProduct
@@ -13,8 +13,7 @@ export const ProductCard = component$(({
         id,
         images,
         title,
-        description,
-        prices
+        description
     }
 }: Props) => {
 
@@ -23,7 +22,7 @@ export const ProductCard = component$(({
       class="w-72 mx-auto border transform duration-500 ease-in-out border-palette-lighter hover:scale-105"
       href={`/products/${id}`}>
       <div class="border-b-2 border-palette-lighter relative">
-        <img
+        <Image
           width="320"
           height="288"
           src={`${imgUrl}${images[0]}`}
