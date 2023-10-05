@@ -1,0 +1,31 @@
+/* social icons */
+
+.social-icons {
+	z-index: 888;
+	background-color: var(--bg-color);
+	padding: 8px;
+	position: fixed;
+	border-radius: 15px;
+	top: 50%;
+	left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(-50%);
+	transition: 0.5s ease;
+}
+
+.social-icons a {
+	color: var(--primary-color);
+	font-size: 1.6em;
+	transition: 0.3s ease;
+}
+
+.social-icons a:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.social-icons a:hover {
+	transform: scale(1.3);
+}

@@ -14,4 +14,4 @@ export * from './components/footer';
 export * from './components/ui/pageTitle';
 export * from './components/ui/whatsapp-btn/whatsapp-btn';
 export * from './components/ui/price';
-export * from './components/ui/social-icons';
+export * from './components/ui/social-icons/social-icons';
