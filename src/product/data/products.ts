@@ -8,7 +8,7 @@ export const products: IProduct[] = [
         sizes: ['150x100'],
         description: "LETRERO INTERIOR CORPORATIVO OFICINA O REPCESIÓN MDF 9 MM LAMINADO CON VINIL MATE O BRILLANTE CUALQUIER COLOR CON MEDIDA 90 CM X 60 CM A 150 CM X 100 CM (INCLUYE PLANTILLA DE INSTALACIÓN).",
         category: "letreros",
-        images: ["cariDent.jpg"],
+        images: ["test.jpeg"],
     },
     {
         id: 2,
