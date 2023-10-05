@@ -4,7 +4,7 @@ export * from './components/navItem';
 
 
 
-export * from './components/section/header';
+export * from './components/section/header/header';
 export * from './components/section/galery';
 export * from './components/section/ourServices/ourServices';
 export * from './components/section/quote';
