@@ -13,6 +13,7 @@ interface IData {
     productList: IProduct[]
 }
 
+
 export const useData =  routeLoader$(async () => {
     const data: IData[] = [];
 

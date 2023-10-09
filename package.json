@@ -30,6 +30,7 @@
     "@types/compression": "^1.7.2",
     "@types/eslint": "8.40.2",
     "@types/express": "4.17.17",
+    "@types/jquery": "^3.5.22",
     "@types/node": "^20.4.0",
     "@typescript-eslint/eslint-plugin": "5.61.0",
     "@typescript-eslint/parser": "5.61.0",
@@ -46,5 +47,9 @@
     "undici": "5.22.1",
     "vite": "4.4.0",
     "vite-tsconfig-paths": "4.2.0"
+  },
+  "dependencies": {
+    "@types/slick-carousel": "^1.6.38",
+    "slick-carousel": "^1.8.1"
   }
 }

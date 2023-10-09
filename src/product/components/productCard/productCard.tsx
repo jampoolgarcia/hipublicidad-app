@@ -20,7 +20,7 @@ export const ProductCard = component$(({
   return (
     <Link
       class="w-72 mx-auto border transform duration-500 ease-in-out border-palette-lighter hover:scale-105"
-      href={`/products/${id}`}>
+      href={`/products/details/${id}`}>
       <div class="border-b-2 border-palette-lighter relative">
         <Image
           width="320"
