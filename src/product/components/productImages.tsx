@@ -21,7 +21,7 @@ export const ProductImages = component$(({ images }: Props ) =>{
         <div class="w-full max-w-xl border border-palette-lighter bg-white rounded shadow-lg">
         <div class="relative w-full h-96">
           <img
-            src={`${imgUrl}${images[0]}`}
+            src={`${imgUrl}${img.value}`}
             width="410"
             height="384"
             // alt={mainImg.altText}
