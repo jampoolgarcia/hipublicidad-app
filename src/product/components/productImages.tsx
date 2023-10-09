@@ -9,22 +9,24 @@ interface Props {
 export const ProductImages = component$(({ images }: Props ) =>{
 
     const img = useSignal(images[0]);
-    //const scrollRef = document.getElementById('scrollImg');
+    
 
     const scroll = $((scrollOffset: number)  => {
-        scrollOffset;
+      const scrollRef = document.getElementById('scrollImg')!;
+      if(scrollRef)
+        scrollRef.scrollLeft += scrollOffset;
     })
 
     return (
-        <div class="w-full md:w-1/2 max-w-md border border-palette-lighter bg-white rounded shadow-lg">
-        <div class="relative h-96">
+        <div class="w-full max-w-xl border border-palette-lighter bg-white rounded shadow-lg">
+        <div class="relative w-full h-96">
           <img
             src={`${imgUrl}${images[0]}`}
             width="410"
             height="384"
             // alt={mainImg.altText}
             alt="images not found"
-            class="transform h-96 duration-500 ease-in-out hover:scale-105"
+            class="transform h-96 w-full duration-500 ease-in-out hover:scale-105"
           />
         </div>
         <div class="relative flex border-t border-palette-lighter">
