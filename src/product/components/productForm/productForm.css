@@ -4,7 +4,8 @@
 
 .radio-button label {
     display: inline-block;
-    background-color: #d1d1d1;
+    background-color: #fff;
+    border-radius: 15px;
     padding: 4px 11px;
     font-family: Arial;
     font-size: 18px;
@@ -12,5 +13,6 @@
 }
 
 .radio-button input[type="radio"]:checked+label {
-    background-color: #76cf9f;
+    background-color: var(--primary-color);
+    color: #fff;
 }

@@ -1,7 +1,7 @@
 import { component$, useComputed$, useSignal, useStyles$ } from "@builder.io/qwik";
 
 import type { IProduct } from "~/product/interface";
-import { ProductInfo } from "../productInfo";
+import { ProductInfo } from "../productInfo/productInfo";
 import { ProductForm } from "../productForm/productForm";
 
 import style from './productDetails.css?inline';

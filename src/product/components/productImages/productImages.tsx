@@ -1,5 +1,7 @@
-import { $, component$, useSignal } from "@builder.io/qwik";
+import { $, component$, useSignal, useStyles$ } from "@builder.io/qwik";
 import { imgUrl } from "~/helpers/config";
+
+import style from './productImages.css?inline';
 
 
 interface Props {
@@ -7,6 +9,8 @@ interface Props {
 }
 
 export const ProductImages = component$(({ images }: Props ) =>{
+
+  useStyles$(style);
 
     const img = useSignal(images[0]);
     
