@@ -14,13 +14,13 @@ export const GalerySection = component$(() => {
         <section id="galery" class="bg-[#3d83ff] h-screen w-full flex flex-col lg:flex-col-reverse justify-around items-center gap-4 text-white">
 
             <div  class="flex w-full lg:w-2/3 h-full lg:h-2/3 bg-red-500">
-                {
+                {/* {
                     imgs.map(img => (
                         <Image key={img} width={0} height={0} 
                         class="flex-grow object-cover opacity-80 transition-all ease-in-out duration-500 hover:cursor-crosshair hover:w-2/3 hover:opacity-100" 
                         src={img} alt="images" /> 
                     ))
-                }
+                } */}
             </div>  
 
             <div>
