@@ -1,5 +1,6 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik"
 import { Link } from "@builder.io/qwik-city"
+
 import type { ICategory } from "~/product/interface"
 
 import { imgUrl } from '~/helpers/config';
@@ -25,7 +26,7 @@ export const ProductCategory = component$(({
         <li class="card">
             <Link href={`/products/${link}`} class="flex flex-col items-center">
                 <div class="img">
-                    <img src={`${imgUrl}${image}`} alt="img" draggable={false} />
+                    <img class="image" width={140} height={140} src={`${imgUrl}${image}`} alt="img" draggable={false} />
                 </div>
                 <h2>{title}</h2>
                 <span>{description}</span>

@@ -1,7 +1,6 @@
 import { Slot, component$, useStylesScoped$, useVisibleTask$ } from '@builder.io/qwik';
 
 import style from './carouselMulti.css?inline';
-import { Link } from '@builder.io/qwik-city';
 
 export const CarouselMulti = component$(() => {
 
@@ -12,14 +11,15 @@ export const CarouselMulti = component$(() => {
         const carousel = (document.querySelector(".carousel") as HTMLDivElement)!;
         const arrowBtns = document.querySelectorAll(".wrapper i");
 
-        const firstCardWidth = (carousel.querySelector(".card") as HTMLDivElement)?.offsetWidth;
+        const firstCardWidth = (carousel.querySelector(".card") as HTMLDivElement)!.offsetWidth;
 
         const carouselChildrens = [...carousel.children];
 
-        let isDragging = false, isAutoPlay = true, startX: number, startScrollLeft: number, timeoutId: any;
+        // let isAutoPlay = true;
+        let isDragging = false, startX: number, startScrollLeft: number, timeoutId: any;
 
         // Get the number of cards that can fit in the carousel at once
-        let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+        const cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
 
         // Insert copies of the last few cards to beginning of carousel for infinite scrolling
         carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
@@ -82,7 +82,7 @@ export const CarouselMulti = component$(() => {
         }
 
         const autoPlay = () => {
-            if (!isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+            // if (!isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
             // Autoplay the carousel after every 2500 ms
             timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
         }
@@ -102,15 +102,6 @@ export const CarouselMulti = component$(() => {
             <i id="left" class="fa-solid fa-angle-left"></i>
             <ul class="carousel">
                 <Slot />
-                {/* <li class="card">
-                    <Link href="/products/">
-                        <div class="img">
-                            <img src="img/01.jpg" alt="img" draggable={false} />
-                        </div>
-                        <h2>Blanche Pearson</h2>
-                        <span>Sales Manager</span>
-                    </Link>
-                </li> */}
             </ul>
             <i id="right" class="fa-solid fa-angle-right"></i>
         </div>

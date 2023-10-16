@@ -16,7 +16,7 @@ export const ProductImages = component$(({ images }: Props ) =>{
     
 
     const scroll = $((scrollOffset: number)  => {
-      const scrollRef = document.getElementById('scrollImg')!;
+      const scrollRef = document.getElementById('scrollImg');
       if(scrollRef)
         scrollRef.scrollLeft += scrollOffset;
     })

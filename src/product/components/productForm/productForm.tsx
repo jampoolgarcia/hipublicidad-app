@@ -24,8 +24,8 @@ export const ProductForm = component$((props: { quatity: Signal<number>, selecte
       <div class="radio-button flex items-start gap-2 mb-3">
         {
           product.sizes.map((size, index) => (
-            <div>
-              <input type="radio" id={size} onClick$={(e) => updateSize(`${index}`)} name="sizes" value={index} checked={index === 0} />
+            <div key={index}>
+              <input type="radio" id={size} onClick$={() => updateSize(`${index}`)} name="sizes" value={index} checked={index === 0} />
               <label for={size}>{size}</label>
             </div>
           ))

@@ -56,7 +56,7 @@ export const OurServices = component$(() => {
                         {/* <!-- ItemS 1 --> */}
                         {
                             imgs.map((service) => (
-                                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <div key={service} class="hidden duration-700 ease-in-out" data-carousel-item>
                                     <Image
                                             width="300"
                                             height="300"
