@@ -23,7 +23,7 @@ export const ProductCategory = component$(({
 
     return (<>
         <li class="card">
-            <Link href={`/products/${link}`} class="card">
+            <Link href={`/products/${link}`} class="flex flex-col items-center">
                 <div class="img">
                     <img src={`${imgUrl}${image}`} alt="img" draggable={false} />
                 </div>

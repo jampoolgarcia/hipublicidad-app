@@ -80,7 +80,7 @@
 }
 
 .carousel .card .img {
-    background: var(--primary-color);
+    background: #3d83ff;
     height: 148px;
     width: 148px;
     border-radius: 50%;

@@ -87,11 +87,11 @@ export const GalerySection = component$(() => {
                 </p>
             </div>
 
-            <div class="grid grid-cols-2 gap-2">
+            <div class="grid grid-cols-4 gap-2">
                     {
                         imgs.map((img, index) => (
                             <div>
-                              <Image key={img} width={200} height={200} src={img} alt="images" class="h-auto max-w-full rounded-lg" />
+                              <Image key={img} width={300} height={300} src={img} alt="images" class="h-auto max-w-full rounded-lg" />
                             </div>
                         ))
                     }

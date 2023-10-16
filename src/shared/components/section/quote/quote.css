@@ -1,0 +1,131 @@
+.contact-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    color: #fff;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 1rem;
+}
+
+
+.contact-info  span{
+ display: block;
+}
+
+.contact-info i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+}
+
+.contact-form h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form .text-box {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50% - 10px);
+    height: 50px;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.contact-form .text-box:first-child {
+    margin-right: 0.8rem;
+}
+
+.contact-form textarea {
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 0.7rem;
+    min-height: 200px;
+    max-height: 400px;
+    resize: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+.contact-form .send-btn {
+    float: right;
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+    cursor: pointer;
+}
+
+
+.contact-form .send-btn:hover {
+    background: #0582E3;
+}
+
+@media screen and (max-width: 950px) {
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-form {
+        margin: 30px 50px;
+    }
+
+    .contact-form h2 {
+        font-size: 1.7rem;
+    }
+
+    .contact-form .text-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .contact-info {
+        padding: 0;
+        margin: 0.2rem;
+        overflow: hidden;
+    }
+
+    .contact-info i{
+        margin-right: 0.3rem;
+    }
+
+    .contact-form {
+        margin: 30px 10px;
+    }
+}
