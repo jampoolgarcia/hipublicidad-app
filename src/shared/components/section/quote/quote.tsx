@@ -1,6 +1,4 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
-import { PageTitle } from "~/shared";
-import { Image } from '@unpic/qwik';
 
 import style from './quote.css?inline';
 
