@@ -9,12 +9,12 @@ export const Quote = component$(() => {
     useStylesScoped$(style);
 
     return (<>
-        <section id="quote" class="contact-section">
+        <section id="quote" class={`contact-section bg-[url(/img/contact.jpg)]`}>
             <div class="contact-info">
-                <span><i class="fa-solid fa-location-dot"></i>Address, City, Country</span>
-                <span><i class="fas fa-envelope"></i>contact@email.com</span>
-                <span><i class="fas fa-phone"></i>+00 0000 000 000</span>
-                <span><i class="fas fa-clock"></i>Mon - Fri 8:00 Am to 5:00 PM</span>
+                <span><i class="fa-solid fa-location-dot"></i>Av Bolivia 148, 3er Piso Local 3398 C.C.</span>
+                <span><i class="fas fa-envelope"></i>gerentedeventas@hipublicidad.com</span>
+                <span><i class="fas fa-phone"></i>+51 986771821</span>
+                <span><i class="fa-brands fa-whatsapp"></i>+51 986771821</span>
             </div>
             <div class="contact-form">
                 <h2>Contact Us</h2>

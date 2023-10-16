@@ -29,7 +29,7 @@ export const Footer = component$(() => {
 
             <div class="footer-content text-white">
                 <h4>Contacto</h4>
-                <li><i class="fa-brands fa-whatsapp"></i> Whatsapp: +51 986771821</li>
+                
                 <li><i class="fa-solid fa-phone"></i> Telefono: +51 986771821</li>
                 <li><i class="fa-solid fa-envelope"></i> Correo: gerentedeventas@hipublicidad.com</li>
                 <li><i class="fa-solid fa-location-dot"></i> Av Bolivia 148, 3er Piso Local 3398 C.C. Centro de Lima.</li>
