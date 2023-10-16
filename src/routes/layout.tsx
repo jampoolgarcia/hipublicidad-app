@@ -29,7 +29,7 @@ export default component$(() => {
             <div class="flex flex-col justify-center items-center">
               <Slot />
             </div>
-          <Footer />
+          <Footer /> 
         </main>   
       </ContextProvaider>
     </> 

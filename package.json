@@ -49,6 +49,6 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "react-responsive-carousel": "^3.2.23"
+    "flowbite": "^1.8.1"
   }
 }

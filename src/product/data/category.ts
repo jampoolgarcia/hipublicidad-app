@@ -32,7 +32,7 @@ export const categories: ICategory[] =  [
   {
     id: 5,
     title: "MERCHANDISING",
-    description: 'Llaveros de acrílico, foto check, lapiceros publicitarios, polos publicitarios, tasas personalizadas, mochilas publicitarias, chalecos personalizados, llavero destapador.',
+    description: 'Llaveros de acrílico, foto check, lapiceros publicitarios, polos publicitarios, tasas personalizadas y más...',
     link: 'merchandising',
     image: "lapiceros.jpg" ,
     
