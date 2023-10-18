@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 
-import { CarouselMulti, PageTitle } from "~/shared";
+import { CarouselGalery, PageTitle } from "~/shared";
 
 import { ProductCategory } from "../components";
 import { categories } from "../data";
@@ -18,13 +18,13 @@ export const ProductSection =  component$(() => {
                  Transforma tus diseños con la calidad de nuestros productos. <br /> Contáctanos para realizar tu <a href="#quote" class="text-bold">cotización</a>.
                 </p>
                 
-                <CarouselMulti>
+                <CarouselGalery>
                     {
                         categories.map((product) => (
                             <ProductCategory key={product.id} product={product} />
                         ))
                     }
-                </CarouselMulti>
+                </CarouselGalery>
             </section>
         </>)
 })

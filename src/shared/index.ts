@@ -18,3 +18,4 @@ export * from './components/ui/social-icons/social-icons';
 
 
 export * from './components/carousel/multi/carouselMulti';
+export * from './components/carousel/galery/carouselGalery';

@@ -1,9 +1,10 @@
-import { component$, useStylesScoped$ } from "@builder.io/qwik"
+import { component$, useStylesScoped$, useVisibleTask$ } from "@builder.io/qwik"
 import { Link } from "@builder.io/qwik-city"
+import { Image } from '@unpic/qwik';
 
 import type { ICategory } from "~/product/interface"
 
-import { imgUrl } from '~/helpers/config';
+import { imgCategoryUrl } from '~/helpers/config';
 
 import styles from './productCategory.css?inline';
 
@@ -14,7 +15,7 @@ interface Props {
 export const ProductCategory = component$(({
     product: {
         image,
-        title,
+        smallImg,
         link,
         description
     }
@@ -22,8 +23,35 @@ export const ProductCategory = component$(({
 
     useStylesScoped$(styles);
 
+    useVisibleTask$(() => {
+        const blurDivs = document.querySelectorAll('.blur-load')!;
+
+        blurDivs.forEach((div) => {
+            const img = div.querySelector("img");
+
+            function loaded () {
+                div.classList.add('loaded')
+            }
+
+            if(img?.complete){
+                loaded();
+            } else {
+                img?.addEventListener("load", loaded);
+            }
+        });
+    })
+
     return (<>
-        <li class="card">
+
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <Link href={`/products/${link}`}>
+                <div class="blur-load" style={`background-image: url('${imgCategoryUrl}${smallImg}')`}>
+                    <Image width="1366" height="768" loading="lazy" src={`${imgCategoryUrl}${image}`} alt={description} class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
+                </div>
+            </Link>
+        </div>
+
+        {/* <li class="card">
             <Link href={`/products/${link}`} class="flex flex-col items-center">
                 <div class="img">
                     <img class="image" width={140} height={140} src={`${imgUrl}${image}`} alt="img" draggable={false} />
@@ -31,16 +59,6 @@ export const ProductCategory = component$(({
                 <h2>{title}</h2>
                 <span>{description}</span>
             </Link>
-        </li>
-        {/* <Link href={`/products/${link}`} 
-              class="w-full custom-shadow h-64 mx-auto rounded-md overflow-hidden bg-cover bg-center md:w-[48%] transform duration-500 ease-in-out hover:scale-105 hover:shadow-lg" 
-              style={`background-image: url('${imgUrl}${image}')`}>
-            <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
-                <div class="px-10 max-w-xl">
-                    <h2 class="text-2xl text-white font-semibold">{ title }</h2>
-                    <p class="mt-2 text-gray-200">{ description }</p>
-                </div>
-            </div>
-        </Link> */}
+        </li> */}
     </>)
 })
