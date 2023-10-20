@@ -27,5 +27,5 @@ jobs:
           git pull origin main
           git status
           npm install --only=prod
-          npm run build.server
+          npm run build.all
           pm2 restart hipublicidad
