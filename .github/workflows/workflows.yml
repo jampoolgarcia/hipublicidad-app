@@ -26,6 +26,6 @@ jobs:
           cd /var/www/hipublicidad-app/
           git pull origin main
           git status
-          npm install --only=prod
-          npm run build.all
+          npm install 
+          npm run build.server
           pm2 restart hipublicidad
