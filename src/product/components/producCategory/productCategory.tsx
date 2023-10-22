@@ -42,23 +42,12 @@ export const ProductCategory = component$(({
     })
 
     return (<>
-
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <Link href={`/products/${link}`}>
                 <div class="blur-load" style={`background-image: url('${imgCategoryUrl}${smallImg}')`}>
-                    <Image width="1366" height="768" loading="lazy" src={`${imgCategoryUrl}${image}`} alt={description} class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
+                    <Image width="1366" height="768" loading="lazy" src={`${imgCategoryUrl}${image}`} alt={description} class="absolute block w-full max-w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
                 </div>
             </Link>
         </div>
-
-        {/* <li class="card">
-            <Link href={`/products/${link}`} class="flex flex-col items-center">
-                <div class="img">
-                    <img class="image" width={140} height={140} src={`${imgUrl}${image}`} alt="img" draggable={false} />
-                </div>
-                <h2>{title}</h2>
-                <span>{description}</span>
-            </Link>
-        </li> */}
     </>)
 })

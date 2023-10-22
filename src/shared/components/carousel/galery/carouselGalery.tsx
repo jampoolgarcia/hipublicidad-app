@@ -6,11 +6,7 @@ export const CarouselGalery = component$(() => {
         <div id="gallery" class="relative w-full" data-carousel="slide">
             {/* <!-- Carousel wrapper --> */}
             <div class="relative h-56 overflow-hidden rounded-lg md:h-120">
-                {/* <!-- Items --> */}
                 <Slot />
-                {/* <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-                </div> */}
             </div>
             {/* <!-- Slider controls --> */}
             <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
