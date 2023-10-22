@@ -20,7 +20,7 @@ export const Quote = component$(() => {
                     <input type="text" name="name" class="text-box" placeholder="Enter Your Name" required />
                     <input type="email" name="email" class="text-box" placeholder="Enter Your Email" required />
                     <textarea name="menssage" id="menssage" rows={5} class="" placeholder="Enter Your Menssage" required></textarea>
-                    <input type="submit" name="submit" class="send-btn" value="send" />
+                    <input type="submit" name="submit" class="send-btn" value="Enviar" />
                 </form>
             </div>
         </section> 

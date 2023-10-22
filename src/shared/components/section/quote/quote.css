@@ -114,16 +114,13 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 550px) {
     .contact-info {
-        padding: 0;
-        margin: 0.2rem;
-        overflow: hidden;
+        display: none;
     }
+}
 
-    .contact-info i{
-        margin-right: 0.3rem;
-    }
+@media screen and (max-width: 370px) {
 
     .contact-form {
         margin: 30px 10px;
