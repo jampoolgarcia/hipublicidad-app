@@ -278,9 +278,9 @@ footer{
 
 @media (max-width: 1200px){
 
-  .home-text h1{
+  /* .home-text h1{
     font-size: 4rem;
-  }
+  } */
 
   .contact-section {
     gap: 2rem;
@@ -323,7 +323,7 @@ footer{
 
 
 @media (max-width: 500px){
-  .home-text h1{
+  /* .home-text h1{
     font-size: 2rem;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -333,7 +333,7 @@ footer{
     font-size: 15px;
     line-height: 25px;
     margin-bottom: 25px;
-  }
+  } */
 
   h2 {
     font-size: 1.8rem;

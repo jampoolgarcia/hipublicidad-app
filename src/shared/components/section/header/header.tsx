@@ -1,9 +1,9 @@
-import { component$, useStyles$ } from "@builder.io/qwik";
+import { component$, useStylesScoped$ } from "@builder.io/qwik";
 
-import header from './header.css?inline'
+import headercss from './header.css?inline'
 
 export const Headers = component$(() => {
-    useStyles$(header);
+    useStylesScoped$(headercss);
 
     return (<>
       <header class="header" id="home">
