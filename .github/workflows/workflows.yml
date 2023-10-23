@@ -24,8 +24,8 @@ jobs:
         port: 22
         script: |
           cd /var/www/hipublicidad-app/
+          pm2 stop hipublicidad
           git pull origin main
           git status
           npm install 
-          npm run build.server
-          pm2 restart hipublicidad
+          pm2 start hipublicidad
