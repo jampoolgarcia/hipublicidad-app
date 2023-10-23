@@ -1,12 +1,12 @@
-import { component$, useStylesScoped$, useVisibleTask$ } from "@builder.io/qwik"
+import { component$ } from "@builder.io/qwik"
 import { Link } from "@builder.io/qwik-city"
-import { Image } from '@unpic/qwik';
+
 
 import type { ICategory } from "~/product/interface"
 
 import { imgCategoryUrl } from '~/helpers/config';
 
-import styles from './productCategory.css?inline';
+import { ImageBlur } from "~/shared";
 
 interface Props {
     product: ICategory
@@ -15,38 +15,14 @@ interface Props {
 export const ProductCategory = component$(({
     product: {
         image,
-        smallImg,
-        link,
-        description
+        link
     }
 }: Props) => {
-
-    useStylesScoped$(styles);
-
-    useVisibleTask$(() => {
-        const blurDivs = document.querySelectorAll('.blur-load')!;
-
-        blurDivs.forEach((div) => {
-            const img = div.querySelector("img");
-
-            function loaded () {
-                div.classList.add('loaded')
-            }
-
-            if(img?.complete){
-                loaded();
-            } else {
-                img?.addEventListener("load", loaded);
-            }
-        });
-    })
 
     return (<>
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <Link href={`/products/${link}`}>
-                <div class="blur-load" style={`background-image: url('${imgCategoryUrl}${smallImg}')`}>
-                    <Image width="1366" height="768" loading="lazy" src={`${imgCategoryUrl}${image}`} alt={description} class="absolute block w-full max-w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
-                </div>
+                <ImageBlur  img={image} imgUrl={imgCategoryUrl} imgClass="absolute block w-full max-w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
             </Link>
         </div>
     </>)
