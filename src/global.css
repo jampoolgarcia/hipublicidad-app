@@ -57,12 +57,6 @@ h2 {
   background-color: rgb(72, 66, 66);
 }
 
-/* .blur-load::before {
-  content: "";
-  inset: 0;
- 
-} */
-
 @keyframes pulse {
   0% {
     background-color: rgba(72, 66, 66, .8);
