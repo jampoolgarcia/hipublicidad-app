@@ -25,6 +25,8 @@ jobs:
         script: |
           cd /var/www/hipublicidad-app/
           pm2 stop hipublicidad
+          rm -r dist
+          rm -r server
           git pull origin main
           git status
           npm install 
