@@ -1,0 +1,1 @@
+import{h as s,w as a,$ as l,x as u}from"./q-127cba13.js";const e=n=>s(u,{children:[a(r=>r.currency??"S/",[n]),l("span",null,{class:a(r=>r.numSize,[n])},a(r=>r.num,[n]),3,null)]},3,"A4_0");export{e as s_TDKhZrbpKao};
