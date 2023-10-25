@@ -4,21 +4,25 @@ import type { IProduct } from "~/product/interface";
 import { ProductCard } from "~/product/components";
 
 import { products } from '~/product';
+import { categories } from "~/product";
+
+
 import { PageTitle } from "~/shared";
 
 interface IData {
-  category: string;
+  title: string,
   productList: IProduct[]
 }
 
 export const useProduct = routeLoader$<IData[]>(async ({params}) => {
     const data: IData[] = [];
 
-    const category = params.category.toLowerCase();
-    const productList = products.filter(product => product.category === category);
+    const link = params.category.toLowerCase();
+    const title = categories.find(c => c.link === link)?.title || link;
+    const productList = products.filter(product => product.category === link);
 
     data.push({
-      category,
+      title,
       productList
     })
 
@@ -31,9 +35,9 @@ export default component$(() =>{
 
     return (<>
         {
-          data.value.map(({ category, productList }) => (
-              <section key={category} class="flex flex-col justify-center w-full py-4">
-                  <PageTitle title={category} align="text-left" uppercase="uppercase"></PageTitle>            
+          data.value.map(({ title, productList }) => (
+              <section key={title} class="flex flex-col justify-center w-full py-4 mb-10">
+                  <PageTitle title={title} align="text-left" uppercase="uppercase"></PageTitle>            
                   
                   <div class="flex flex-wrap content-start gap-6 w-full">
                       {

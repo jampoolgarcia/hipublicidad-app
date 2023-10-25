@@ -9,10 +9,10 @@ export const Headers = component$(() => {
       <header class="header" id="home">
         <div class="home-text">
             <h1>Creatividad en <br /> Diseño</h1>
-            <p> ¡Destaca tu marca con productos personalizados 
+            {/* <p> ¡Destaca tu marca con productos personalizados 
                <br/> 
                únicos que capturarán la atención de tus clientes!
-            </p>
+            </p> */}
             <a href="#quote" class="home-btn">Cotizar</a>
         </div>
       </header>

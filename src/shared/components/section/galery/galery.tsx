@@ -32,13 +32,13 @@ export const GalerySection = component$(() => {
 
             <div class="grid gap-4">
                 <div>
-                    <ImageBlur img={imagenSeleted.value} imgUrl={imgGaleryUrl} imgClass="h-auto max-w-full rounded-lg transform duration-500 ease-in-out" />
+                    <ImageBlur img={imagenSeleted.value} imgUrl={imgGaleryUrl} imgClass="h-120 max-w-full rounded-lg transition-all duration-500 ease-in-out" />
                 </div>
                 <div class="grid grid-cols-4 gap-4">
                     {
                         imgs.map((img) => (
                             <div key={img}>
-                                <ImageBlur img={img} imgUrl={imgGaleryUrl} imgClass="h-auto cursor-pointer transform duration-500 ease-in-out max-w-full rounded-lg  hover:scale-105" click={$(() => changeImg(img))} />
+                                <ImageBlur img={img} imgUrl={imgGaleryUrl} imgClass="h-auto cursor-pointer transition-all duration-500 ease-in-out max-w-full rounded-lg  hover:scale-105" click={$(() => changeImg(img))} />
                             </div>
                         ))
                     }
