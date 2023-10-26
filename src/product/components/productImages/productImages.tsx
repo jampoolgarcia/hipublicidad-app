@@ -1,4 +1,5 @@
 import { $, component$, useSignal, useStyles$ } from "@builder.io/qwik";
+
 import { imgUrl } from "~/helpers/config";
 
 import style from './productImages.css?inline';
