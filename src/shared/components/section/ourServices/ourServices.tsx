@@ -1,13 +1,30 @@
-import { component$ } from "@builder.io/qwik";
+import { $, component$, useStylesScoped$ } from "@builder.io/qwik";
 import { PageTitle } from "~/shared";
 
 import { imgServices } from "~/helpers/config";
 
 import { Image } from '@unpic/qwik';
 
+import style from './ourServices.css?inline';
+
 export const OurServices = component$(() => {
 
+    useStylesScoped$(style);
+
     const imgs = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg'];
+
+
+    const next = $((index: number) =>{
+        const length = document.querySelectorAll('.slides-div').length;
+        const media = Math.trunc(length/2);
+
+        const btn = document.querySelector(`#button-${index}`)!;
+        const img = document.querySelector(`img${index}`)!;
+
+        btn.classList.add('active');
+        img.classList.add('active');
+
+    })
 
     return (<>
         <section id="services" class="my-5 text-center w-full">
@@ -23,29 +40,28 @@ export const OurServices = component$(() => {
                 </p>
             </div>
 
-            {/* card sections */}
-            {/* <div class="w-full flex flex-wrap content-start gap-2">
+            <div class="slide-container">
+                    <span class="slider-span" id="slider-span1"></span>
+                    <span class="slider-span" id="slider-span2"></span>
+                    <span class="slider-span" id="slider-span3"></span>
 
-                {
-                    services.map((service) => (
+                    <div class="image-slider">
+                        <div class="slides-div" id="slide-1">
+                            <img src="img/services/1.jpg" alt="" class="img" id="img1" />
+                            <a onClick$={() => next(1)} href="#slider-span1" class="button" id="button-1"></a>
+                        </div>
+                        <div class="slides-div" id="slide-2">
+                            <img src="img/services/2.jpg" alt="" class="img" id="img2" />
+                            <a href="#slider-span2" class="button" id="button-2"></a>
+                        </div>
+                        <div class="slides-div" id="slide-3">
+                            <img src="img/services/3.jpg" alt="" class="img" id="img3" />
+                            <a href="#slider-span3" class="button" id="button-3"></a>
+                        </div>
+                    </div>
+                </div>
 
-                        <Link
-                            key={service.img}
-                            href={service.url}
-                            class="flex flex-col content-between h-140 w-140 rounded mx-auto my-4">
-                            <div class="border-b-2 border-palette-lighter relative">
-                                <img
-                                    width="400"
-                                    height="320"
-                                    src={`${imgUrl}${service.img}`}
-                                    alt="nuestro servicios"
-                                    class="transform  h-full duration-500 ease-in-out hover:scale-105 hover:shadow-lg" />
-                            </div>
-                        </Link>
-                    ))
-                }
 
-            </div> */}
 
             <div class="flex justify-center">
 
