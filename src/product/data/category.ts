@@ -52,7 +52,7 @@ export const categories: ICategory[] =  [
   },
   {
     id: 7,
-    title: "SEÑALETICAS",
+    title: "SEÑALÉTICAS",
     description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
     link: "señaleticas",
     smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",

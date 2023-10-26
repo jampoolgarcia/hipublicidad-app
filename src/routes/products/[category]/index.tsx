@@ -19,7 +19,7 @@ export const useProduct = routeLoader$<IData[]>(async ({params}) => {
 
     const link = params.category.toLowerCase();
     const title = categories.find(c => c.link === link)?.title || link;
-    const productList = products.filter(product => product.category === link);
+    const productList = products.filter(product => product.category === title);
 
     data.push({
       title,
