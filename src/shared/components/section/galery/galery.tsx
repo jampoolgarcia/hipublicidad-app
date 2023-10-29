@@ -1,23 +1,15 @@
-import { $, component$, useSignal } from "@builder.io/qwik";
-import { ImageBlur, PageTitle } from "~/shared";
+import { component$ } from "@builder.io/qwik";
 
 
-import { imgGaleryUrl } from '~/helpers/config';
+import { PageTitle } from "~/shared";
+
 
 export const GalerySection = component$(() => {
 
-    const imgs = [
-        'roolscream.jpg',
-        'merchandaising.jpg',
-        'letrero luminoso.jpg',
-        'letras.jpg'
-    ]
+  
 
-    const imagenSeleted = useSignal(imgs[0]);
 
-    const changeImg = $((img: string) => {
-       imagenSeleted.value = img;
-    })
+
 
     return (<>
         <section id="galery" class="bg-[#3d83ff] h-auto w-full flex flex-col justify-around items-center gap-4 text-white">
@@ -30,20 +22,6 @@ export const GalerySection = component$(() => {
                 </p>
             </div>
 
-            <div class="grid gap-4">
-                <div>
-                    <ImageBlur img={imagenSeleted.value} imgUrl={imgGaleryUrl} imgClass="h-120 max-w-full rounded-lg transition-all duration-500 ease-in-out" />
-                </div>
-                <div class="grid grid-cols-4 gap-4">
-                    {
-                        imgs.map((img) => (
-                            <div key={img}>
-                                <ImageBlur img={img} imgUrl={imgGaleryUrl} imgClass="h-auto cursor-pointer transition-all duration-500 ease-in-out max-w-full rounded-lg  hover:scale-105" click={$(() => changeImg(img))} />
-                            </div>
-                        ))
-                    }
-                </div>
-            </div>
 
         </section>
 
