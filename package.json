@@ -49,7 +49,6 @@
     "vite-tsconfig-paths": "4.2.0"
   },
   "dependencies": {
-    "flowbite": "^1.8.1",
-    "swiper": "^11.0.3"
+    "flowbite": "^1.8.1"
   }
 }
