@@ -1,9 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 
-import { CarouselGalery, PageTitle } from "~/shared";
+import { PageTitle } from "~/shared";
 
-import { ProductCategory } from "../components";
-import { categories } from "../data";
+
 
 
 
@@ -16,15 +15,7 @@ export const ProductSection =  component$(() => {
                 <PageTitle title="Nuestros Productos"></PageTitle>
                 <p class="text-sm xl:text-base mt-2 mb-4 text-gray-600">
                  Transforma tus diseños con la calidad de nuestros productos. <br /> Contáctanos para realizar tu <a href="#quote" class="text-bold">cotización</a>.
-                </p>
-                
-                <CarouselGalery>
-                    {
-                        categories.map((product) => (
-                            <ProductCategory key={product.id} product={product} />
-                        ))
-                    }
-                </CarouselGalery>
+                </p>          
             </section>
         </>)
 })

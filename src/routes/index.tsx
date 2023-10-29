@@ -5,7 +5,6 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 import { Headers, GalerySection, Quote, OurServices } from "~/shared";
 import { ProductSection } from "~/product/pages/productSection";
 
-import { CarouselImg } from "~/shared/components/carousel/carousel";
 
 
 
@@ -14,13 +13,11 @@ import { CarouselImg } from "~/shared/components/carousel/carousel";
 export default component$(() => {
   return (
     <>
-
-    <CarouselImg />
-    {/*  <Headers />
+      <Headers />
      <ProductSection />
      <GalerySection />
      <OurServices />
-     <Quote /> */}
+     <Quote /> 
     </>
   );
 });
