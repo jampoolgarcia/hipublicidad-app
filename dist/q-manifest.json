@@ -1,5 +1,5 @@
 {
-  "manifestHash": "xhn7e0",
+  "manifestHash": "3pn3ln",
   "symbols": {
     "s_02wMImzEAbk": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
@@ -15,6 +15,34 @@
         30908
       ]
     },
+    "s_0zjBxcicE2c": {
+      "origin": "product/components/productImages/productImages.tsx",
+      "displayName": "ProductImages_component_div_div_button_onClick_1",
+      "canonicalFilename": "s_0zjbxcice2c",
+      "hash": "0zjBxcicE2c",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": true,
+      "parent": "s_W5sOfqLynwk",
+      "loc": [
+        2349,
+        2366
+      ]
+    },
+    "s_v0F9K5D7O4A": {
+      "origin": "product/pages/productSection.tsx",
+      "displayName": "ProductSection_component_useTask",
+      "canonicalFilename": "s_v0f9k5d7o4a",
+      "hash": "v0F9K5D7O4A",
+      "ctxKind": "function",
+      "ctxName": "useTask$",
+      "captures": true,
+      "parent": "s_0eNsjuiJR3U",
+      "loc": [
+        427,
+        850
+      ]
+    },
     "s_EiNMId5pc2o": {
       "origin": "root.tsx",
       "displayName": "root_component_useVisibleTask",
@@ -27,20 +55,6 @@
       "loc": [
         472,
         505
-      ]
-    },
-    "s_WCKWyE18L5g": {
-      "origin": "routes/context.provaider.tsx",
-      "displayName": "ContextProvaider_component_useVisibleTask_1",
-      "canonicalFilename": "s_wckwye18l5g",
-      "hash": "WCKWyE18L5g",
-      "ctxKind": "function",
-      "ctxName": "useVisibleTask$",
-      "captures": true,
-      "parent": "s_iVsQkINLMRI",
-      "loc": [
-        1507,
-        1777
       ]
     },
     "s_YNcRxwpbU1o": {
@@ -71,18 +85,18 @@
         4381
       ]
     },
-    "s_nJPo1LJE05A": {
-      "origin": "routes/context.provaider.tsx",
-      "displayName": "ContextProvaider_component_useVisibleTask",
-      "canonicalFilename": "s_njpo1lje05a",
-      "hash": "nJPo1LJE05A",
+    "s_qAtljXskjJ8": {
+      "origin": "shared/components/carousel/carousel.tsx",
+      "displayName": "CarouselImg_component_useVisibleTask",
+      "canonicalFilename": "s_qatljxskjj8",
+      "hash": "qAtljXskjJ8",
       "ctxKind": "function",
       "ctxName": "useVisibleTask$",
-      "captures": true,
-      "parent": "s_iVsQkINLMRI",
+      "captures": false,
+      "parent": "s_y3NMZ9Oy2PA",
       "loc": [
-        997,
-        1421
+        532,
+        1031
       ]
     },
     "s_0eNsjuiJR3U": {
@@ -95,8 +109,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        247,
-        1049
+        346,
+        1777
       ]
     },
     "s_0fxYYfOm8lA": {
@@ -207,36 +221,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        283,
-        433
-      ]
-    },
-    "s_BHSf0vM0dr8": {
-      "origin": "routes/cart/index.tsx",
-      "displayName": "cart_component",
-      "canonicalFilename": "s_bhsf0vm0dr8",
-      "hash": "BHSf0vM0dr8",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null,
-      "loc": [
-        136,
-        197
-      ]
-    },
-    "s_BlatG0VqLvs": {
-      "origin": "shopping-cart/index.tsx",
-      "displayName": "ShoppingCart_component",
-      "canonicalFilename": "s_blatg0vqlvs",
-      "hash": "BlatG0VqLvs",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null,
-      "loc": [
-        434,
-        840
+        289,
+        441
       ]
     },
     "s_D73suosUpSU": {
@@ -251,20 +237,6 @@
       "loc": [
         229,
         491
-      ]
-    },
-    "s_F4GforhG0Rk": {
-      "origin": "shopping-cart/components/cart-item.tsx",
-      "displayName": "CartItem_component",
-      "canonicalFilename": "s_f4gforhg0rk",
-      "hash": "F4GforhG0Rk",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null,
-      "loc": [
-        191,
-        1081
       ]
     },
     "s_GlVBzWymKzg": {
@@ -291,8 +263,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        847,
-        1589
+        835,
+        1582
       ]
     },
     "s_M6Og2ksAtHE": {
@@ -361,8 +333,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        209,
-        1825
+        293,
+        1554
       ]
     },
     "s_TDKhZrbpKao": {
@@ -431,8 +403,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        261,
-        2523
+        263,
+        2525
       ]
     },
     "s_WVQf092yzjY": {
@@ -446,7 +418,7 @@
       "parent": null,
       "loc": [
         150,
-        617
+        625
       ]
     },
     "s_WYQoKc0rbPc": {
@@ -487,22 +459,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        223,
-        2671
-      ]
-    },
-    "s_aJSRnDxqT7E": {
-      "origin": "shopping-cart/components/cartTable.tsx",
-      "displayName": "CartTable_component",
-      "canonicalFilename": "s_ajsrndxqt7e",
-      "hash": "aJSRnDxqT7E",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null,
-      "loc": [
-        347,
-        4012
+        259,
+        3045
       ]
     },
     "s_dT0sDkUStYI": {
@@ -599,8 +557,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        729,
-        1459
+        834,
+        1561
       ]
     },
     "s_hoBw3A8VzE4": {
@@ -628,7 +586,7 @@
       "parent": null,
       "loc": [
         319,
-        1158
+        1182
       ]
     },
     "s_iVsQkINLMRI": {
@@ -641,22 +599,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        313,
-        1808
-      ]
-    },
-    "s_kHItHM0KQCg": {
-      "origin": "shopping-cart/components/checkOutButton.tsx",
-      "displayName": "CheckOutButton_component",
-      "canonicalFilename": "s_khithm0kqcg",
-      "hash": "kHItHM0KQCg",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null,
-      "loc": [
-        143,
-        621
+        225,
+        485
       ]
     },
     "s_nFzbA3E8erc": {
@@ -683,8 +627,8 @@
       "captures": false,
       "parent": null,
       "loc": [
-        219,
-        5117
+        313,
+        1271
       ]
     },
     "s_tntnak2DhJ8": {
@@ -740,7 +684,7 @@
       "parent": null,
       "loc": [
         357,
-        998
+        933
       ]
     },
     "s_y3NMZ9Oy2PA": {
@@ -753,8 +697,22 @@
       "captures": false,
       "parent": null,
       "loc": [
-        88,
-        5982
+        479,
+        1227
+      ]
+    },
+    "s_0Zr0JXQA004": {
+      "origin": "shared/components/carousel/carousel.tsx",
+      "displayName": "CarouselImg_component_useStyles",
+      "canonicalFilename": "s_0zr0jxqa004",
+      "hash": "0Zr0JXQA004",
+      "ctxKind": "function",
+      "ctxName": "useStyles$",
+      "captures": false,
+      "parent": "s_y3NMZ9Oy2PA",
+      "loc": [
+        503,
+        508
       ]
     },
     "s_RPDJAz33WLA": {
@@ -795,8 +753,8 @@
       "captures": false,
       "parent": "s_xLl0XgEiJj8",
       "loc": [
-        408,
-        413
+        414,
+        419
       ]
     },
     "s_hTFWxRJoFKQ": {
@@ -809,8 +767,8 @@
       "captures": false,
       "parent": "s_W5sOfqLynwk",
       "loc": [
-        302,
-        307
+        304,
+        309
       ]
     },
     "s_mqtpmDfyS6M": {
@@ -883,20 +841,6 @@
         181
       ]
     },
-    "s_2fccJd7005c": {
-      "origin": "shopping-cart/hooks/use-shopping-cart.tsx",
-      "displayName": "useShoppingCart_cartTotalItems_useComputed",
-      "canonicalFilename": "s_2fccjd7005c",
-      "hash": "2fccJd7005c",
-      "ctxKind": "function",
-      "ctxName": "useComputed$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        462,
-        565
-      ]
-    },
     "s_A5bZC7WO00A": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
       "displayName": "routeActionQrl_action_submit",
@@ -909,20 +853,6 @@
       "loc": [
         35702,
         37336
-      ]
-    },
-    "s_D24yMB8qyss": {
-      "origin": "product/hooks/useProductList.tsx",
-      "displayName": "useProductList_useComputed",
-      "canonicalFilename": "s_d24ymb8qyss",
-      "hash": "D24yMB8qyss",
-      "ctxKind": "function",
-      "ctxName": "useComputed$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        722,
-        750
       ]
     },
     "s_DyVc0YBIqQU": {
@@ -953,62 +883,6 @@
         671
       ]
     },
-    "s_NlrZVxlopGo": {
-      "origin": "shopping-cart/hooks/use-shopping-cart.tsx",
-      "displayName": "useShoppingCart_removeCartItem",
-      "canonicalFilename": "s_nlrzvxlopgo",
-      "hash": "NlrZVxlopGo",
-      "ctxKind": "function",
-      "ctxName": "$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        1372,
-        1591
-      ]
-    },
-    "s_UxngL83CL04": {
-      "origin": "shopping-cart/hooks/use-shopping-cart.tsx",
-      "displayName": "useShoppingCart_updateQuantity",
-      "canonicalFilename": "s_uxngl83cl04",
-      "hash": "UxngL83CL04",
-      "ctxKind": "function",
-      "ctxName": "$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        612,
-        873
-      ]
-    },
-    "s_ZhfncMGNMIg": {
-      "origin": "shopping-cart/hooks/use-shopping-cart.tsx",
-      "displayName": "useShoppingCart_cartSubTotal_useComputed",
-      "canonicalFilename": "s_zhfncmgnmig",
-      "hash": "ZhfncMGNMIg",
-      "ctxKind": "function",
-      "ctxName": "useComputed$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        263,
-        404
-      ]
-    },
-    "s_qIkv3zusHBk": {
-      "origin": "shopping-cart/hooks/use-shopping-cart.tsx",
-      "displayName": "useShoppingCart_addCartItem",
-      "canonicalFilename": "s_qikv3zushbk",
-      "hash": "qIkv3zusHBk",
-      "ctxKind": "function",
-      "ctxName": "$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        921,
-        1327
-      ]
-    },
     "s_wOIPfiQ04l4": {
       "origin": "../node_modules/@builder.io/qwik-city/index.qwik.mjs",
       "displayName": "serverQrl_stuff",
@@ -1021,48 +895,6 @@
       "loc": [
         40354,
         42178
-      ]
-    },
-    "s_wuNuzxg9Yus": {
-      "origin": "product/hooks/useProductList.tsx",
-      "displayName": "useProductList_getOneProductId",
-      "canonicalFilename": "s_wunuzxg9yus",
-      "hash": "wuNuzxg9Yus",
-      "ctxKind": "function",
-      "ctxName": "$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        413,
-        521
-      ]
-    },
-    "s_yF2yEf0QCvM": {
-      "origin": "shopping-cart/hooks/use-shopping-cart.tsx",
-      "displayName": "useShoppingCart_useComputed",
-      "canonicalFilename": "s_yf2yef0qcvm",
-      "hash": "yF2yEf0QCvM",
-      "ctxKind": "function",
-      "ctxName": "useComputed$",
-      "captures": true,
-      "parent": null,
-      "loc": [
-        1656,
-        1682
-      ]
-    },
-    "s_0zjBxcicE2c": {
-      "origin": "product/components/productImages/productImages.tsx",
-      "displayName": "ProductImages_component_div_div_button_onClick_1",
-      "canonicalFilename": "s_0zjbxcice2c",
-      "hash": "0zjBxcicE2c",
-      "ctxKind": "eventHandler",
-      "ctxName": "onClick$",
-      "captures": true,
-      "parent": "s_W5sOfqLynwk",
-      "loc": [
-        2347,
-        2364
       ]
     },
     "s_BUbtvTyvVRE": {
@@ -1093,20 +925,6 @@
         330
       ]
     },
-    "s_XDMCSw2wPEY": {
-      "origin": "shared/components/section/galery/galery.tsx",
-      "displayName": "GalerySection_component__Fragment_section_div_div_div_ImageBlur_click",
-      "canonicalFilename": "s_xdmcsw2wpey",
-      "hash": "XDMCSw2wPEY",
-      "ctxKind": "function",
-      "ctxName": "$",
-      "captures": true,
-      "parent": "s_RdS068Kb0Rs",
-      "loc": [
-        1630,
-        1650
-      ]
-    },
     "s_XP3sY1NIhrA": {
       "origin": "product/components/productForm/productForm.tsx",
       "displayName": "ProductForm_component_updateQuantity",
@@ -1121,34 +939,6 @@
         831
       ]
     },
-    "s_Xu4RrNfjbog": {
-      "origin": "shopping-cart/components/cartTable.tsx",
-      "displayName": "CartTable_component__Fragment_div_table_tbody_tr_td_button_onClick",
-      "canonicalFilename": "s_xu4rrnfjbog",
-      "hash": "Xu4RrNfjbog",
-      "ctxKind": "eventHandler",
-      "ctxName": "onClick$",
-      "captures": true,
-      "parent": "s_aJSRnDxqT7E",
-      "loc": [
-        3053,
-        3090
-      ]
-    },
-    "s_an00C7bVliQ": {
-      "origin": "shared/components/section/galery/galery.tsx",
-      "displayName": "GalerySection_component_changeImg",
-      "canonicalFilename": "s_an00c7bvliq",
-      "hash": "an00C7bVliQ",
-      "ctxKind": "function",
-      "ctxName": "$",
-      "captures": true,
-      "parent": "s_RdS068Kb0Rs",
-      "loc": [
-        435,
-        495
-      ]
-    },
     "s_ar0XW96BD0o": {
       "origin": "product/components/productDetails/productDetails.tsx",
       "displayName": "ProductDatails_component_price_useComputed",
@@ -1159,7 +949,7 @@
       "captures": true,
       "parent": "s_xLl0XgEiJj8",
       "loc": [
-        535,
+        541,
         610
       ]
     },
@@ -1175,34 +965,6 @@
       "loc": [
         530,
         748
-      ]
-    },
-    "s_cPen7CMYS0c": {
-      "origin": "shared/components/ui/navbar/navbar.tsx",
-      "displayName": "Navbar_component__Fragment_nav_div_i_onClick",
-      "canonicalFilename": "s_cpen7cmys0c",
-      "hash": "cPen7CMYS0c",
-      "ctxKind": "eventHandler",
-      "ctxName": "onClick$",
-      "captures": true,
-      "parent": "s_fudBGpYSS58",
-      "loc": [
-        895,
-        911
-      ]
-    },
-    "s_cUKFX1XfQuw": {
-      "origin": "shopping-cart/components/cartTable.tsx",
-      "displayName": "CartTable_component__Fragment_div_table_tbody_tr_td_input_onChange",
-      "canonicalFilename": "s_cukfx1xfquw",
-      "hash": "cUKFX1XfQuw",
-      "ctxKind": "eventHandler",
-      "ctxName": "onChange$",
-      "captures": true,
-      "parent": "s_aJSRnDxqT7E",
-      "loc": [
-        2342,
-        2404
       ]
     },
     "s_eBQ0vFsFKsk": {
@@ -1229,8 +991,8 @@
       "captures": false,
       "parent": "s_W5sOfqLynwk",
       "loc": [
-        381,
-        547
+        383,
+        549
       ]
     },
     "s_fX0bDjeJa0E": {
@@ -1285,8 +1047,64 @@
       "captures": true,
       "parent": "s_W5sOfqLynwk",
       "loc": [
-        1805,
-        1830
+        1807,
+        1832
+      ]
+    },
+    "s_tgMMH1vbHbg": {
+      "origin": "shared/components/section/ourServices/ourServices.tsx",
+      "displayName": "OurServices_component_useStylesScoped",
+      "canonicalFilename": "s_tgmmh1vbhbg",
+      "hash": "tgMMH1vbHbg",
+      "ctxKind": "function",
+      "ctxName": "useStylesScoped$",
+      "captures": false,
+      "parent": "s_sCdX3bsWWeg",
+      "loc": [
+        345,
+        350
+      ]
+    },
+    "s_D24yMB8qyss": {
+      "origin": "product/hooks/useProductList.tsx",
+      "displayName": "useProductList_useComputed",
+      "canonicalFilename": "s_d24ymb8qyss",
+      "hash": "D24yMB8qyss",
+      "ctxKind": "function",
+      "ctxName": "useComputed$",
+      "captures": true,
+      "parent": null,
+      "loc": [
+        722,
+        750
+      ]
+    },
+    "s_wuNuzxg9Yus": {
+      "origin": "product/hooks/useProductList.tsx",
+      "displayName": "useProductList_getOneProductId",
+      "canonicalFilename": "s_wunuzxg9yus",
+      "hash": "wuNuzxg9Yus",
+      "ctxKind": "function",
+      "ctxName": "$",
+      "captures": true,
+      "parent": null,
+      "loc": [
+        413,
+        521
+      ]
+    },
+    "s_cPen7CMYS0c": {
+      "origin": "shared/components/ui/navbar/navbar.tsx",
+      "displayName": "Navbar_component__Fragment_nav_div_i_onClick",
+      "canonicalFilename": "s_cpen7cmys0c",
+      "hash": "cPen7CMYS0c",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": true,
+      "parent": "s_fudBGpYSS58",
+      "loc": [
+        895,
+        911
       ]
     },
     "s_tD5KSvrevqI": {
@@ -1313,8 +1131,8 @@
       "captures": true,
       "parent": "s_W5sOfqLynwk",
       "loc": [
-        1253,
-        1271
+        1255,
+        1273
       ]
     },
     "s_wNk0wY3k58g": {
@@ -1361,270 +1179,203 @@
     }
   },
   "mapping": {
-    "s_02wMImzEAbk": "q-3a210606.js",
-    "s_EiNMId5pc2o": "q-40e905f2.js",
-    "s_WCKWyE18L5g": "q-b304decc.js",
-    "s_YNcRxwpbU1o": "q-39a36c07.js",
-    "s_kK00wQs3EYw": "q-88cea5f0.js",
-    "s_nJPo1LJE05A": "q-b304decc.js",
-    "s_0eNsjuiJR3U": "q-06a933c2.js",
-    "s_0fxYYfOm8lA": "q-2c590bf1.js",
-    "s_0vphQYqOdZI": "q-b8c228a3.js",
-    "s_0xe0cv1pJiE": "q-f8499ceb.js",
-    "s_137c54QLXXg": "q-a4669f38.js",
-    "s_7fOHZwhbDpg": "q-fbeb279b.js",
-    "s_8gdLBszqbaM": "q-d54cf0a0.js",
-    "s_9WJ2BAmSq4M": "q-304f5abe.js",
-    "s_B0lqk5IDDy4": "q-f7c486ff.js",
-    "s_BHSf0vM0dr8": "q-1360cb7d.js",
-    "s_BlatG0VqLvs": "q-5cde1b6d.js",
-    "s_D73suosUpSU": "q-96a54580.js",
-    "s_F4GforhG0Rk": "q-511050bb.js",
-    "s_GlVBzWymKzg": "q-8045ec59.js",
-    "s_LIMr0oryWZA": "q-55685ba3.js",
-    "s_M6Og2ksAtHE": "q-98db310e.js",
-    "s_Myj9iMKPpic": "q-88cea5f0.js",
-    "s_Myq4QBDPB0Y": "q-13dc21c1.js",
-    "s_Nk9PlpjQm9Y": "q-94d1e84a.js",
-    "s_RdS068Kb0Rs": "q-2d7d8e2f.js",
-    "s_TDKhZrbpKao": "q-e0b467d3.js",
-    "s_TxCFOy819ag": "q-3a210606.js",
-    "s_VKFlAWJuVm8": "q-e13e1b57.js",
-    "s_W1wZaAVNrf0": "q-f084fe4d.js",
-    "s_W5sOfqLynwk": "q-bb42c278.js",
-    "s_WVQf092yzjY": "q-7999742c.js",
-    "s_WYQoKc0rbPc": "q-13927c93.js",
-    "s_WmYC5H00wtI": "q-1d031c0e.js",
-    "s_YaQsQb06fQQ": "q-b8fe1944.js",
-    "s_aJSRnDxqT7E": "q-8135b1d0.js",
-    "s_dT0sDkUStYI": "q-0e335a82.js",
-    "s_du27VlkgKEA": "q-c8fa92da.js",
-    "s_e0ssiDXoeAM": "q-06b08ddc.js",
-    "s_euU0r8XWs00": "q-a4825107.js",
-    "s_fudBGpYSS58": "q-8aeabf74.js",
-    "s_gQI1EkAOg4s": "q-bdf5adb5.js",
-    "s_hPwehrgQyPE": "q-cb6c8710.js",
-    "s_hoBw3A8VzE4": "q-88c4433b.js",
-    "s_iBAiR0Ez8FI": "q-a3afc2a8.js",
-    "s_iVsQkINLMRI": "q-b304decc.js",
-    "s_kHItHM0KQCg": "q-64beab57.js",
-    "s_nFzbA3E8erc": "q-32cbdcaf.js",
-    "s_sCdX3bsWWeg": "q-c3b18998.js",
-    "s_tntnak2DhJ8": "q-40e905f2.js",
-    "s_uCZXLhs7jUA": "q-b10bf770.js",
-    "s_wEwK98JNlns": "q-39a36c07.js",
-    "s_xLl0XgEiJj8": "q-d19cda65.js",
-    "s_y3NMZ9Oy2PA": "q-fa64e675.js",
-    "s_RPDJAz33WLA": "q-3a210606.js",
-    "s_TIYBI8Ed0c8": "q-c8fa92da.js",
-    "s_X48scF0IjrY": "q-d19cda65.js",
-    "s_hTFWxRJoFKQ": "q-bb42c278.js",
-    "s_mqtpmDfyS6M": "q-f8499ceb.js",
-    "s_o0xmsT4GSGc": "q-8aeabf74.js",
-    "s_0nhQNk0cxIc": "q-7999742c.js",
-    "s_Jx4tGuIGx18": "q-88cea5f0.js",
-    "s_L0rKnTdhFlI": "q-a4669f38.js",
-    "s_2fccJd7005c": "q-0bcd8cc2.js",
-    "s_A5bZC7WO00A": "q-5bec0f00.js",
-    "s_D24yMB8qyss": "q-4a595717.js",
+    "s_02wMImzEAbk": "q-dce44f9e.js",
+    "s_0zjBxcicE2c": "q-2a4a24d1.js",
+    "s_v0F9K5D7O4A": "q-7add9eb9.js",
+    "s_EiNMId5pc2o": "q-c1ccce49.js",
+    "s_YNcRxwpbU1o": "q-2505c3b1.js",
+    "s_kK00wQs3EYw": "q-a28fd91b.js",
+    "s_qAtljXskjJ8": "q-76d4b7b9.js",
+    "s_0eNsjuiJR3U": "q-7add9eb9.js",
+    "s_0fxYYfOm8lA": "q-d334d895.js",
+    "s_0vphQYqOdZI": "q-b5c28031.js",
+    "s_0xe0cv1pJiE": "q-63cd5a5c.js",
+    "s_137c54QLXXg": "q-be264c5a.js",
+    "s_7fOHZwhbDpg": "q-14535e4a.js",
+    "s_8gdLBszqbaM": "q-ff26a870.js",
+    "s_9WJ2BAmSq4M": "q-63d19043.js",
+    "s_B0lqk5IDDy4": "q-07f677ed.js",
+    "s_D73suosUpSU": "q-81d18558.js",
+    "s_GlVBzWymKzg": "q-983e83fc.js",
+    "s_LIMr0oryWZA": "q-321c99ab.js",
+    "s_M6Og2ksAtHE": "q-58cec50d.js",
+    "s_Myj9iMKPpic": "q-a28fd91b.js",
+    "s_Myq4QBDPB0Y": "q-24bb28ba.js",
+    "s_Nk9PlpjQm9Y": "q-f480dd51.js",
+    "s_RdS068Kb0Rs": "q-2819d293.js",
+    "s_TDKhZrbpKao": "q-1039736c.js",
+    "s_TxCFOy819ag": "q-dce44f9e.js",
+    "s_VKFlAWJuVm8": "q-43fc075e.js",
+    "s_W1wZaAVNrf0": "q-0a8dadba.js",
+    "s_W5sOfqLynwk": "q-2a4a24d1.js",
+    "s_WVQf092yzjY": "q-610b56d1.js",
+    "s_WYQoKc0rbPc": "q-ef5bdedd.js",
+    "s_WmYC5H00wtI": "q-1ce2501e.js",
+    "s_YaQsQb06fQQ": "q-8f15279b.js",
+    "s_dT0sDkUStYI": "q-e18d98a6.js",
+    "s_du27VlkgKEA": "q-579423f4.js",
+    "s_e0ssiDXoeAM": "q-dca6dbdd.js",
+    "s_euU0r8XWs00": "q-195bcfa0.js",
+    "s_fudBGpYSS58": "q-3aac3361.js",
+    "s_gQI1EkAOg4s": "q-6e78ea13.js",
+    "s_hPwehrgQyPE": "q-8d2cad9e.js",
+    "s_hoBw3A8VzE4": "q-faf78583.js",
+    "s_iBAiR0Ez8FI": "q-d332c953.js",
+    "s_iVsQkINLMRI": "q-c3fb28cf.js",
+    "s_nFzbA3E8erc": "q-c50dacb9.js",
+    "s_sCdX3bsWWeg": "q-2d69efed.js",
+    "s_tntnak2DhJ8": "q-c1ccce49.js",
+    "s_uCZXLhs7jUA": "q-07d0299c.js",
+    "s_wEwK98JNlns": "q-2505c3b1.js",
+    "s_xLl0XgEiJj8": "q-59cfd36c.js",
+    "s_y3NMZ9Oy2PA": "q-76d4b7b9.js",
+    "s_0Zr0JXQA004": "q-76d4b7b9.js",
+    "s_RPDJAz33WLA": "q-dce44f9e.js",
+    "s_TIYBI8Ed0c8": "q-579423f4.js",
+    "s_X48scF0IjrY": "q-59cfd36c.js",
+    "s_hTFWxRJoFKQ": "q-2a4a24d1.js",
+    "s_mqtpmDfyS6M": "q-63cd5a5c.js",
+    "s_o0xmsT4GSGc": "q-3aac3361.js",
+    "s_0nhQNk0cxIc": "q-610b56d1.js",
+    "s_Jx4tGuIGx18": "q-a28fd91b.js",
+    "s_L0rKnTdhFlI": "q-be264c5a.js",
+    "s_A5bZC7WO00A": "q-473e5b06.js",
     "s_DyVc0YBIqQU": "q-61e731e2.js",
-    "s_JxWWzwGVb38": "q-4a595717.js",
-    "s_NlrZVxlopGo": "q-0bcd8cc2.js",
-    "s_UxngL83CL04": "q-0bcd8cc2.js",
-    "s_ZhfncMGNMIg": "q-0bcd8cc2.js",
-    "s_qIkv3zusHBk": "q-0bcd8cc2.js",
-    "s_wOIPfiQ04l4": "q-43ca5061.js",
-    "s_wuNuzxg9Yus": "q-4a595717.js",
-    "s_yF2yEf0QCvM": "q-0bcd8cc2.js",
-    "s_0zjBxcicE2c": "q-bb42c278.js",
-    "s_BUbtvTyvVRE": "q-1d031c0e.js",
-    "s_UxK4NVWlmAo": "q-39a36c07.js",
-    "s_XDMCSw2wPEY": "q-2d7d8e2f.js",
-    "s_XP3sY1NIhrA": "q-f8499ceb.js",
-    "s_Xu4RrNfjbog": "q-8135b1d0.js",
-    "s_an00C7bVliQ": "q-2d7d8e2f.js",
-    "s_ar0XW96BD0o": "q-d19cda65.js",
-    "s_b2RDUfA8sU4": "q-8aeabf74.js",
-    "s_cPen7CMYS0c": "q-8aeabf74.js",
-    "s_cUKFX1XfQuw": "q-8135b1d0.js",
-    "s_eBQ0vFsFKsk": "q-171b2dce.js",
-    "s_ex3IWCUhZCk": "q-bb42c278.js",
-    "s_fX0bDjeJa0E": "q-3a210606.js",
-    "s_i1Cv0pYJNR0": "q-d54cf0a0.js",
-    "s_p9MSze0ojs4": "q-94d1e84a.js",
-    "s_pJ4bb2R0kWY": "q-bb42c278.js",
-    "s_tD5KSvrevqI": "q-f8499ceb.js",
-    "s_v0xTkRaVFnY": "q-bb42c278.js",
-    "s_wNk0wY3k58g": "q-f8499ceb.js",
-    "s_xqcZWLceeQY": "q-f8499ceb.js",
-    "s_y8FT06nILCE": "q-8aeabf74.js"
+    "s_JxWWzwGVb38": "q-ab47ced8.js",
+    "s_wOIPfiQ04l4": "q-6b88d5cc.js",
+    "s_BUbtvTyvVRE": "q-1ce2501e.js",
+    "s_UxK4NVWlmAo": "q-2505c3b1.js",
+    "s_XP3sY1NIhrA": "q-63cd5a5c.js",
+    "s_ar0XW96BD0o": "q-59cfd36c.js",
+    "s_b2RDUfA8sU4": "q-3aac3361.js",
+    "s_eBQ0vFsFKsk": "q-3900b50e.js",
+    "s_ex3IWCUhZCk": "q-2a4a24d1.js",
+    "s_fX0bDjeJa0E": "q-dce44f9e.js",
+    "s_i1Cv0pYJNR0": "q-ff26a870.js",
+    "s_p9MSze0ojs4": "q-f480dd51.js",
+    "s_pJ4bb2R0kWY": "q-2a4a24d1.js",
+    "s_tgMMH1vbHbg": "q-2d69efed.js",
+    "s_D24yMB8qyss": "q-ab47ced8.js",
+    "s_wuNuzxg9Yus": "q-ab47ced8.js",
+    "s_cPen7CMYS0c": "q-3aac3361.js",
+    "s_tD5KSvrevqI": "q-63cd5a5c.js",
+    "s_v0xTkRaVFnY": "q-2a4a24d1.js",
+    "s_wNk0wY3k58g": "q-63cd5a5c.js",
+    "s_xqcZWLceeQY": "q-63cd5a5c.js",
+    "s_y8FT06nILCE": "q-3aac3361.js"
   },
   "bundles": {
-    "q-06a933c2.js": {
-      "size": 3287,
+    "q-07d0299c.js": {
+      "size": 804,
       "imports": [
-        "q-127cba13.js",
-        "q-def5e420.js"
+        "q-1a20be14.js",
+        "q-68a96c92.js",
+        "q-e7c1121f.js"
       ],
       "dynamicImports": [
-        "q-a4825107.js",
-        "q-bdf5adb5.js"
+        "q-2a4a24d1.js",
+        "q-59cfd36c.js"
       ],
       "origins": [
-        "src/entry_ProductSection.js",
-        "src/product/components/producCategory/productCategory.tsx",
-        "src/product/data/category.ts",
-        "src/s_0ensjuijr3u.js",
-        "src/shared/components/carousel/galery/carouselGalery.tsx"
+        "src/entry__id_.js",
+        "src/product/components/productDetails/productDetails.tsx",
+        "src/product/components/productImages/productImages.tsx",
+        "src/s_uczxlhs7jua.js"
       ],
       "symbols": [
-        "s_0eNsjuiJR3U"
+        "s_uCZXLhs7jUA"
       ]
     },
-    "q-06b08ddc.js": {
-      "size": 467,
+    "q-07f677ed.js": {
+      "size": 915,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/entry_RouterOutlet.js",
-        "src/s_e0ssidxoeam.js"
-      ],
-      "symbols": [
-        "s_e0ssiDXoeAM"
-      ]
-    },
-    "q-09aa542b.js": {
-      "size": 196,
-      "imports": [
-        "q-127cba13.js"
+        "q-1a20be14.js"
       ],
       "dynamicImports": [
-        "q-39a36c07.js"
+        "q-2819d293.js",
+        "q-2d69efed.js",
+        "q-610b56d1.js",
+        "q-7add9eb9.js",
+        "q-be264c5a.js"
       ],
       "origins": [
-        "src/shared/components/ui/Image/imageBlur.tsx"
-      ]
-    },
-    "q-0bcd8cc2.js": {
-      "size": 795,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_useShoppingCart.js",
-        "src/s_2fccjd7005c.js",
-        "src/s_nlrzvxlopgo.js",
-        "src/s_qikv3zushbk.js",
-        "src/s_uxngl83cl04.js",
-        "src/s_yf2yef0qcvm.js",
-        "src/s_zhfncmgnmig.js"
+        "src/entry_routes.js",
+        "src/product/pages/productSection.tsx",
+        "src/s_b0lqk5iddy4.js",
+        "src/shared/components/section/galery/galery.tsx",
+        "src/shared/components/section/header/header.tsx",
+        "src/shared/components/section/ourServices/ourServices.tsx",
+        "src/shared/components/section/quote/quote.tsx"
       ],
       "symbols": [
-        "s_2fccJd7005c",
-        "s_NlrZVxlopGo",
-        "s_qIkv3zusHBk",
-        "s_UxngL83CL04",
-        "s_yF2yEf0QCvM",
-        "s_ZhfncMGNMIg"
+        "s_B0lqk5IDDy4"
       ]
     },
-    "q-0e335a82.js": {
-      "size": 1302,
+    "q-0a8dadba.js": {
+      "size": 139,
       "imports": [
-        "q-127cba13.js",
-        "q-def5e420.js"
+        "q-1a20be14.js",
+        "q-a9712a30.js"
       ],
       "origins": [
-        "src/entry_about.js",
-        "src/s_dt0sdkustyi.js"
+        "src/entry_Image.js",
+        "src/s_w1wzaavnrf0.js"
       ],
       "symbols": [
-        "s_dT0sDkUStYI"
+        "s_W1wZaAVNrf0"
       ]
     },
-    "q-127cba13.js": {
+    "q-1039736c.js": {
+      "size": 216,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_Price.js",
+        "src/s_tdkhzrbpkao.js"
+      ],
+      "symbols": [
+        "s_TDKhZrbpKao"
+      ]
+    },
+    "q-14535e4a.js": {
+      "size": 1098,
+      "imports": [
+        "q-1a20be14.js",
+        "q-608e8e29.js"
+      ],
+      "origins": [
+        "src/entry_mission.js",
+        "src/s_7fohzwhbdpg.js"
+      ],
+      "symbols": [
+        "s_7fOHZwhbDpg"
+      ]
+    },
+    "q-195bcfa0.js": {
+      "size": 1935,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_CarouselGalery.js",
+        "src/s_euu0r8xws00.js"
+      ],
+      "symbols": [
+        "s_euU0r8XWs00"
+      ]
+    },
+    "q-1a20be14.js": {
       "size": 49348,
       "origins": [
         "node_modules/@builder.io/qwik/core.min.mjs"
       ]
     },
-    "q-1360cb7d.js": {
-      "size": 321,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-5cde1b6d.js"
-      ],
-      "origins": [
-        "src/entry_cart.js",
-        "src/s_bhsf0vm0dr8.js",
-        "src/shopping-cart/index.tsx"
-      ],
-      "symbols": [
-        "s_BHSf0vM0dr8"
-      ]
-    },
-    "q-13927c93.js": {
-      "size": 711,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js",
-        "q-e2e83169.js"
-      ],
-      "origins": [
-        "src/entry_WhatsApp.js",
-        "src/s_wyqokc0rbpc.js"
-      ],
-      "symbols": [
-        "s_WYQoKc0rbPc"
-      ]
-    },
-    "q-13dc21c1.js": {
-      "size": 185,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_Paragraph.js",
-        "src/s_myq4qbdpb0y.js"
-      ],
-      "symbols": [
-        "s_Myq4QBDPB0Y"
-      ]
-    },
-    "q-151ac439.js": {
-      "size": 179,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-e0b467d3.js"
-      ],
-      "origins": [
-        "src/shared/components/ui/price.tsx"
-      ]
-    },
-    "q-171b2dce.js": {
-      "size": 128,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/s_ebq0vfsfksk.js"
-      ],
-      "symbols": [
-        "s_eBQ0vFsFKsk"
-      ]
-    },
-    "q-1d031c0e.js": {
+    "q-1ce2501e.js": {
       "size": 787,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
       ],
       "origins": [
         "src/entry_QwikCityMockProvider.js",
@@ -1636,177 +1387,24 @@
         "s_WmYC5H00wtI"
       ]
     },
-    "q-1f09ca33.js": {
-      "size": 202,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-40e905f2.js"
-      ],
-      "origins": [
-        "src/global.css",
-        "src/root.tsx"
-      ]
-    },
-    "q-201b0932.js": {
-      "size": 245,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-a3afc2a8.js"
-      ],
-      "origins": [
-        "src/product/components/productCard/productCard.tsx"
-      ]
-    },
-    "q-224cbd3d.js": {
-      "size": 283,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-f7c486ff.js"
-      ],
-      "origins": [
-        "src/routes/index.tsx"
-      ]
-    },
-    "q-236f8640.js": {
+    "q-24bb28ba.js": {
       "size": 185,
       "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-1360cb7d.js"
+        "q-1a20be14.js"
       ],
       "origins": [
-        "src/routes/cart/index.tsx"
-      ]
-    },
-    "q-26310bf8.js": {
-      "size": 6679,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-06b08ddc.js",
-        "q-3a210606.js",
-        "q-61e731e2.js",
-        "q-d54cf0a0.js"
-      ],
-      "origins": [
-        "@qwik-city-sw-register",
-        "node_modules/@builder.io/qwik-city/index.qwik.mjs"
-      ]
-    },
-    "q-2bd9808e.js": {
-      "size": 207,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-fbeb279b.js"
-      ],
-      "origins": [
-        "src/routes/mission/index.tsx"
-      ]
-    },
-    "q-2c590bf1.js": {
-      "size": 917,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/entry_ContactBar.js",
-        "src/s_0fxyyfom8la.js"
+        "src/entry_Paragraph.js",
+        "src/s_myq4qbdpb0y.js"
       ],
       "symbols": [
-        "s_0fxYYfOm8lA"
+        "s_Myq4QBDPB0Y"
       ]
     },
-    "q-2d7d8e2f.js": {
-      "size": 1747,
+    "q-2505c3b1.js": {
+      "size": 923,
       "imports": [
-        "q-09aa542b.js",
-        "q-127cba13.js",
-        "q-def5e420.js",
-        "q-e2e83169.js"
-      ],
-      "origins": [
-        "src/entry_GalerySection.js",
-        "src/s_an00c7bvliq.js",
-        "src/s_rds068kb0rs.js",
-        "src/s_xdmcsw2wpey.js"
-      ],
-      "symbols": [
-        "s_an00C7bVliQ",
-        "s_RdS068Kb0Rs",
-        "s_XDMCSw2wPEY"
-      ]
-    },
-    "q-304f5abe.js": {
-      "size": 1149,
-      "imports": [
-        "q-127cba13.js",
-        "q-def5e420.js"
-      ],
-      "origins": [
-        "src/entry_vision.js",
-        "src/s_9wj2bamsq4m.js"
-      ],
-      "symbols": [
-        "s_9WJ2BAmSq4M"
-      ]
-    },
-    "q-3244e57e.js": {
-      "size": 334,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "dynamicImports": [
-        "q-cb6c8710.js"
-      ],
-      "origins": [
-        "src/routes/products/[category]/index.tsx"
-      ]
-    },
-    "q-32cbdcaf.js": {
-      "size": 1914,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js",
-        "q-5e1ed86b.js"
-      ],
-      "origins": [
-        "src/entry_Footer.js",
-        "src/s_nfzba3e8erc.js"
-      ],
-      "symbols": [
-        "s_nFzbA3E8erc"
-      ]
-    },
-    "q-33727ff7.js": {
-      "size": 290,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "dynamicImports": [
-        "q-b10bf770.js"
-      ],
-      "origins": [
-        "src/routes/products/details/[id]/index.tsx"
-      ]
-    },
-    "q-39a36c07.js": {
-      "size": 928,
-      "imports": [
-        "q-127cba13.js",
-        "q-5e1ed86b.js"
+        "q-1a20be14.js",
+        "q-a9712a30.js"
       ],
       "origins": [
         "src/entry_ImageBlur.js",
@@ -1820,47 +1418,630 @@
         "s_YNcRxwpbU1o"
       ]
     },
-    "q-3a210606.js": {
-      "size": 6371,
+    "q-2819d293.js": {
+      "size": 1117,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
+        "q-1a20be14.js",
+        "q-608e8e29.js",
+        "q-a9712a30.js",
+        "q-ac294ee3.js"
       ],
       "dynamicImports": [
-        "q-224cbd3d.js",
-        "q-236f8640.js",
-        "q-2bd9808e.js",
-        "q-3244e57e.js",
-        "q-33727ff7.js",
-        "q-99f0cca3.js",
-        "q-b3db84bc.js",
-        "q-c559f528.js",
-        "q-dfeefd45.js",
-        "q-f854b77f.js"
+        "q-76d4b7b9.js"
       ],
       "origins": [
-        "@qwik-city-plan",
-        "src/entry_QwikCityProvider.js",
-        "src/s_02wmimzeabk.js",
-        "src/s_fx0bdjeja0e.js",
-        "src/s_rpdjaz33wla.js",
-        "src/s_txcfoy819ag.js"
+        "node_modules/swiper/modules/navigation.css",
+        "node_modules/swiper/modules/pagination.css",
+        "node_modules/swiper/swiper.css",
+        "src/entry_GalerySection.js",
+        "src/s_rds068kb0rs.js",
+        "src/shared/components/carousel/carousel.tsx"
       ],
       "symbols": [
-        "s_02wMImzEAbk",
-        "s_fX0bDjeJa0E",
-        "s_RPDJAz33WLA",
-        "s_TxCFOy819ag"
+        "s_RdS068Kb0Rs"
       ]
     },
-    "q-40e905f2.js": {
-      "size": 61746,
+    "q-2a4a24d1.js": {
+      "size": 2306,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
+        "q-1a20be14.js",
+        "q-ac294ee3.js"
+      ],
+      "origins": [
+        "src/entry_ProductImages.js",
+        "src/product/components/productImages/productImages.css?used&inline",
+        "src/s_0zjbxcice2c.js",
+        "src/s_ex3iwcuhzck.js",
+        "src/s_htfwxrjofkq.js",
+        "src/s_pj4bb2r0kwy.js",
+        "src/s_v0xtkravfny.js",
+        "src/s_w5sofqlynwk.js"
+      ],
+      "symbols": [
+        "s_0zjBxcicE2c",
+        "s_ex3IWCUhZCk",
+        "s_hTFWxRJoFKQ",
+        "s_pJ4bb2R0kWY",
+        "s_v0xTkRaVFnY",
+        "s_W5sOfqLynwk"
+      ]
+    },
+    "q-2d69efed.js": {
+      "size": 4617,
+      "imports": [
+        "q-1a20be14.js",
+        "q-608e8e29.js"
       ],
       "dynamicImports": [
-        "q-b8c228a3.js"
+        "q-195bcfa0.js",
+        "q-6e78ea13.js"
+      ],
+      "origins": [
+        "src/entry_OurServices.js",
+        "src/product/components/producCategory/productCategory.tsx",
+        "src/product/data/category.ts",
+        "src/s_scdx3bswweg.js",
+        "src/s_tgmmh1vbhbg.js",
+        "src/shared/components/carousel/galery/carouselGalery.tsx",
+        "src/shared/components/section/ourServices/ourServices.css?used&inline"
+      ],
+      "symbols": [
+        "s_sCdX3bsWWeg",
+        "s_tgMMH1vbHbg"
+      ]
+    },
+    "q-321c99ab.js": {
+      "size": 576,
+      "imports": [
+        "q-1a20be14.js",
+        "q-5ca965eb.js",
+        "q-608e8e29.js",
+        "q-e0468777.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_products.js",
+        "src/s_limr0orywza.js"
+      ],
+      "symbols": [
+        "s_LIMr0oryWZA"
+      ]
+    },
+    "q-3900b50e.js": {
+      "size": 128,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/s_ebq0vfsfksk.js"
+      ],
+      "symbols": [
+        "s_eBQ0vFsFKsk"
+      ]
+    },
+    "q-3aac3361.js": {
+      "size": 3626,
+      "imports": [
+        "q-1a20be14.js",
+        "q-a9712a30.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_Navbar.js",
+        "src/s_b2rdufa8su4.js",
+        "src/s_cpen7cmys0c.js",
+        "src/s_fudbgpyss58.js",
+        "src/s_o0xmst4gsgc.js",
+        "src/s_y8ft06nilce.js",
+        "src/shared/components/ui/navbar/navbar.css?used&inline"
+      ],
+      "symbols": [
+        "s_b2RDUfA8sU4",
+        "s_cPen7CMYS0c",
+        "s_fudBGpYSS58",
+        "s_o0xmsT4GSGc",
+        "s_y8FT06nILCE"
+      ]
+    },
+    "q-43fc075e.js": {
+      "size": 1054,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-3aac3361.js",
+        "q-579423f4.js",
+        "q-c3fb28cf.js",
+        "q-c50dacb9.js",
+        "q-ef5bdedd.js"
+      ],
+      "origins": [
+        "src/entry_layout.js",
+        "src/routes/context.provaider.tsx",
+        "src/s_vkflawjuvm8.js",
+        "src/shared/components/footer.tsx",
+        "src/shared/components/ui/navbar/navbar.tsx",
+        "src/shared/components/ui/social-icons/social-icons.tsx",
+        "src/shared/components/ui/whatsapp-btn/whatsapp-btn.tsx"
+      ],
+      "symbols": [
+        "s_VKFlAWJuVm8"
+      ]
+    },
+    "q-473e5b06.js": {
+      "size": 751,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_routeActionQrl.js",
+        "src/s_a5bzc7wo00a.js"
+      ],
+      "symbols": [
+        "s_A5bZC7WO00A"
+      ]
+    },
+    "q-579423f4.js": {
+      "size": 1570,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_SocialIcons.js",
+        "src/s_du27vlkgkea.js",
+        "src/s_tiybi8ed0c8.js",
+        "src/shared/components/ui/social-icons/social-icons.css?used&inline"
+      ],
+      "symbols": [
+        "s_du27VlkgKEA",
+        "s_TIYBI8Ed0c8"
+      ]
+    },
+    "q-58cec50d.js": {
+      "size": 1551,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_CarouselItem.js",
+        "src/s_m6og2ksathe.js"
+      ],
+      "symbols": [
+        "s_M6Og2ksAtHE"
+      ]
+    },
+    "q-59cfd36c.js": {
+      "size": 1216,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-63cd5a5c.js",
+        "q-8f15279b.js"
+      ],
+      "origins": [
+        "src/entry_ProductDatails.js",
+        "src/product/components/productDetails/productDetails.css?used&inline",
+        "src/product/components/productForm/productForm.tsx",
+        "src/product/components/productInfo/productInfo.tsx",
+        "src/s_ar0xw96bd0o.js",
+        "src/s_x48scf0ijry.js",
+        "src/s_xll0xgeijj8.js"
+      ],
+      "symbols": [
+        "s_ar0XW96BD0o",
+        "s_X48scF0IjrY",
+        "s_xLl0XgEiJj8"
+      ]
+    },
+    "q-5ca965eb.js": {
+      "size": 245,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-d332c953.js"
+      ],
+      "origins": [
+        "src/product/components/productCard/productCard.tsx"
+      ]
+    },
+    "q-608e8e29.js": {
+      "size": 179,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-81d18558.js"
+      ],
+      "origins": [
+        "src/shared/components/ui/pageTitle.tsx"
+      ]
+    },
+    "q-610b56d1.js": {
+      "size": 1811,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_Headers.js",
+        "src/s_0nhqnk0cxic.js",
+        "src/s_wvqf092yzjy.js",
+        "src/shared/components/section/header/header.css?used&inline"
+      ],
+      "symbols": [
+        "s_0nhQNk0cxIc",
+        "s_WVQf092yzjY"
+      ]
+    },
+    "q-61e731e2.js": {
+      "size": 2272,
+      "origins": [
+        "src/entry_spaInit.js",
+        "src/s_dyvc0ybiqqu.js"
+      ],
+      "symbols": [
+        "s_DyVc0YBIqQU"
+      ]
+    },
+    "q-63cd5a5c.js": {
+      "size": 2848,
+      "imports": [
+        "q-1a20be14.js",
+        "q-ac294ee3.js"
+      ],
+      "origins": [
+        "src/entry_ProductForm.js",
+        "src/product/components/productForm/productForm.css?used&inline",
+        "src/s_0xe0cv1pjie.js",
+        "src/s_mqtpmdfys6m.js",
+        "src/s_td5ksvrevqi.js",
+        "src/s_wnk0wy3k58g.js",
+        "src/s_xp3sy1nihra.js",
+        "src/s_xqczwlceeqy.js"
+      ],
+      "symbols": [
+        "s_0xe0cv1pJiE",
+        "s_mqtpmDfyS6M",
+        "s_tD5KSvrevqI",
+        "s_wNk0wY3k58g",
+        "s_XP3sY1NIhrA",
+        "s_xqcZWLceeQY"
+      ]
+    },
+    "q-63d19043.js": {
+      "size": 1149,
+      "imports": [
+        "q-1a20be14.js",
+        "q-608e8e29.js"
+      ],
+      "origins": [
+        "src/entry_vision.js",
+        "src/s_9wj2bamsq4m.js"
+      ],
+      "symbols": [
+        "s_9WJ2BAmSq4M"
+      ]
+    },
+    "q-68a96c92.js": {
+      "size": 290,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "dynamicImports": [
+        "q-07d0299c.js"
+      ],
+      "origins": [
+        "src/routes/products/details/[id]/index.tsx"
+      ]
+    },
+    "q-6b88d5cc.js": {
+      "size": 889,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_serverQrl.js",
+        "src/s_woipfiq04l4.js"
+      ],
+      "symbols": [
+        "s_wOIPfiQ04l4"
+      ]
+    },
+    "q-6e78ea13.js": {
+      "size": 663,
+      "imports": [
+        "q-1a20be14.js",
+        "q-ac294ee3.js",
+        "q-e7c1121f.js"
+      ],
+      "dynamicImports": [
+        "q-2505c3b1.js"
+      ],
+      "origins": [
+        "src/entry_ProductCategory.js",
+        "src/s_gqi1ekaog4s.js",
+        "src/shared/components/ui/Image/imageBlur.tsx"
+      ],
+      "symbols": [
+        "s_gQI1EkAOg4s"
+      ]
+    },
+    "q-6f118963.js": {
+      "size": 125,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-8ea06850.js"
+      ],
+      "origins": [
+        "@qwik-city-entries"
+      ]
+    },
+    "q-76d4b7b9.js": {
+      "size": 87605,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "node_modules/swiper/modules/a11y.mjs",
+        "node_modules/swiper/modules/controller.mjs",
+        "node_modules/swiper/modules/effect-coverflow.mjs",
+        "node_modules/swiper/modules/free-mode.mjs",
+        "node_modules/swiper/modules/grid.mjs",
+        "node_modules/swiper/modules/navigation.mjs",
+        "node_modules/swiper/shared/classes-to-selector.mjs",
+        "node_modules/swiper/shared/create-element-if-not-defined.mjs",
+        "node_modules/swiper/shared/create-shadow.mjs",
+        "node_modules/swiper/shared/effect-init.mjs",
+        "node_modules/swiper/shared/effect-target.mjs",
+        "node_modules/swiper/shared/ssr-window.esm.mjs",
+        "node_modules/swiper/shared/swiper-core.mjs",
+        "node_modules/swiper/shared/utils.mjs",
+        "src/entry_CarouselImg.js",
+        "src/s_0zr0jxqa004.js",
+        "src/s_qatljxskjj8.js",
+        "src/s_y3nmz9oy2pa.js",
+        "src/shared/components/carousel/carousel.css?used&inline"
+      ],
+      "symbols": [
+        "s_0Zr0JXQA004",
+        "s_qAtljXskjJ8",
+        "s_y3NMZ9Oy2PA"
+      ]
+    },
+    "q-7add9eb9.js": {
+      "size": 32417,
+      "imports": [
+        "q-1a20be14.js",
+        "q-5ca965eb.js",
+        "q-608e8e29.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_ProductSection.js",
+        "src/product/data/products.ts",
+        "src/s_0ensjuijr3u.js",
+        "src/s_v0f9k5d7o4a.js"
+      ],
+      "symbols": [
+        "s_0eNsjuiJR3U",
+        "s_v0F9K5D7O4A"
+      ]
+    },
+    "q-800fbf83.js": {
+      "size": 207,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-14535e4a.js"
+      ],
+      "origins": [
+        "src/routes/mission/index.tsx"
+      ]
+    },
+    "q-81d18558.js": {
+      "size": 283,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_PageTitle.js",
+        "src/s_d73suosupsu.js"
+      ],
+      "symbols": [
+        "s_D73suosUpSU"
+      ]
+    },
+    "q-864ba406.js": {
+      "size": 207,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-63d19043.js"
+      ],
+      "origins": [
+        "src/routes/vision/index.tsx"
+      ]
+    },
+    "q-8d2cad9e.js": {
+      "size": 602,
+      "imports": [
+        "q-1a20be14.js",
+        "q-5ca965eb.js",
+        "q-608e8e29.js",
+        "q-dbceb682.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry__category_.js",
+        "src/s_hpwehrgqype.js"
+      ],
+      "symbols": [
+        "s_hPwehrgQyPE"
+      ]
+    },
+    "q-8ea06850.js": {
+      "size": 2539,
+      "origins": [
+        "node_modules/@builder.io/qwik-city/service-worker.mjs",
+        "src/routes/service-worker.ts"
+      ]
+    },
+    "q-8f15279b.js": {
+      "size": 2573,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-1039736c.js"
+      ],
+      "origins": [
+        "src/entry_ProductInfo.js",
+        "src/s_yaqsqb06fqq.js",
+        "src/shared/components/ui/price.tsx"
+      ],
+      "symbols": [
+        "s_YaQsQb06fQQ"
+      ]
+    },
+    "q-983e83fc.js": {
+      "size": 470,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_NavItem.js",
+        "src/s_glvbzwymkzg.js"
+      ],
+      "symbols": [
+        "s_GlVBzWymKzg"
+      ]
+    },
+    "q-98aacd2b.js": {
+      "size": 283,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-07f677ed.js"
+      ],
+      "origins": [
+        "src/routes/index.tsx"
+      ]
+    },
+    "q-a28fd91b.js": {
+      "size": 3702,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_CarouselMulti.js",
+        "src/s_jx4tguigx18.js",
+        "src/s_kk00wqs3eyw.js",
+        "src/s_myj9imkppic.js",
+        "src/shared/components/carousel/multi/carouselMulti.css?used&inline"
+      ],
+      "symbols": [
+        "s_Jx4tGuIGx18",
+        "s_kK00wQs3EYw",
+        "s_Myj9iMKPpic"
+      ]
+    },
+    "q-a472dfdf.js": {
+      "size": 288,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-43fc075e.js"
+      ],
+      "origins": [
+        "src/routes/layout.tsx"
+      ]
+    },
+    "q-a9712a30.js": {
+      "size": 15169,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-0a8dadba.js"
+      ],
+      "origins": [
+        "node_modules/@unpic/qwik/lib/index.qwik.mjs"
+      ]
+    },
+    "q-ab47ced8.js": {
+      "size": 318,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_useProductList.js",
+        "src/s_d24ymb8qyss.js",
+        "src/s_jxwwzwgvb38.js",
+        "src/s_wunuzxg9yus.js"
+      ],
+      "symbols": [
+        "s_D24yMB8qyss",
+        "s_JxWWzwGVb38",
+        "s_wuNuzxg9Yus"
+      ]
+    },
+    "q-ac294ee3.js": {
+      "size": 114,
+      "origins": [
+        "src/helpers/config.ts"
+      ]
+    },
+    "q-b5c28031.js": {
+      "size": 1128,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_RouterHead.js",
+        "src/s_0vphqyqodzi.js"
+      ],
+      "symbols": [
+        "s_0vphQYqOdZI"
+      ]
+    },
+    "q-be264c5a.js": {
+      "size": 3101,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "origins": [
+        "src/entry_Quote.js",
+        "src/s_137c54qlxxg.js",
+        "src/s_l0rkntdhfli.js",
+        "src/shared/components/section/quote/quote.css?used&inline"
+      ],
+      "symbols": [
+        "s_137c54QLXXg",
+        "s_L0rKnTdhFlI"
+      ]
+    },
+    "q-c1ccce49.js": {
+      "size": 61746,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "dynamicImports": [
+        "q-b5c28031.js"
       ],
       "origins": [
         "node_modules/@popperjs/core/lib/createPopper.js",
@@ -1941,259 +2122,199 @@
         "s_tntnak2DhJ8"
       ]
     },
-    "q-43ca5061.js": {
-      "size": 889,
+    "q-c3fb28cf.js": {
+      "size": 188,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
+        "q-1a20be14.js"
       ],
       "origins": [
-        "src/entry_serverQrl.js",
-        "src/s_woipfiq04l4.js"
+        "src/entry_ContextProvaider.js",
+        "src/product/context/product.context.tsx",
+        "src/s_ivsqkinlmri.js"
       ],
       "symbols": [
-        "s_wOIPfiQ04l4"
+        "s_iVsQkINLMRI"
       ]
     },
-    "q-4a595717.js": {
-      "size": 318,
+    "q-c50dacb9.js": {
+      "size": 1914,
       "imports": [
-        "q-127cba13.js"
+        "q-1a20be14.js",
+        "q-a9712a30.js",
+        "q-e7c1121f.js"
       ],
       "origins": [
-        "src/entry_useProductList.js",
-        "src/s_d24ymb8qyss.js",
-        "src/s_jxwwzwgvb38.js",
-        "src/s_wunuzxg9yus.js"
+        "src/entry_Footer.js",
+        "src/s_nfzba3e8erc.js"
       ],
       "symbols": [
-        "s_D24yMB8qyss",
-        "s_JxWWzwGVb38",
-        "s_wuNuzxg9Yus"
+        "s_nFzbA3E8erc"
       ]
     },
-    "q-511050bb.js": {
-      "size": 718,
+    "q-d332c953.js": {
+      "size": 862,
       "imports": [
-        "q-127cba13.js"
+        "q-1a20be14.js",
+        "q-a9712a30.js",
+        "q-ac294ee3.js",
+        "q-e7c1121f.js"
       ],
       "origins": [
-        "src/entry_CartItem.js",
-        "src/s_f4gforhg0rk.js"
+        "src/entry_ProductCard.js",
+        "src/s_ibair0ez8fi.js"
       ],
       "symbols": [
-        "s_F4GforhG0Rk"
+        "s_iBAiR0Ez8FI"
       ]
     },
-    "q-55685ba3.js": {
-      "size": 571,
+    "q-d334d895.js": {
+      "size": 917,
       "imports": [
-        "q-127cba13.js",
-        "q-201b0932.js",
-        "q-26310bf8.js",
-        "q-b3db84bc.js",
-        "q-def5e420.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
       ],
       "origins": [
-        "src/entry_products.js",
-        "src/s_limr0orywza.js"
+        "src/entry_ContactBar.js",
+        "src/s_0fxyyfom8la.js"
       ],
       "symbols": [
-        "s_LIMr0oryWZA"
+        "s_0fxYYfOm8lA"
       ]
     },
-    "q-5bec0f00.js": {
-      "size": 751,
+    "q-dbceb682.js": {
+      "size": 334,
       "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_routeActionQrl.js",
-        "src/s_a5bzc7wo00a.js"
-      ],
-      "symbols": [
-        "s_A5bZC7WO00A"
-      ]
-    },
-    "q-5cde1b6d.js": {
-      "size": 1026,
-      "imports": [
-        "q-127cba13.js",
-        "q-aaef184b.js",
-        "q-def5e420.js",
-        "q-ecb61fdc.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
       ],
       "dynamicImports": [
-        "q-64beab57.js",
-        "q-8135b1d0.js",
-        "q-88c4433b.js"
+        "q-8d2cad9e.js"
       ],
       "origins": [
-        "src/entry_ShoppingCart.js",
-        "src/product/components/backToProductButton.tsx",
-        "src/s_blatg0vqlvs.js",
-        "src/shopping-cart/components/cartTable.tsx",
-        "src/shopping-cart/components/checkOutButton.tsx"
-      ],
-      "symbols": [
-        "s_BlatG0VqLvs"
+        "src/routes/products/[category]/index.tsx"
       ]
     },
-    "q-5e1ed86b.js": {
-      "size": 15169,
+    "q-dca6dbdd.js": {
+      "size": 467,
       "imports": [
-        "q-127cba13.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_RouterOutlet.js",
+        "src/s_e0ssidxoeam.js"
+      ],
+      "symbols": [
+        "s_e0ssiDXoeAM"
+      ]
+    },
+    "q-dce44f9e.js": {
+      "size": 6268,
+      "imports": [
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
       ],
       "dynamicImports": [
-        "q-f084fe4d.js"
+        "q-68a96c92.js",
+        "q-6f118963.js",
+        "q-800fbf83.js",
+        "q-864ba406.js",
+        "q-98aacd2b.js",
+        "q-a472dfdf.js",
+        "q-dbceb682.js",
+        "q-e0468777.js",
+        "q-e6f226e9.js"
       ],
       "origins": [
-        "node_modules/@unpic/qwik/lib/index.qwik.mjs"
-      ]
-    },
-    "q-61e731e2.js": {
-      "size": 2272,
-      "origins": [
-        "src/entry_spaInit.js",
-        "src/s_dyvc0ybiqqu.js"
+        "@qwik-city-plan",
+        "src/entry_QwikCityProvider.js",
+        "src/s_02wmimzeabk.js",
+        "src/s_fx0bdjeja0e.js",
+        "src/s_rpdjaz33wla.js",
+        "src/s_txcfoy819ag.js"
       ],
       "symbols": [
-        "s_DyVc0YBIqQU"
+        "s_02wMImzEAbk",
+        "s_fX0bDjeJa0E",
+        "s_RPDJAz33WLA",
+        "s_TxCFOy819ag"
       ]
     },
-    "q-64beab57.js": {
-      "size": 581,
+    "q-e0468777.js": {
+      "size": 331,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
+      ],
+      "dynamicImports": [
+        "q-321c99ab.js"
       ],
       "origins": [
-        "src/entry_CheckOutButton.js",
-        "src/s_khithm0kqcg.js"
+        "src/routes/products/index.tsx"
+      ]
+    },
+    "q-e18d98a6.js": {
+      "size": 1302,
+      "imports": [
+        "q-1a20be14.js",
+        "q-608e8e29.js"
+      ],
+      "origins": [
+        "src/entry_about.js",
+        "src/s_dt0sdkustyi.js"
       ],
       "symbols": [
-        "s_kHItHM0KQCg"
+        "s_dT0sDkUStYI"
       ]
     },
-    "q-7999742c.js": {
-      "size": 1965,
+    "q-e6f226e9.js": {
+      "size": 207,
       "imports": [
-        "q-127cba13.js"
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-e18d98a6.js"
       ],
       "origins": [
-        "src/entry_Headers.js",
-        "src/s_0nhqnk0cxic.js",
-        "src/s_wvqf092yzjy.js",
-        "src/shared/components/section/header/header.css?used&inline"
+        "src/routes/about/index.tsx"
+      ]
+    },
+    "q-e7c1121f.js": {
+      "size": 6679,
+      "imports": [
+        "q-1a20be14.js"
+      ],
+      "dynamicImports": [
+        "q-61e731e2.js",
+        "q-dca6dbdd.js",
+        "q-dce44f9e.js",
+        "q-ff26a870.js"
+      ],
+      "origins": [
+        "@qwik-city-sw-register",
+        "node_modules/@builder.io/qwik-city/index.qwik.mjs"
+      ]
+    },
+    "q-ef5bdedd.js": {
+      "size": 711,
+      "imports": [
+        "q-1a20be14.js",
+        "q-ac294ee3.js",
+        "q-e7c1121f.js"
+      ],
+      "origins": [
+        "src/entry_WhatsApp.js",
+        "src/s_wyqokc0rbpc.js"
       ],
       "symbols": [
-        "s_0nhQNk0cxIc",
-        "s_WVQf092yzjY"
+        "s_WYQoKc0rbPc"
       ]
     },
-    "q-8045ec59.js": {
-      "size": 470,
+    "q-f480dd51.js": {
+      "size": 1027,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/entry_NavItem.js",
-        "src/s_glvbzwymkzg.js"
-      ],
-      "symbols": [
-        "s_GlVBzWymKzg"
-      ]
-    },
-    "q-8135b1d0.js": {
-      "size": 3332,
-      "imports": [
-        "q-127cba13.js",
-        "q-151ac439.js",
-        "q-26310bf8.js",
-        "q-aaef184b.js",
-        "q-ecb61fdc.js"
-      ],
-      "origins": [
-        "src/entry_CartTable.js",
-        "src/s_ajsrndxqt7e.js",
-        "src/s_cukfx1xfquw.js",
-        "src/s_xu4rrnfjbog.js"
-      ],
-      "symbols": [
-        "s_aJSRnDxqT7E",
-        "s_cUKFX1XfQuw",
-        "s_Xu4RrNfjbog"
-      ]
-    },
-    "q-88c4433b.js": {
-      "size": 632,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/entry_BackToProductButton.js",
-        "src/s_hobw3a8vze4.js"
-      ],
-      "symbols": [
-        "s_hoBw3A8VzE4"
-      ]
-    },
-    "q-88cea5f0.js": {
-      "size": 3702,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_CarouselMulti.js",
-        "src/s_jx4tguigx18.js",
-        "src/s_kk00wqs3eyw.js",
-        "src/s_myj9imkppic.js",
-        "src/shared/components/carousel/multi/carouselMulti.css?used&inline"
-      ],
-      "symbols": [
-        "s_Jx4tGuIGx18",
-        "s_kK00wQs3EYw",
-        "s_Myj9iMKPpic"
-      ]
-    },
-    "q-8aeabf74.js": {
-      "size": 3626,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js",
-        "q-5e1ed86b.js"
-      ],
-      "origins": [
-        "src/entry_Navbar.js",
-        "src/s_b2rdufa8su4.js",
-        "src/s_cpen7cmys0c.js",
-        "src/s_fudbgpyss58.js",
-        "src/s_o0xmst4gsgc.js",
-        "src/s_y8ft06nilce.js",
-        "src/shared/components/ui/navbar/navbar.css?used&inline"
-      ],
-      "symbols": [
-        "s_b2RDUfA8sU4",
-        "s_cPen7CMYS0c",
-        "s_fudBGpYSS58",
-        "s_o0xmsT4GSGc",
-        "s_y8FT06nILCE"
-      ]
-    },
-    "q-8ea06850.js": {
-      "size": 2539,
-      "origins": [
-        "node_modules/@builder.io/qwik-city/service-worker.mjs",
-        "src/routes/service-worker.ts"
-      ]
-    },
-    "q-94d1e84a.js": {
-      "size": 1032,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
       ],
       "origins": [
         "src/entry_GetForm.js",
@@ -2205,324 +2326,41 @@
         "s_p9MSze0ojs4"
       ]
     },
-    "q-96a54580.js": {
-      "size": 283,
+    "q-f56013d9.js": {
+      "size": 202,
       "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_PageTitle.js",
-        "src/s_d73suosupsu.js"
-      ],
-      "symbols": [
-        "s_D73suosUpSU"
-      ]
-    },
-    "q-98db310e.js": {
-      "size": 1551,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/entry_CarouselItem.js",
-        "src/s_m6og2ksathe.js"
-      ],
-      "symbols": [
-        "s_M6Og2ksAtHE"
-      ]
-    },
-    "q-99f0cca3.js": {
-      "size": 288,
-      "imports": [
-        "q-127cba13.js"
+        "q-1a20be14.js"
       ],
       "dynamicImports": [
-        "q-e13e1b57.js"
+        "q-c1ccce49.js"
       ],
       "origins": [
-        "src/routes/layout.tsx"
+        "src/global.css",
+        "src/root.tsx"
       ]
     },
-    "q-a3afc2a8.js": {
-      "size": 838,
+    "q-faf78583.js": {
+      "size": 632,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js",
-        "q-5e1ed86b.js",
-        "q-e2e83169.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
       ],
       "origins": [
-        "src/entry_ProductCard.js",
-        "src/s_ibair0ez8fi.js"
+        "src/entry_BackToProductButton.js",
+        "src/s_hobw3a8vze4.js"
       ],
       "symbols": [
-        "s_iBAiR0Ez8FI"
+        "s_hoBw3A8VzE4"
       ]
     },
-    "q-a4669f38.js": {
-      "size": 3096,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_Quote.js",
-        "src/s_137c54qlxxg.js",
-        "src/s_l0rkntdhfli.js",
-        "src/shared/components/section/quote/quote.css?used&inline"
-      ],
-      "symbols": [
-        "s_137c54QLXXg",
-        "s_L0rKnTdhFlI"
-      ]
-    },
-    "q-a4825107.js": {
-      "size": 1935,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_CarouselGalery.js",
-        "src/s_euu0r8xws00.js"
-      ],
-      "symbols": [
-        "s_euU0r8XWs00"
-      ]
-    },
-    "q-aaef184b.js": {
-      "size": 889,
-      "imports": [
-        "q-127cba13.js",
-        "q-ecb61fdc.js"
-      ],
-      "dynamicImports": [
-        "q-0bcd8cc2.js",
-        "q-0bcd8cc2.js",
-        "q-0bcd8cc2.js",
-        "q-0bcd8cc2.js",
-        "q-0bcd8cc2.js",
-        "q-0bcd8cc2.js"
-      ],
-      "origins": [
-        "src/shopping-cart/hooks/use-shopping-cart.tsx"
-      ]
-    },
-    "q-b10bf770.js": {
-      "size": 804,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js",
-        "q-33727ff7.js"
-      ],
-      "dynamicImports": [
-        "q-bb42c278.js",
-        "q-d19cda65.js"
-      ],
-      "origins": [
-        "src/entry__id_.js",
-        "src/product/components/productDetails/productDetails.tsx",
-        "src/product/components/productImages/productImages.tsx",
-        "src/s_uczxlhs7jua.js"
-      ],
-      "symbols": [
-        "s_uCZXLhs7jUA"
-      ]
-    },
-    "q-b304decc.js": {
-      "size": 1002,
-      "imports": [
-        "q-127cba13.js",
-        "q-ecb61fdc.js"
-      ],
-      "origins": [
-        "src/entry_ContextProvaider.js",
-        "src/product/context/product.context.tsx",
-        "src/s_ivsqkinlmri.js",
-        "src/s_njpo1lje05a.js",
-        "src/s_wckwye18l5g.js"
-      ],
-      "symbols": [
-        "s_iVsQkINLMRI",
-        "s_nJPo1LJE05A",
-        "s_WCKWyE18L5g"
-      ]
-    },
-    "q-b3db84bc.js": {
-      "size": 326,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "dynamicImports": [
-        "q-55685ba3.js"
-      ],
-      "origins": [
-        "src/routes/products/index.tsx"
-      ]
-    },
-    "q-b8c228a3.js": {
-      "size": 1128,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/entry_RouterHead.js",
-        "src/s_0vphqyqodzi.js"
-      ],
-      "symbols": [
-        "s_0vphQYqOdZI"
-      ]
-    },
-    "q-b8fe1944.js": {
-      "size": 2119,
-      "imports": [
-        "q-127cba13.js",
-        "q-151ac439.js"
-      ],
-      "origins": [
-        "src/entry_ProductInfo.js",
-        "src/s_yaqsqb06fqq.js"
-      ],
-      "symbols": [
-        "s_YaQsQb06fQQ"
-      ]
-    },
-    "q-bb42c278.js": {
-      "size": 2306,
-      "imports": [
-        "q-127cba13.js",
-        "q-e2e83169.js"
-      ],
-      "origins": [
-        "src/entry_ProductImages.js",
-        "src/product/components/productImages/productImages.css?used&inline",
-        "src/s_0zjbxcice2c.js",
-        "src/s_ex3iwcuhzck.js",
-        "src/s_htfwxrjofkq.js",
-        "src/s_pj4bb2r0kwy.js",
-        "src/s_v0xtkravfny.js",
-        "src/s_w5sofqlynwk.js"
-      ],
-      "symbols": [
-        "s_0zjBxcicE2c",
-        "s_ex3IWCUhZCk",
-        "s_hTFWxRJoFKQ",
-        "s_pJ4bb2R0kWY",
-        "s_v0xTkRaVFnY",
-        "s_W5sOfqLynwk"
-      ]
-    },
-    "q-bdf5adb5.js": {
-      "size": 549,
-      "imports": [
-        "q-09aa542b.js",
-        "q-127cba13.js",
-        "q-26310bf8.js",
-        "q-e2e83169.js"
-      ],
-      "origins": [
-        "src/entry_ProductCategory.js",
-        "src/s_gqi1ekaog4s.js"
-      ],
-      "symbols": [
-        "s_gQI1EkAOg4s"
-      ]
-    },
-    "q-c3b18998.js": {
-      "size": 2971,
-      "imports": [
-        "q-127cba13.js",
-        "q-5e1ed86b.js",
-        "q-def5e420.js",
-        "q-e2e83169.js"
-      ],
-      "origins": [
-        "src/entry_OurServices.js",
-        "src/s_scdx3bswweg.js"
-      ],
-      "symbols": [
-        "s_sCdX3bsWWeg"
-      ]
-    },
-    "q-c559f528.js": {
-      "size": 207,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-304f5abe.js"
-      ],
-      "origins": [
-        "src/routes/vision/index.tsx"
-      ]
-    },
-    "q-c8fa92da.js": {
-      "size": 1570,
-      "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
-      ],
-      "origins": [
-        "src/entry_SocialIcons.js",
-        "src/s_du27vlkgkea.js",
-        "src/s_tiybi8ed0c8.js",
-        "src/shared/components/ui/social-icons/social-icons.css?used&inline"
-      ],
-      "symbols": [
-        "s_du27VlkgKEA",
-        "s_TIYBI8Ed0c8"
-      ]
-    },
-    "q-cb6c8710.js": {
-      "size": 599,
-      "imports": [
-        "q-127cba13.js",
-        "q-201b0932.js",
-        "q-26310bf8.js",
-        "q-3244e57e.js",
-        "q-def5e420.js"
-      ],
-      "origins": [
-        "src/entry__category_.js",
-        "src/s_hpwehrgqype.js"
-      ],
-      "symbols": [
-        "s_hPwehrgQyPE"
-      ]
-    },
-    "q-d19cda65.js": {
-      "size": 1343,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-b8fe1944.js",
-        "q-f8499ceb.js"
-      ],
-      "origins": [
-        "src/entry_ProductDatails.js",
-        "src/product/components/productDetails/productDetails.css?used&inline",
-        "src/product/components/productForm/productForm.tsx",
-        "src/product/components/productInfo/productInfo.tsx",
-        "src/s_ar0xw96bd0o.js",
-        "src/s_x48scf0ijry.js",
-        "src/s_xll0xgeijj8.js"
-      ],
-      "symbols": [
-        "s_ar0XW96BD0o",
-        "s_X48scF0IjrY",
-        "s_xLl0XgEiJj8"
-      ]
-    },
-    "q-d54cf0a0.js": {
+    "q-ff26a870.js": {
       "size": 1135,
       "imports": [
-        "q-127cba13.js",
-        "q-26310bf8.js"
+        "q-1a20be14.js",
+        "q-e7c1121f.js"
       ],
       "dynamicImports": [
-        "q-171b2dce.js"
+        "q-3900b50e.js"
       ],
       "origins": [
         "src/entry_Link.js",
@@ -2533,186 +2371,6 @@
         "s_8gdLBszqbaM",
         "s_i1Cv0pYJNR0"
       ]
-    },
-    "q-def5e420.js": {
-      "size": 179,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-96a54580.js"
-      ],
-      "origins": [
-        "src/shared/components/ui/pageTitle.tsx"
-      ]
-    },
-    "q-dfeefd45.js": {
-      "size": 125,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-8ea06850.js"
-      ],
-      "origins": [
-        "@qwik-city-entries"
-      ]
-    },
-    "q-e0b467d3.js": {
-      "size": 216,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_Price.js",
-        "src/s_tdkhzrbpkao.js"
-      ],
-      "symbols": [
-        "s_TDKhZrbpKao"
-      ]
-    },
-    "q-e13e1b57.js": {
-      "size": 1076,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-13927c93.js",
-        "q-32cbdcaf.js",
-        "q-8aeabf74.js",
-        "q-b304decc.js",
-        "q-c8fa92da.js"
-      ],
-      "origins": [
-        "src/entry_layout.js",
-        "src/routes/context.provaider.tsx",
-        "src/s_vkflawjuvm8.js",
-        "src/shared/components/footer.tsx",
-        "src/shared/components/ui/navbar/navbar.tsx",
-        "src/shared/components/ui/social-icons/social-icons.tsx",
-        "src/shared/components/ui/whatsapp-btn/whatsapp-btn.tsx"
-      ],
-      "symbols": [
-        "s_VKFlAWJuVm8"
-      ]
-    },
-    "q-e2e83169.js": {
-      "size": 140,
-      "origins": [
-        "src/helpers/config.ts"
-      ]
-    },
-    "q-ecb61fdc.js": {
-      "size": 78,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/shopping-cart/context/cart.context.tsx"
-      ]
-    },
-    "q-f084fe4d.js": {
-      "size": 139,
-      "imports": [
-        "q-127cba13.js",
-        "q-5e1ed86b.js"
-      ],
-      "origins": [
-        "src/entry_Image.js",
-        "src/s_w1wzaavnrf0.js"
-      ],
-      "symbols": [
-        "s_W1wZaAVNrf0"
-      ]
-    },
-    "q-f7c486ff.js": {
-      "size": 915,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-06a933c2.js",
-        "q-2d7d8e2f.js",
-        "q-7999742c.js",
-        "q-a4669f38.js",
-        "q-c3b18998.js"
-      ],
-      "origins": [
-        "src/entry_routes.js",
-        "src/product/pages/productSection.tsx",
-        "src/s_b0lqk5iddy4.js",
-        "src/shared/components/section/galery/galery.tsx",
-        "src/shared/components/section/header/header.tsx",
-        "src/shared/components/section/ourServices/ourServices.tsx",
-        "src/shared/components/section/quote/quote.tsx"
-      ],
-      "symbols": [
-        "s_B0lqk5IDDy4"
-      ]
-    },
-    "q-f8499ceb.js": {
-      "size": 2848,
-      "imports": [
-        "q-127cba13.js",
-        "q-e2e83169.js"
-      ],
-      "origins": [
-        "src/entry_ProductForm.js",
-        "src/product/components/productForm/productForm.css?used&inline",
-        "src/s_0xe0cv1pjie.js",
-        "src/s_mqtpmdfys6m.js",
-        "src/s_td5ksvrevqi.js",
-        "src/s_wnk0wy3k58g.js",
-        "src/s_xp3sy1nihra.js",
-        "src/s_xqczwlceeqy.js"
-      ],
-      "symbols": [
-        "s_0xe0cv1pJiE",
-        "s_mqtpmDfyS6M",
-        "s_tD5KSvrevqI",
-        "s_wNk0wY3k58g",
-        "s_XP3sY1NIhrA",
-        "s_xqcZWLceeQY"
-      ]
-    },
-    "q-f854b77f.js": {
-      "size": 207,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "dynamicImports": [
-        "q-0e335a82.js"
-      ],
-      "origins": [
-        "src/routes/about/index.tsx"
-      ]
-    },
-    "q-fa64e675.js": {
-      "size": 5247,
-      "imports": [
-        "q-127cba13.js"
-      ],
-      "origins": [
-        "src/entry_CarouselImg.js",
-        "src/s_y3nmz9oy2pa.js"
-      ],
-      "symbols": [
-        "s_y3NMZ9Oy2PA"
-      ]
-    },
-    "q-fbeb279b.js": {
-      "size": 1098,
-      "imports": [
-        "q-127cba13.js",
-        "q-def5e420.js"
-      ],
-      "origins": [
-        "src/entry_mission.js",
-        "src/s_7fohzwhbdpg.js"
-      ],
-      "symbols": [
-        "s_7fOHZwhbDpg"
-      ]
     }
   },
   "injections": [
@@ -2721,7 +2379,7 @@
       "location": "head",
       "attributes": {
         "rel": "stylesheet",
-        "href": "/build/q-32766659.css"
+        "href": "/build/q-e07f56b3.css"
       }
     }
   ],
