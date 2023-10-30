@@ -11,10 +11,18 @@ import { imgGaleryUrl } from "~/helpers/config";
 export const GalerySection = component$(() => {
 
     const imgs = useSignal<string[]>([
-        'letras.jpg',
-        'letrero luminoso.jpg',
-        'merchandaising.jpg',
-        'roolscream.jpg'
+        '00.jpg',
+        '01.jpg',
+        '02.jpg',
+        '03.jpg',
+        '04.jpg',
+        '05.jpg',
+        // '06.jpg',
+        // '07.jpg',
+        // '08.jpg',
+        // '09.jpg',
+        '10.jpg',
+        '11.jpg'
     ])
 
     return (<>
