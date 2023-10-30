@@ -16,7 +16,7 @@ export const products: IProduct[] = [
         finish: "Moderno",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["LetrasenACRÍLICOluzfrontal.jpg", "LetrasenACRÍLICOluzfrontal1.jpg", "LetrasenACRÍLICOluzfrontal2.jpg"]
+        images: ["LetrasenACRÍLICOluzfrontal.jpg", "LetrasenACRÍLICOluzfrontal2.jpg"]
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ export const products: IProduct[] = [
         finish: "Moderno",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["letrasenAcrilícoconluzlateral.jpg", "letrasenAcrilícoconluzlateral1.jpg", "letrasenAcrilícoconluzlateral2.jpg"]
+        images: ["letrasenAcrilícoconluzlateral.jpg", "letrasenAcrilícoconluzlateral2.jpg"]
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["LetrasenAcero.jpg", "LetrasenAcero1.jpg", "LetrasenAcero2.jpg"]
+        images: ["LetrasenAcero.jpg", "LetrasenAcero2.jpg"]
     },
     {
         id: 4,
@@ -64,7 +64,7 @@ export const products: IProduct[] = [
         finish: "Moderno",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["LetrasenAluminio.jpg", "LetrasenAluminio1.jpg", "LetrasenAluminio2.jpg"]
+        images: ["LetrasenAluminio.jpg", "LetrasenAluminio2.jpg"]
     },
     {
         id: 5,
@@ -80,7 +80,7 @@ export const products: IProduct[] = [
         finish: "Moderno",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["LetrasenPVC.jpg", "LetrasenPVC1.jpg", "LetrasenPVC2.jpg"]
+        images: ["LetrasenPVC.jpg", "LetrasenPVC1.jpg"]
     },
     {
         id: 6,
@@ -96,7 +96,7 @@ export const products: IProduct[] = [
         finish: "Moderno",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["LetrasenMDF.jpg", "LetrasenMDF1.jpg", "LetrasenMDF2.jpg"]
+        images: ["LetrasenMDF.jpg", "LetrasenMDF2.jpg"]
     },
     {
         id: 7,
@@ -112,7 +112,7 @@ export const products: IProduct[] = [
         finish: "Elegante",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["LetrasRetroiluminadas.jpg", "LetrasRetroiluminadas1.jpg", "LetrasRetroiluminadas2.jpg"]
+        images: ["LetrasRetroiluminadas.jpg", "LetrasRetroiluminadas2.jpg"]
     },
     {
         id: 8,
@@ -128,7 +128,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad ",
-        images: ["CajaluminosasenACRILICO.jpg", "CajaluminosasenACRILICO1.jpg", "CajaluminosasenACRILICO2.jpg"]
+        images: ["CajaluminosasenACRILICO.jpg", "CajaluminosasenACRILICO2.jpg", "CajaluminosasenACRILICO3.jpg"]
     },
     {
         id: 9,
@@ -144,7 +144,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["CajaluminosasenLona.jpg", "CajaluminosasenLona1.jpg", "CajaluminosasenLona2.jpg"]
+        images: ["CajaluminosasenLona.jpg", "CajaluminosasenLona2.jpg", "CajaluminosasenLona3.jpg"]
     },
     {
         id: 10,
@@ -160,7 +160,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["CajaLuminosaJalaVista.jpg", "CajaLuminosaJalaVista1.jpg", "CajaLuminosaJalaVista2.jpg"]
+        images: ["CajaLuminosaJalaVista.jpg", "CajaLuminosaJalaVista2.jpg"]
     },
     {
         id: 11,
@@ -192,8 +192,12 @@ export const products: IProduct[] = [
         finish: "Letras en Neón",
         style: "Luminado",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["LetrasenNeon.jpg", "LetrasenNeon1.jpg", "LetrasenNeon2.jpg"]
+        images: ["LetrasenNeon.jpg", "LetrasenNeon2.jpg", "LetrasenNeon3.jpg"]
     },
+
+
+
+    
     {
         id: 13,
         title: "Corpóreo para Oficina de MDF",
@@ -208,7 +212,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["CorporeoparaOficinadeMDF.jpg", "CorporeoparaOficinadeMDF1.jpg", "CorporeoparaOficinadeMDF2.jpg"]
+        images: ["CorporeoparaOficinadeMDF.jpg", "CorporeoparaOficinadeMDF2.jpg"]
     },
     {
         id: 14,
@@ -224,7 +228,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "3D",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["RotulosCorporativosSatinados.jpg", "RotulosCorporativosSatinados1.jpg", "RotulosCorporativosSatinados2.jpg"]
+        images: ["RotulosCorporativosSatinados.jpg", "RotulosCorporativosSatinados2.jpg", "RotulosCorporativosSatinados3.jpg", "RotulosCorporativosSatinados4.jpg", "RotulosCorporativosSatinados5.jpg", "RotulosCorporativosSatinados6.jpg"]
     },
     {
         id: 15,
@@ -240,7 +244,7 @@ export const products: IProduct[] = [
         finish: "Elegante",
         style: "Informativo",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["CorporeoparaOficinadeAcrilíco.jpg", "CorporeoparaOficinadeAcrilíco1.jpg", "CorporeoparaOficinadeAcrilíco2.jpg"]
+        images: ["CorporeoparaOficinadeAcrilíco.jpg", "CorporeoparaOficinadeAcrilíco2.jpg"]
     },
     {
         id: 16,
@@ -256,7 +260,7 @@ export const products: IProduct[] = [
         finish: "Elegante",
         style: "Luminado",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["CorporeodeAcrilícoRetroiluminado.jpg", "CorporeodeAcrilícoRetroiluminado1.jpg", "CorporeodeAcrilícoRetroiluminado2.jpg"]
+        images: ["CorporeodeAcrilícoRetroiluminado.jpg", "CorporeodeAcrilícoRetroiluminado2.jpg", "CorporeodeAcrilícoRetroiluminado3.jpg", "CorporeodeAcrilícoRetroiluminado4.jpg", "CorporeodeAcrilícoRetroiluminado5.jpg"]
     },
     {
         id: 17,
@@ -272,7 +276,7 @@ export const products: IProduct[] = [
         finish: "Elegante",
         style: "Luminado",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["CorporeoRetroiluminado.jpg", "CorporeoRetroiluminado1.jpg", "CorporeoRetroiluminado2.jpg"]
+        images: ["CorporeoRetroiluminado.jpg", "CorporeoRetroiluminado2.jpg"]
     },
     {
         id: 18,
@@ -288,8 +292,11 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Organizador",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["PizarraCorporativa.jpg", "PizarraCorporativa1.jpg", "PizarraCorporativa2.jpg"]
+        images: ["PizarraCorporativa.jpg", "PizarraCorporativa2.jpg"]
     },
+
+
+
     {
         id: 19,
         title: "Tarjetas de Presentación",
@@ -304,7 +311,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Fotográfico",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["TarjetasdePresentacion.jpg", "TarjetasdePresentacion1.jpg", "TarjetasdePresentacion2.jpg"]
+        images: ["TarjetasdePresentacion.jpg", "TarjetasdePresentacion2.jpg", "TarjetasdePresentacion3.jpg", "TarjetasdePresentacion4.jpg"]
     },
     {
         id: 20,
@@ -320,7 +327,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Fotográfico",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Flyers.jpg", "Flyers1.jpg", "Flyers2.jpg"]
+        images: ["Flyers.jpg", "Flyers2.jpg"]
     },
     {
         id: 21,
@@ -336,7 +343,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Fotográfico",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Calendarios.jpg", "Calendarios1.jpg", "Calendarios2.jpg"]
+        images: ["Calendarios.jpg", "Calendarios2.jpg", "Calendarios3.jpg"]
     },
     {
         id: 22,
@@ -352,7 +359,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Fotográfico",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["TricticooDictico.jpg", "TricticooDictico1.jpg", "TricticooDictico2.jpg"]
+        images: ["TricticooDictico.jpg", "TricticooDictico2.jpg", "TricticooDictico3.jpg", "TricticooDictico4.jpg", "TricticooDictico5.jpg", "TricticooDictico6.jpg"]
     },
     {
         id: 23,
@@ -368,7 +375,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Fotográfico",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Catalagos.jpg", "Catalagos1.jpg", "Catalagos2.jpg"]
+        images: ["Catalagos.jpg", "Catalagos2.jpg"]
     },
     {
         id: 24,
@@ -384,7 +391,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Fotográfico",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Banners.jpg", "Banners1.jpg", "Banners2.jpg"]
+        images: ["Banners.jpg", "Banners1.jpg", "Banners2.jpg", "Banners3.jpg"]
     },
     {
         id: 25,
@@ -418,6 +425,9 @@ export const products: IProduct[] = [
         details: "El precio varia SEGÚN medidas y cantidad",
         images: ["StikersoEtiquetas.jpg", "StikersoEtiquetas.jpg", "StikersoEtiquetas2.jpg"]
     },
+
+
+
     {
         id: 27,
         title: "Placas Corporativas",
@@ -432,7 +442,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["PlacasCorporativas.jpg", "PlacasCorporativas1.jpg", "PlacasCorporativas2.jpg"]
+        images: ["PlacasCorporativas.jpg", "PlacasCorporativas2.jpg", "PlacasCorporativas3.jpg"]
     },
     {
         id: 28,
@@ -464,7 +474,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["NumerosparaHoteles.jpg", "NumerosparaHoteles1.jpg", "NumerosparaHoteles2.jpg"]
+        images: ["NumerosparaHoteles.jpg", "NumerosparaHoteles2.jpg", "NumerosparaHoteles3.jpg"]
     },
     {
         id: 30,
@@ -480,7 +490,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Reconocimientos.jpg", "Reconocimientos1.jpg", "Reconocimientos2.jpg"]
+        images: ["Reconocimientos.jpg", "Reconocimientos2.jpg", "Reconocimientos3.jpg", "Reconocimientos4.jpg"]
     },
     {
         id: 31,
@@ -496,7 +506,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Exhibidores.jpg", "Exhibidores1.jpg", "Exhibidores2.jpg"]
+        images: ["Exhibidores.jpg", "Exhibidores2.jpg", "Exhibidores3.jpg", "Exhibidores4.jpg"]
     },
     {
         id: 32,
@@ -512,7 +522,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Portafolletos.jpg", "Portafolletos1.jpg", "Portafolletos2.jpg"]
+        images: ["Portafolletos.jpg", "Portafolletos1.jpg", "Portafolletos2.jpg", "Portafolletos3.jpg", "Portafolletos4.jpg"]
     },
     {
         id: 33,
@@ -560,7 +570,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["PortaCelulares.jpg", "PortaCelulares1.jpg", "PortaCelulares2.jpg"]
+        images: ["PortaCelulares.jpg", "PortaCelulares1.jpg"]
     },
     {
         id: 36,
@@ -576,8 +586,12 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Servilleteros.jpg", "Servilleteros1.jpg", "Servilleteros2.jpg"]
+        images: ["Servilleteros.jpg", "Servilleteros2.jpg", "Servilleteros3.jpg"] 
     },
+
+
+
+
     {
         id: 37,
         title: "Corpóreo Informativo",
@@ -592,7 +606,7 @@ export const products: IProduct[] = [
         finish: "Profesonal",
         style: "Corpóreo",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["CorporeoInformativo.jpg", "CorporeoInformativo1.jpg", "CorporeoInformativo2.jpg"]
+        images: ["CorporeoInformativo.jpg", "CorporeoInformativo2.jpg"]
     },
     {
         id: 38,
@@ -608,7 +622,7 @@ export const products: IProduct[] = [
         finish: "Profesonal",
         style: "Corpóreo",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["Corporeojalavista.jpg", "Corporeojalavista1.jpg", "Corporeojalavista2.jpg"]
+        images: ["Corporeojalavista.jpg", "Corporeojalavista1.jpg", "Corporeojalavista2.jpg", "Corporeojalavista3.jpg"]
     },
     {
         id: 39,
@@ -624,7 +638,7 @@ export const products: IProduct[] = [
         finish: "Profesonal",
         style: "Corpóreo",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["RuletadePie.jpg", "RuletadePie1.jpg", "RuletadePie2.jpg"]
+        images: ["RuletadePie.jpg", "RuletadePie2.jpg"]
     },
     {
         id: 40,
@@ -640,7 +654,7 @@ export const products: IProduct[] = [
         finish: "Profesonal",
         style: "Corpóreo",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["RuletadeMesa.jpg", "RuletadeMesa1.jpg", "RuletadeMesa2.jpg"]
+        images: ["RuletadeMesa.jpg", "RuletadeMesa2.jpg"]
     },
     {
         id: 41,
@@ -656,8 +670,13 @@ export const products: IProduct[] = [
         finish: "",
         style: "Corpóreo",
         details: "El precio varia SEGÚN medidas y cantidad",
-        images: ["ParanteMetalico.jpg", "ParanteMetalico1.jpg", "ParanteMetalico2.jpg"]
+        images: ["ParanteMetalico.jpg", "ParanteMetalico2.jpg", "ParanteMetalico3.jpg"]
     },
+
+
+
+
+    
     {
         id: 42,
         title: "Roll Screen",

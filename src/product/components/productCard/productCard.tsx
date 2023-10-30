@@ -21,7 +21,7 @@ export const ProductCard = component$(({
     <Link
       class="w-72 mx-auto border transform duration-500 ease-in-out border-palette-lighter hover:scale-105"
       href={`/products/details/${id}`}>
-      <div class="border-b-2 border-palette-lighter relative">
+      <div class="border-b-2 border-palette-lighter relative min-h-[230] min-w-[250]">
         <Image
           width="320"
           height="288"
