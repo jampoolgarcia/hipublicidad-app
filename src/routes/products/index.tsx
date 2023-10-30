@@ -17,16 +17,20 @@ interface IData {
 export const useData =  routeLoader$(async () => {
     const data: IData[] = [];
 
-    categories.map((category) => {
-        const productList = products.filter(product => product.category === category.link);
+    categories.map(({ title, link }) => {
+        const productList = products.filter(product => product.category === title);
+
         data.push({
-            category: category.title,
-            link: category.link,
+            category: title,
+            link,
             productList
         })
     })
 
-    return data;
+    
+
+    return data!;
+
 });
 
 
@@ -39,7 +43,7 @@ export default component$( () => {
     return (<>
         {
             data.value.map(({ category, link, productList }) => (
-                <section id={link} key={link} class="flex flex-col justify-center w-full py-4">
+                <section id={link} key={link} class="flex flex-col justify-center w-full py-4 my-5">
                     <PageTitle title={category} align="text-left"></PageTitle>            
                     
                     <div class="flex flex-wrap content-start gap-6 w-full">
