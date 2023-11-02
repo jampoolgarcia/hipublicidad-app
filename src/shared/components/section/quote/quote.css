@@ -16,6 +16,7 @@
 
 .contact-info  span{
  display: block;
+ text-shadow: black 0em 0em 0.1em;
 }
 
 .contact-info i {
@@ -33,11 +34,12 @@
 }
 
 .contact-form h2 {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
+    text-shadow: black 0em 0em 0.1em;
 }
 
 .contact-form .text-box {
@@ -76,7 +78,7 @@
 
 .contact-form .send-btn {
     float: right;
-    background: #2E94E3;
+    background: #000;
     color: #fff;
     border: none;
     width: 120px;
@@ -93,7 +95,7 @@
 
 
 .contact-form .send-btn:hover {
-    background: #0582E3;
+    background: #151515;
 }
 
 @media screen and (max-width: 950px) {
