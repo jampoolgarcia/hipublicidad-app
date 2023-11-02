@@ -2,6 +2,9 @@ import { component$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 import { Image } from '@unpic/qwik';
 
+
+import { facebook, instagram, linkedin, tiktok } from "~/helpers/config";
+
 export const Footer = component$(() => {
     return (<>
         <footer class="bg-[#1a242f] grid gap-14">
@@ -10,10 +13,10 @@ export const Footer = component$(() => {
                 <p>Innova tus diseños con nuestros servicios <br />y transforma tus ideas</p>
 
                 <div class="icons flex">
-                    <Link href="/"><i class="fa-brands fa-facebook"></i></Link>
-                    <Link href="/"><i class="fa-brands fa-instagram"></i></Link>
-                    <Link href="/"><i class="fa-brands fa-square-twitter"></i></Link>
-                    <Link href="/"><i class="fa-brands fa-linkedin"></i></Link>
+                    <Link href={facebook} target="_blank"><i class="fa-brands fa-facebook"></i></Link>
+                    <Link href={instagram} target="_blank"><i class="fa-brands fa-instagram"></i></Link>
+                    <Link href={tiktok} target="_blank"><i class="fa-brands fa-square-twitter"></i></Link>
+                    <Link href={linkedin} target="_blank"><i class="fa-brands fa-linkedin"></i></Link>
                 </div>
             </div>
 
