@@ -43,34 +43,8 @@ header {
     margin-bottom: 50px;
 }
 
-.home-btn {
-    display: inline-block;
-    font-size: 16px;
-    padding: 15px 30px;
-    background: var(--second-color);
-    color: var(--bg-color);
-    border-radius: 4px;
-    transition: ease .40s;
-    animation-iteration-count: infinite;
-    animation-duration: .40s;
-    animation-name: throb;
-    animation-direction: alternate;
-}
 
-.home-btn:hover {
-    background-color: var(--bg-color);
-    color: #000;
-}
 
-@keyframes throb {
-    from {
-        transform: scale(1);
-    }
-  
-    to {
-        transform: scale(1.1);
-    }
-  }
 
 @media (max-width: 1200px){
 

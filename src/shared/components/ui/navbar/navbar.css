@@ -33,11 +33,15 @@
   font-weight: 600;
   letter-spacing: 1px;
   color: var(--text-color);
-  transition: ease .4s;
+  transition: ease .40s;
+  animation-iteration-count: infinite;
+  animation-duration: .40s;
+  animation-name: throb;
+  animation-direction: alternate;
 }
 
 .logo:hover {
-  transform: scale(1.1);
+  background-color: var(#124e54);
 }
 
 /* ul */

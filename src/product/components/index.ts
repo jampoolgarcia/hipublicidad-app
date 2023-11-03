@@ -4,3 +4,5 @@ export * from './producCategory/productCategory';
 export * from './productDetails/productDetails';
 export * from './productInfo/productInfo';
 export * from './productImages/productImages';
+
+export * from './products/products';
