@@ -1,0 +1,1 @@
+const i="/img/product/",t="/img/category/",o="/img/galery/",a="+51986771821",s="https://www.facebook.com/profile.php?id=100095559543966&mibextid=ZbWKwL",c="https://www.instagram.com/hi_publicidad3d/",n="https://www.tiktok.com/@hipublicidad3d",d="https://www.linkedin.com/in/hi-publicidad-3d/";export{o as a,i as b,t as c,s as f,c as i,d as l,a as p,n as t};
