@@ -46,7 +46,7 @@ export default component$( () => {
                 <section id={link} key={link} class="flex flex-col justify-center w-full py-4 my-5">
                     <PageTitle title={category} align="text-left"></PageTitle>            
                     
-                    <div class="flex flex-wrap content-start gap-6 w-full">
+                    <div class="flex flex-wrap content-start gap-8 w-full">
                         {
                         productList.map((product) => (
                             <ProductCard key={product.id} product={product} />
