@@ -3,13 +3,13 @@
   @apply top-0 right-0 w-full z-[1000] flex items-center justify-between;
   position: relative;
   background: var(--bg-color);
-  padding: 15px 12%;
+  padding: 15px 4%;
   transition: ease .40s;
 }
 
 .sticky {
   position: fixed;
-  padding: 10px 12%;
+  padding: 10px 4%;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 

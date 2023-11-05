@@ -67,19 +67,7 @@ h2 {
   }
 }
 
-.home-btn {
-  display: inline-block;
-  font-size: 16px;
-  padding: 15px 30px;
-  background: var(--second-color);
-  color: var(--bg-color);
-  border-radius: 4px;
-  transition: ease .40s;
-  animation-iteration-count: infinite;
-  animation-duration: .40s;
-  animation-name: throb;
-  animation-direction: alternate;
-}
+
 
 .pulse {
   display: inline-block;
@@ -93,21 +81,28 @@ h2 {
   animation-direction: alternate;
 }
 
-.home-btn:hover {
+.btn {
+  width: 150px;
+  margin: auto;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: var(--primary-color) solid 1px;
+  background: var(--primary-color);
+  color: var(--bg-color);
+  border-radius: 4px;
+  transition: ease .40s;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-name: throb;
+  animation-direction: alternate;
+}
+
+.btn:hover {
   background-color: var(--bg-color);
   color: #000;
 }
 
 
-@keyframes throb {
-  from {
-      transform: scale(1);
-  }
-
-  to {
-      transform: scale(1.1);
-  }
-}
 
 .blur-load.loaded > img {
   opacity: 1;
@@ -371,4 +366,33 @@ footer{
   }
 }
 
+/*  animaciones */
+
+@keyframes throb {
+  from {
+      transform: scale(1);
+  }
+
+  to {
+      transform: scale(1.1);
+  }
+}
+
+@keyframes tremble {
+  from {
+      transform: rotate(0deg);
+  }
+
+  60% {
+      transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-10deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
 
