@@ -103,6 +103,10 @@ i .fa-close {
     padding: 15px 3%;
   }
 
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
   .navbar-list-content {
     display: none;
   }

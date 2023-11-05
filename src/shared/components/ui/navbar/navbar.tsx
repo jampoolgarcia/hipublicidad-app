@@ -27,7 +27,7 @@ export const Navbar = component$(() => {
 
   return (<>
      <nav class="nav">
-        <div class="flex justify-center items-center">
+        <div class="reverse w-full flex justify-between items-center">
           <i class="fa fa-bars mr-2 " onClick$={() => openMenu()}  id="menu-icon" aria-hidden="true"></i>
 
           <Link href="/" class="logo">

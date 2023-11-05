@@ -15,11 +15,13 @@
 
 main {
   display: relative;
+  min-width: 300px;
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  min-width: 300px;
 }
 
 :root {
@@ -192,13 +194,13 @@ h2 {
 }
 
 section {
-  padding: 80px 5%;
+  padding: 4rem 4%;
 }
 
 /* footer */
 
 footer{
-  padding: 80px 18%;
+  padding: rem 4%;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 }
 
@@ -292,12 +294,12 @@ footer{
 
 @media (max-width: 1570px){
   section {
-    padding: 80px 15%;
+    padding: 4rem 4%;
     transition: .3s;
   }
 
   footer{
-    padding: 50px 15%;
+    padding: 4rem 4%;
   }
 
   .contact-form h1{
