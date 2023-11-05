@@ -5,7 +5,7 @@ export const CarouselGalery = component$(() => {
   
         <div id="gallery" class="relative w-full" data-carousel="slide">
             {/* <!-- Carousel wrapper --> */}
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-120">
+            <div class="relative h-80 overflow-hidden rounded-lg md:h-[520px]">
                 <Slot />
             </div>
             {/* <!-- Slider controls --> */}
