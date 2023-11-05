@@ -21,8 +21,7 @@ export const GalerySection = component$(() => {
         // '07.jpg',
         // '08.jpg',
         // '09.jpg',
-        '10.jpg',
-        '11.jpg'
+        '10.jpg'
     ])
 
     return (<>
