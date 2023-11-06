@@ -13,7 +13,7 @@ export const Footer = component$(() => {
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
                         <Link href="/" class="flex items-center">
-                            <Image src="/img/logo.png" class="h-32 mr-3" alt="HiPublicidad Logo" />
+                            <Image src="/img/logo.png" class="h-32 w-48 mr-3" alt="HiPublicidad Logo" />
                         </Link>
                         <br />
                         {/* <p>Innova tus diseños con nuestros servicios <br />y transforma tus ideas</p> */}
@@ -55,7 +55,7 @@ export const Footer = component$(() => {
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div class="sm:flex sm:items-center sm:justify-between">
-                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link href="https://www.hipublicidad.com/" class="hover:underline">Hipublicidad</Link>. All Rights Reserved.
                     </span>
                     <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link href={facebook} target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -72,7 +72,7 @@ export const Footer = component$(() => {
                         </Link>
                         <Link href={tiktok} target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                <path fill="rgb(107 114 128)" fill-rule="evenodd" clip-rule="evenodd" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
+                                <path  fill="rgb(107 114 128)" fill-rule="evenodd" clip-rule="evenodd" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z" />
                             </svg>
                             <span class="sr-only">tiktok page</span>
                         </Link>

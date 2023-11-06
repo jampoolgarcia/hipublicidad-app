@@ -7,7 +7,7 @@ export const Quote = component$(() => {
     useStylesScoped$(style);
 
     return (<>
-        <section id="quote" class={`contact-section bg-[url('/img/background.jpg')]`}>
+        <section id="quote" class={`contact-section bg-[url('/img/background.jpg')] mt-5`}>
             <div class="contact-info">
                 <span class="text-black"><i class="fa-solid fa-location-dot"></i>Av Bolivia 148, 3er Piso Local 3398 C.C.</span>
                 <span class="text-black"><i class="fas fa-envelope"></i>gerentedeventas@hipublicidad.com</span>

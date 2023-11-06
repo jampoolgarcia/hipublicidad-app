@@ -43,7 +43,7 @@ export default component$( () => {
     return (<>
         {
             data.value.map(({ category, link, productList }) => (
-                <section id={link} key={link} class="flex flex-col justify-center w-full py-4 my-5">
+                <section id={link} key={link} class="flex flex-col justify-center w-full py-4 mt-14 mb-5">
                     <PageTitle title={category} align="text-left"></PageTitle>            
                     
                     <div class="flex flex-wrap content-start gap-8 w-full">
