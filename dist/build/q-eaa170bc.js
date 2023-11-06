@@ -1,0 +1,1 @@
+import{h as a,w as s,$ as c,x as l}from"./q-f4908cf7.js";const e=r=>a(l,{children:[s(n=>n.currency??"S/",[r]),c("span",null,{class:s(n=>n.numSize,[r])},s(n=>n.num,[r]),3,null)]},3,"WT_0");export{e as s_DOTM0Sx9BMc};

@@ -1,1 +1,0 @@
-import{$ as r,w as a}from"./q-1a20be14.js";const n=t=>r("h1",{class:`leading-relaxed font-primary font-extrabold text-4xl ${t.align??"text-center"} ${t.color??"text-palette-primary"} ${t.uppercase??""} mt-4 py-1 sm:py-2`},null,a(e=>e.title,[t]),3,"Ex_0");export{n as s_D73suosUpSU};
