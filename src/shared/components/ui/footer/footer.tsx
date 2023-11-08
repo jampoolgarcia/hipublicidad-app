@@ -55,7 +55,7 @@ export const Footer = component$(() => {
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div class="sm:flex sm:items-center sm:justify-between">
-                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link href="https://www.hipublicidad.com/" class="hover:underline">Hipublicidad</Link>. All Rights Reserved.
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <Link href="https://www.hipublicidad.com/" class="hover:underline">Hipublicidad</Link>. Todos los derechos reservados.
                     </span>
                     <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link href={facebook} target="_blank" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

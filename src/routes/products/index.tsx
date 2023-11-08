@@ -40,6 +40,7 @@ export default component$( () => {
     const data = useData();
 
     
+
     return (<>
         {
             data.value.map(({ category, link, productList }) => (

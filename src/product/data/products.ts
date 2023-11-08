@@ -409,7 +409,7 @@ export const products: IProduct[] = [
         finish: "Profesional",
         style: "Fotográfico",
         details: "El precio varia según medidas y cantidad",
-        images: ["Viniles.jpg", "Viniles1.jpg", "Viniles2.jpg"]
+        images: ["Vinilos.jpg", "Vinilos2.jpg", "Vinilos3.jpg"]
     },
     {
         id: 26,
