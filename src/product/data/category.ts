@@ -42,14 +42,14 @@ export const categories: ICategory[] =  [
     image: "CATEGORIA 5 CORPOREOS.jpg" ,
     
   },
-  // {
-  //   id: 6,
-  //   title: "DISPLAY PUBLICITARIOS",
-  //   description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
-  //   link: "display",
-  //   smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
-  //   image: "CATEGORIA 6 DISPLAY PUBLICITARIOS.jpg",
-  // },
+  {
+    id: 6,
+    title: "DISPLAY PUBLICITARIOS",
+    description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
+    link: "display",
+    smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
+    image: "CATEGORIA 6 DISPLAY PUBLICITARIOS.jpg",
+  },
   // {
   //   id: 7,
   //   title: "SEÑALÉTICAS",
