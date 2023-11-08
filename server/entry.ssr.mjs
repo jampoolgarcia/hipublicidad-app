@@ -1,1 +1,1 @@
-import"./assets/@qwik-city-plan-7368948e.mjs";import{r as a}from"./assets/entry.ssr-f39d0fee.mjs";export{a as default};
+import"./assets/@qwik-city-plan-472ea9f4.mjs";import{r as a}from"./assets/entry.ssr-811850ed.mjs";export{a as default};
