@@ -18,7 +18,7 @@ export const Footer = component$(() => {
                         <br />
                         {/* <p>Innova tus diseños con nuestros servicios <br />y transforma tus ideas</p> */}
                     </div>
-                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+                    <div class="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2">
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Sobre Nosotros</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
