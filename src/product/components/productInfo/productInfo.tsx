@@ -79,7 +79,7 @@ export const ProductInfo = component$(({ product, price }: Props) =>{
                 <span class="mx-3 font-bold text-md w-20 capitalize">Estilo</span>
               </td>
               <td>
-                <span class="capitalize">{product.style}</span>
+                <span class="lowercase">{product.style}</span>
               </td>
             </tr>
 
@@ -88,7 +88,7 @@ export const ProductInfo = component$(({ product, price }: Props) =>{
                 <span class="mx-3 font-bold text-md w-20 capitalize">Detalles</span>
               </td>
               <td>
-                <span class="capitalize">{product.details}</span>
+                <span class="lowercase">{product.details}</span>
               </td>
             </tr>
           </tbody>

@@ -23,7 +23,7 @@ export default component$(() =>{
           <ProductDatails product={product.value} />
         </div>
         <div class="my-4">
-           <Products category={product.value.category} prod={product.value} />
+           <Products category={product.value.category} prod={product.value} /> 
         </div>
       </section>
     )

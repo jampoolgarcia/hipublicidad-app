@@ -49,24 +49,24 @@ export const categories: ICategory[] =  [
     link: "display",
     smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
     image: "CATEGORIA 6 DISPLAY PUBLICITARIOS.jpg",
+  }, 
+  {
+    id: 7,
+    title: "SEÑALÉTICAS",
+    description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
+    link: "señaleticas",
+    smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
+    image: "CATEGORIA 7 SEÑALETICAS.jpg",
   },
-  // {
-  //   id: 7,
-  //   title: "SEÑALÉTICAS",
-  //   description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
-  //   link: "señaleticas",
-  //   smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
-  //   image: "CATEGORIA 7 SEÑALETICAS.jpg",
-  // },
- 
-  // {
-  //   id: 8,
-  //   title: "MERCHANDISING",
-  //   description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
-  //   link: "merchandising",
-  //   smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
-  //   image: "CATEGORIA 8 MERCHANDISING.jpg",
-  // },
+  {
+    id: 8,
+    title: "MERCHANDISING",
+    description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
+    link: "merchandising",
+    smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
+    image: "CATEGORIA 8 MERCHANDISING.jpg",
+  },
+
   // {
   //   id: 9,
   //   title: "DECORACIÓN INTERIOR",

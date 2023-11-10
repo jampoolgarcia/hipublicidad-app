@@ -10,7 +10,9 @@ export const Products = component$(({ category, prod }: { category: string, prod
     
     const productList = products.filter(p => (p.category === category && p.id !== prod.id));
 
-    const randomProducts = useProductRandom(productList, 4);
+    const length = productList.length > 4 ? 4 : productList.length;
+
+    const randomProducts = useProductRandom(productList, length);
 
     return (<>
         <div class="grid grid-cols-1  sm:grid-cols-2  xl:grid-cols-4 gap-4 mt-4">
