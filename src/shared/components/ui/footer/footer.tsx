@@ -13,7 +13,7 @@ export const Footer = component$(() => {
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
                         <Link href="/" class="flex items-center">
-                            <Image src="/img/logo.png" class="h-28 w-48 mr-3" alt="HiPublicidad Logo" />
+                            <Image src="/img/logo.png" width="300" height="112" class="h-28 mr-3" alt="HiPublicidad Logo" />
                         </Link>
                         <br />
                         {/* <p>Innova tus diseños con nuestros servicios <br />y transforma tus ideas</p> */}

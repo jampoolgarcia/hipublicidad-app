@@ -18,7 +18,7 @@ export const products: IProduct[] = [
         finish: "Moderno",
         style: "3D",
         details: "El precio varia según medidas y cantidad",
-        images: ["LetrasenACRÍLICOluzfrontal.jpg", "LetrasenACRÍLICOluzfrontal2.jpg"]
+        images: ["LetrasenACRILICOluzfrontal.jpg", "LetrasenACRILICOluzfrontal2.jpg"]
     },
     {
         id: 2,
@@ -34,7 +34,7 @@ export const products: IProduct[] = [
         finish: "Moderno",
         style: "3D",
         details: "El precio varia según medidas y cantidad",
-        images: ["letrasenAcrilícoconluzlateral.jpg", "letrasenAcrilícoconluzlateral2.jpg"]
+        images: ["letrasenAcrilicoconluzlateral.jpg", "letrasenAcrilicoconluzlateral2.jpg"]
     },
     {
         id: 3,
@@ -246,7 +246,7 @@ export const products: IProduct[] = [
         finish: "Elegante",
         style: "Informativo",
         details: "El precio varia según medidas y cantidad",
-        images: ["CorporeoparaOficinadeAcrilíco.jpg", "CorporeoparaOficinadeAcrilíco2.jpg"]
+        images: ["CorporeoparaOficinadeAcrilico.jpg", "CorporeoparaOficinadeAcrilico2.jpg"]
     },
     {
         id: 16,
@@ -262,7 +262,7 @@ export const products: IProduct[] = [
         finish: "Elegante",
         style: "Luminado",
         details: "El precio varia según medidas y cantidad",
-        images: ["CorporeodeAcrilícoRetroiluminado.jpg", "CorporeodeAcrilícoRetroiluminado2.jpg", "CorporeodeAcrilícoRetroiluminado3.jpg", "CorporeodeAcrilícoRetroiluminado4.jpg", "CorporeodeAcrilícoRetroiluminado5.jpg"]
+        images: ["CorporeodeAcrilicoRetroiluminado.jpg", "CorporeodeAcrilicoRetroiluminado2.jpg", "CorporeodeAcrilicoRetroiluminado3.jpg", "CorporeodeAcrilicoRetroiluminado4.jpg", "CorporeodeAcrilicoRetroiluminado5.jpg"]
     },
     {
         id: 17,
@@ -776,7 +776,7 @@ export const products: IProduct[] = [
          finish: "Profesional",
          style: "Informativo",
          details: "El precio varia según medidas y cantidad",
-         images: ["SeñaleticaFotoluminiscente.jpg", "SeñaleticaFotoluminiscente1.jpg", "SeñaleticaFotoluminiscente2.jpg"]
+         images: ["SenaleticaFotoluminiscente.jpg", "SenaleticaFotoluminiscente1.jpg", "SenaleticaFotoluminiscente2.jpg"]
      },
      {
          id: 49, 
@@ -792,7 +792,7 @@ export const products: IProduct[] = [
          finish: "Profesional",
          style: "Informativo",
          details: "El precio varia según medidas y cantidad",
-         images: ["SeñaleticadePVC.jpg", "SeñaleticadePVC1.jpg", "SeñaleticadePVC2.jpg"]
+         images: ["SenaleticadePVC.jpg", "SenaleticadePVC1.jpg", "SenaleticadePVC2.jpg"]
      },
      {
          id: 50,
@@ -808,7 +808,7 @@ export const products: IProduct[] = [
          finish: "Profesional",
          style: "Informativo",
          details: "El precio varia según medidas y cantidad",
-         images: ["SeñaleticasdeVinil.jpg", "SeñaleticasdeVinil1.jpg", "SeñaleticasdeVinil2.jpg"]
+         images: ["SenaleticasdeVinil.jpg", "SenaleticasdeVinil1.jpg", "SenaleticasdeVinil2.jpg"]
      },
      {
          id: 51,
@@ -824,7 +824,7 @@ export const products: IProduct[] = [
          finish: "Profesional",
          style: "Informativo",
          details: "El precio varia según medidas y cantidad",
-         images: ["SeñaleticasdeMDF.jpg", "SeñaleticasdeMDF1.jpg"]
+         images: ["SenaleticasdeMDF.jpg", "SenaleticasdeMDF1.jpg"]
      },
 
 
@@ -976,149 +976,149 @@ export const products: IProduct[] = [
       },
  // category 9
 
-//     {
-//         id: 66,
-//         title: "Piezas Decorativa en Acrílico",
-//         prices: [1580],
-//         sizes: ['120x240'],
-//         description: "DECORACIÓN EN ACRÍLICO 3D BRILLANTE CON FOTOS IMPRESAS LAMINADAS. CON MEDIDA A PROPORCIÓN PARA HABITACIÓN O COCINA O  SALA.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "Acrílico",
-//         color: "Rojo.Negro",
-//         measures: "120 cm x 240 cm",
-//         thickness: "4 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["PiezasDecorativaenACRÍLICO.jpg", "PiezasDecorativaenACRÍLICO1.jpg", "PiezasDecorativaenACRÍLICO2.jpg"]
-//     },
-//     {
-//         id: 67,
-//         title: "Decoración en 3D en Acrílico",
-//         prices: [1350],
-//         sizes: ['120x240'],
-//         description: "DECORACIÓN EN ACRÍLICO 3D BRILLANTE CON FOTOS IMPRESAS LAMINADAS. CON MEDIDA A PROPORCIÓN PARA HABITACIÓN O COCINA O  SALA.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "Acrílico",
-//         color: "Variado",
-//         measures: "120 cm x 240 cm",
-//         thickness: "4 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["Decoracionen3DenACRÍLICO.jpg", "Decoracionen3DenACRÍLICO1.jpg", "Decoracionen3DenACRÍLICO2.jpg"]
-//     },
-//     {
-//         id: 68,
-//         title: "Decoración en Acrílico al Espejo 3D",
-//         prices: [1200],
-//         sizes: ['120x200'],
-//         description: "DECORACIÓN EN ACRÍLICO AL ESPEJO SEGÚN DISEÑO CON MEDIDAS A PROPORCIÓN TIPO ESTAR PARA, HABITACIÓN O COCINA O  SALA.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "Acrílico",
-//         color: "Dorado, Plateado, Rosado",
-//         measures: "120 cm x 200 cm",
-//         thickness: "3 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["DecoracionenACRÍLICOalEspejo3D.jpg", "DecoracionenACRÍLICOalEspejo3D1.jpg", "DecoracionenACRÍLICOalEspejo3D2.jpg"]
-//     },
-//     {
-//         id: 69,
-//         title: "Decoración de MDF 3D",
-//         prices: [1300],
-//         sizes: ['120x200'],
-//         description: "DECORACIÓN DE PARED EN 3D CON FOTOS IMPRESAS LAMINADAS, COLOR DE PREFERENCIA, TIPO ESTAR PERSONALIZADO.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "MDF",
-//         color: "Variado",
-//         measures: "120 cm x 240 cm",
-//         thickness: "5 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["DecoraciondeMDF3D.jpg", "DecoraciondeMDF3D1.jpg", "DecoraciondeMDF3D2.jpg"]
-//     },
-//     {
-//         id: 70,
-//         title: "Cuadros Modernos de MDF",
-//         prices: [550],
-//         sizes: ['90X120'],
-//         description: "DECORACIÓN DE PARED EN 3D LAMINADO CON VINILO PROTEGIDO, COLOR DE PREFERENCIA, TIPO ESTAR PERSONALIZADO.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "MDF",
-//         color: "Negro",
-//         measures: "120 cm x 90 cm",
-//         thickness: "5 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["CuadrosModernosdeMDF.jpg", "CuadrosModernosdeMDF1.jpg", "CuadrosModernosdeMDF2.jpg"]
-//     },
-//     {
-//         id: 71,
-//         title: "Cuadros Decotarivos de MDF",
-//         prices: [650],
-//         sizes: ['90x200'],
-//         description: "DECORACIÓN DE PARED EN 3D LAMINADO CON VINILO PROTEGIDO, COLOR DE PREFERENCIA, TIPO ESTAR PERSONALIZADO.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "MDF",
-//         color: "Dorado",
-//         measures: "120 cm x 90 cm",
-//         thickness: "5 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["CuadrosDecotarivosdeMDF.jpg", "CuadrosDecotarivosdeMDF1.jpg", "CuadrosDecotarivosdeMDF2.jpg"]
-//     },
-//     {
-//         id: 72,
-//         title: "Cuadros Decorativos para Pared",
-//         prices: [430],
-//         sizes: ['100x150'],
-//         description: "3 PIEZAS DE CUADROS DECORATIVOS PARA SALA, COCINA O HABITACIONES, LAMINADO CON VINILO MATE O BRILLANTE.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "MDF",
-//         color: "Variado",
-//         measures: "1, 100 cm x 50 cm. 2. 80 cm x 40 cm",
-//         thickness: "5mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["CuadrosDecorativosparaPared.jpg", "CuadrosDecorativosparaPared1.jpg", "CuadrosDecorativosparaPared2.jpg"]
-//     },
-//     {
-//         id: 73,
-//         title: "Cuadros para Pared de 5 Piezas",
-//         prices: [490],
-//         sizes: ['120X200'],
-//         description: "5 PIEZAS DE CUADROS DECORATIVOS PARA SALA, COCINA O HABITACIONES, LAMINADO CON VINILO MATE O BRILLANTE.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "MDF",
-//         color: "Variado",
-//         measures: "1. 110 cm x 40 cm 2. 95 cm x 35 cm. 2. 80 cm x 30 cm",
-//         thickness: "5 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["CuadrosparaParedde5Piezas.jpg", "CuadrosparaParedde5Piezas1.jpg", "CuadrosparaParedde5Piezas2.jpg"]
-//     },
-//     {
-//         id: 74,
-//         title: "Cuadros Decorativos Personalizados",
-//         prices: [520],
-//         sizes: ['120X200'],
-//         description: "5 PIEZAS DE CUADROS DECORATIVOS PARA SALA, COCINA O HABITACIONES, LAMINADO CON VINILO MATE O BRILLANTE.",
-//         category: "DECORACIÓN INTERIOR",
-//         material: "MDF",
-//         color: "Variado",
-//         measures: "1. 110 cm x 40 cm 2. 95 cm x 35 cm. 2. 80 cm x 30 cm",
-//         thickness: "9 mm",
-//         finish: "Elegante",
-//         style: "3D",
-//         details: "El precio varia según medidas y cantidad",
-//         images: ["CuadrosDecorativosPersonalizados.jpg", "CuadrosDecorativosPersonalizados1.jpg", "CuadrosDecorativosPersonalizados2.jpg"]
-//     }
+{
+    id: 66,
+    title: "Piezas Decorativa en Acrílico",
+    prices: [1580],
+    sizes: ['120x240'],
+    description: "DECORACIÓN EN ACRÍLICO 3D BRILLANTE CON FOTOS IMPRESAS LAMINADAS. CON MEDIDA A PROPORCIÓN PARA HABITACIÓN O COCINA O  SALA.",
+    category: "DECORACIÓN INTERIOR",
+    material: "Acrílico",
+    color: "Rojo.Negro",
+    measures: "120 cm x 240 cm",
+    thickness: "4 mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["PiezasDecorativaenACRILICO.jpg", "PiezasDecorativaenACRILICO1.jpg", "PiezasDecorativaenACRILICO2.jpg"]
+},
+{
+    id: 67,
+    title: "Decoración en 3D en Acrílico",
+    prices: [1350],
+    sizes: ['120x240'],
+    description: "DECORACIÓN EN ACRÍLICO 3D BRILLANTE CON FOTOS IMPRESAS LAMINADAS. CON MEDIDA A PROPORCIÓN PARA HABITACIÓN O COCINA O  SALA.",
+    category: "DECORACIÓN INTERIOR",
+    material: "Acrílico",
+    color: "Variado",
+    measures: "120 cm x 240 cm",
+    thickness: "4 mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["Decoracionen3DenACRILICO.jpg", "Decoracionen3DenACRILICO1.jpg"]
+},
+{
+    id: 68,
+    title: "Decoración en Acrílico al Espejo 3D",
+    prices: [1200],
+    sizes: ['120x200'],
+    description: "DECORACIÓN EN ACRÍLICO AL ESPEJO SEGÚN DISEÑO CON MEDIDAS A PROPORCIÓN TIPO ESTAR PARA, HABITACIÓN O COCINA O  SALA.",
+    category: "DECORACIÓN INTERIOR",
+    material: "Acrílico",
+    color: "Dorado, Plateado, Rosado",
+    measures: "120 cm x 200 cm",
+    thickness: "3 mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["DecoracionenACRILICOalEspejo3D.jpg", "DecoracionenACRILICOalEspejo3D1.jpg", "DecoracionenACRILICOalEspejo3D2.jpg", "DecoracionenACRILICOalEspejo3D3.jpg"]
+},
+{
+    id: 69,
+    title: "Decoración de MDF 3D",
+    prices: [1300],
+    sizes: ['120x200'],
+    description: "DECORACIÓN DE PARED EN 3D CON FOTOS IMPRESAS LAMINADAS, COLOR DE PREFERENCIA, TIPO ESTAR PERSONALIZADO.",
+    category: "DECORACIÓN INTERIOR",
+    material: "MDF",
+    color: "Variado",
+    measures: "120 cm x 240 cm",
+    thickness: "5 mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["DecoraciondeMDF3D.jpg", "DecoraciondeMDF3D1.jpg", "DecoraciondeMDF3D2.jpg"]
+},
+{
+    id: 70,
+    title: "Cuadros Modernos de MDF",
+    prices: [550],
+    sizes: ['90X120'],
+    description: "DECORACIÓN DE PARED EN 3D LAMINADO CON VINILO PROTEGIDO, COLOR DE PREFERENCIA, TIPO ESTAR PERSONALIZADO.",
+    category: "DECORACIÓN INTERIOR",
+    material: "MDF",
+    color: "Negro",
+    measures: "120 cm x 90 cm",
+    thickness: "5 mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["CuadrosModernosdeMDF.jpg", "CuadrosModernosdeMDF1.jpg", "CuadrosModernosdeMDF2.jpg", "CuadrosModernosdeMDF3.jpg", "CuadrosModernosdeMDF4.jpg"]
+},
+{
+    id: 71,
+    title: "Cuadros Decotarivos de MDF",
+    prices: [650],
+    sizes: ['90x200'],
+    description: "DECORACIÓN DE PARED EN 3D LAMINADO CON VINILO PROTEGIDO, COLOR DE PREFERENCIA, TIPO ESTAR PERSONALIZADO.",
+    category: "DECORACIÓN INTERIOR",
+    material: "MDF",
+    color: "Dorado",
+    measures: "120 cm x 90 cm",
+    thickness: "5 mm", 
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["CuadrosDecotarivosdeMDF.jpg", "CuadrosDecotarivosdeMDF1.jpg", "CuadrosDecotarivosdeMDF2.jpg", "CuadrosDecotarivosdeMDF3.jpg", "CuadrosDecotarivosdeMDF4.jpg", "CuadrosDecotarivosdeMDF5.jpg", "CuadrosDecotarivosdeMDF6.jpg", "CuadrosDecotarivosdeMDF7.jpg"]
+},
+{
+    id: 72,
+    title: "Cuadros Decorativos para Pared",
+    prices: [430],
+    sizes: ['100x150'],
+    description: "3 PIEZAS DE CUADROS DECORATIVOS PARA SALA, COCINA O HABITACIONES, LAMINADO CON VINILO MATE O BRILLANTE.",
+    category: "DECORACIÓN INTERIOR",
+    material: "MDF",
+    color: "Variado",
+    measures: "1, 100 cm x 50 cm. 2. 80 cm x 40 cm",
+    thickness: "5mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["CuadrosDecorativosparaPared.jpg", "CuadrosDecorativosparaPared1.jpg", "CuadrosDecorativosparaPared2.jpg", "CuadrosDecorativosparaPared4.jpg"]
+},
+{
+    id: 73,
+    title: "Cuadros para Pared de 5 Piezas",
+    prices: [490],
+    sizes: ['120X200'],
+    description: "5 PIEZAS DE CUADROS DECORATIVOS PARA SALA, COCINA O HABITACIONES, LAMINADO CON VINILO MATE O BRILLANTE.",
+    category: "DECORACIÓN INTERIOR",
+    material: "MDF",
+    color: "Variado",
+    measures: "1. 110 cm x 40 cm 2. 95 cm x 35 cm. 2. 80 cm x 30 cm",
+    thickness: "5 mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["CuadrosparaParedde5Piezas.jpg", "CuadrosparaParedde5Piezas1.jpg", "CuadrosparaParedde5Piezas2.jpg", "CuadrosparaParedde5Piezas3.jpg"]
+},
+{
+    id: 74,
+    title: "Cuadros Decorativos Personalizados",
+    prices: [520],
+    sizes: ['120X200'],
+    description: "5 PIEZAS DE CUADROS DECORATIVOS PARA SALA, COCINA O HABITACIONES, LAMINADO CON VINILO MATE O BRILLANTE.",
+    category: "DECORACIÓN INTERIOR",
+    material: "MDF",
+    color: "Variado",
+    measures: "1. 110 cm x 40 cm 2. 95 cm x 35 cm. 2. 80 cm x 30 cm",
+    thickness: "9 mm",
+    finish: "Elegante",
+    style: "3D",
+    details: "El precio varia según medidas y cantidad",
+    images: ["CuadrosDecorativosPersonalizados.jpg", "CuadrosDecorativosPersonalizados1.jpg", "CuadrosDecorativosPersonalizados2.jpg", "CuadrosDecorativosPersonalizados3.jpg"]
+}
 
 ];

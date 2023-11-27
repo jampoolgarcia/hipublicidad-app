@@ -15,7 +15,7 @@ export const Quote = component$(() => {
                 <span class="text-black"><i class="fa-brands fa-whatsapp"></i>+51 986771821</span>
             </div>
             <div class="contact-form">
-                <h2>Contactó</h2>
+                <h2>Contacto</h2>
                 <form class="contact" action="" method="post">
                     <input type="text" name="name" class="text-box" placeholder="Ingrese su nombre" required />
                     <input type="email" name="email" class="text-box" placeholder="Ingrese su correo" required />

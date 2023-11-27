@@ -31,8 +31,8 @@ export const ImageBlur = component$((
     })
 
     return (<>
-        <div class="blur-load">
+        {/* <div class="blur-load">
+        </div> */}
             <Image width="1366" height="768" loading="lazy" src={`${imgUrl}${img}`} alt={img} class={imgClass}  onClick$={click} />
-        </div>
     </>)
 })

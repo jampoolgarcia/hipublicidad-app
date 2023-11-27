@@ -66,15 +66,14 @@ export const categories: ICategory[] =  [
     smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
     image: "CATEGORIA 8 MERCHANDISING.jpg",
   },
-
-  // {
-  //   id: 9,
-  //   title: "DECORACIÓN INTERIOR",
-  //   description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
-  //   link: "interiores",
-  //   smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
-  //   image: "CATEGORIA 9 DECORACIÓN INTERIOR.jpg",
-  // },
+  {
+    id: 9,
+    title: "DECORACIÓN INTERIOR",
+    description: 'Acrílico troquelado, mdf troquelado, mdf troquelado laminado, cuadros de vinilo.',
+    link: "interiores",
+    smallImg: "SMALL CATEGORIA 1 LETREROS LUMINOSOS.jpg",
+    image: "CATEGORIA 9 DECORACIÓN INTERIOR.jpg",
+  },
  
  
 ];
