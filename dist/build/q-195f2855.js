@@ -1,0 +1,1 @@
+import{O as s,n as o,c as r,_ as t}from"./q-f4908cf7.js";import{B as e}from"./q-42caba72.js";const i=e(o("s_x2MPni2Yp9s")),d=s(r(()=>t(()=>import("./q-7b76335c.js"),["build/q-7b76335c.js","build/q-f4908cf7.js","build/q-00dfa455.js","build/q-7f05b4c4.js","build/q-42caba72.js"]),"s_hPwehrgQyPE"));export{d as default,i as useProduct};
