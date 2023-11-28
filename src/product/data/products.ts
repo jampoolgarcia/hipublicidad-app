@@ -654,7 +654,7 @@ export const products: IProduct[] = [
          finish: "Profesonal",
          style: "Corpóreo",
          details: "El precio varia según medidas y cantidad",
-         images: ["RuletadeMesa.jpg", "RuletadeMesa2.jpg"]
+         images: ["Ruletademesa.jpg", "Ruletademesa2.jpg"]
      },
      {
          id: 41,
@@ -990,7 +990,7 @@ export const products: IProduct[] = [
     finish: "Elegante",
     style: "3D",
     details: "El precio varia según medidas y cantidad",
-    images: ["PiezasDecorativaenACRILICO.jpg", "PiezasDecorativaenACRILICO1.jpg", "PiezasDecorativaenACRILICO2.jpg"]
+    images: ["PiezasDecorativaenacrilico.jpg", "PiezasDecorativaenacrilico1.jpg", "PiezasDecorativaenacrilico2.jpg"]
 },
 {
     id: 67,
