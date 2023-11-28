@@ -540,7 +540,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia según medidas y cantidad",
-        images: ["PortaDocumentos.jpg", "PortaDocumentos1.jpg", "PortaDocumentos2.jpg"]
+        images: ["Portadocumentos.jpg", "Portadocumentos1.jpg", "Portadocumentos2.jpg"]
     },
     {
         id: 34,
@@ -556,7 +556,7 @@ export const products: IProduct[] = [
         finish: "Decorativo",
         style: "Exhibidor",
         details: "El precio varia según medidas y cantidad",
-        images: ["PortaMenu.jpg", "PortaMenu1.jpg", "PortaMenu2.jpg"]
+        images: ["Portamenu.jpg", "Portamenu1.jpg", "Portamenu2.jpg"]
     },
     {
         id: 35,
