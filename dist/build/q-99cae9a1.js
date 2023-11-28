@@ -1,1 +1,0 @@
-import{h as x,$ as l,w as s,x as a}from"./q-f4908cf7.js";const n=t=>x(a,{children:l("p",null,{class:"mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"},s(r=>r.text,[t]),3,null)},3,"8D_0");export{n as s_0TYsjSwyAn0};
